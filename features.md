@@ -270,7 +270,7 @@ And the system moves to the next stage.
 
 ---
 
-# 🚚 6. AI Supply Redistribution Engine
+# 🚚 6. AI Supply Redistribution & Routing Engine
 
 This is where the project becomes **actionable**.
 
@@ -286,7 +286,7 @@ DEFICIT
 -12,000 tonnes
 ```
 
-Your system finds the optimal movement.
+Your system finds the optimal movement, but it doesn't just calculate distance. **It uses the Google Maps API combined with weather data to calculate the safest route.**
 
 ```text
 A ───────────────→ B
@@ -296,29 +296,27 @@ A ───────────────→ B
       ₹X estimated logistics cost
 ```
 
-Then compare alternatives:
+Then compare alternative routes based on climate disruption:
 
 ```text
-OPTION A
-A → B
-Cost: ₹X
-Time: 8h
-Risk: Low
+ROUTE A (Shortest path)
+Distance: 280 km
+Weather Risk: 🔴 HIGH (Flooded highway predicted)
+Time: Unknown
 
-OPTION B
-C → B
-Cost: ₹Y
-Time: 5h
-Risk: Medium
+ROUTE B (Alternative path via Google Maps)
+Distance: 312 km
+Weather Risk: 🟢 LOW (Clear skies)
+Time: 8h
 ```
 
 ### AI recommendation:
 
-> **OPTION A recommended**
+> **ROUTE B recommended**
 >
-> Lowest combined cost + disruption risk.
+> Rerouting to avoid predicted heavy rainfall on Route A. Lowest combined cost + weather risk.
 
-That's a **decision engine**, not a prediction system.
+That's a **weather-aware decision engine**, not just a prediction system.
 
 ---
 
