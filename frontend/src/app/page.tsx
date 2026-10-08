@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import Image from "next/image";
 import { APIProvider, Map, useMap, useMapsLibrary, MapMouseEvent } from "@vis.gl/react-google-maps";
 
 // Make sure to securely load this in production (e.g., process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY)
@@ -79,7 +80,9 @@ export default function Home() {
     <div className="flex h-screen w-full bg-slate-50 text-slate-900 font-sans">
       {/* Sidebar for Data */}
       <div className="w-96 bg-white p-6 shadow-2xl flex flex-col z-10 border-r border-slate-200">
-        <h1 className="text-4xl font-black mb-2 tracking-tighter bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text text-transparent">FORESIGHT</h1>
+        <div className="mb-2 w-48 relative -ml-4">
+          <Image src="/logo.png" alt="FORESIGHT Logo" width={200} height={70} className="object-contain" />
+        </div>
         <p className="text-slate-500 mb-8 text-sm font-medium tracking-wide">El Niño Food System Resilience Platform</p>
         
         {selectedDistrict ? (
