@@ -27,13 +27,20 @@ print("=== VERIFYING VELSATHON HACKATHON DATA PIPELINE OUTPUTS ===")
 all_passed = True
 
 for filepath in required_files:
-    if not os.path.exists(filepath):
+    target_path = filepath
+    if not os.path.exists(target_path):
+        if os.path.exists(os.path.join("docs", filepath)):
+            target_path = os.path.join("docs", filepath)
+        elif os.path.exists(os.path.join("docs", "reports", filepath)):
+            target_path = os.path.join("docs", "reports", filepath)
+
+    if not os.path.exists(target_path):
         print(f"[MISSING] {filepath}")
         all_passed = False
     else:
-        size_bytes = os.path.getsize(filepath)
+        size_bytes = os.path.getsize(target_path)
         if size_bytes == 0:
-            print(f"[EMPTY] {filepath}")
+            print(f"[EMPTY] {target_path}")
             all_passed = False
         else:
             if filepath.endswith(".csv"):
