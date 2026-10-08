@@ -68,9 +68,9 @@ Then:
 │                                                          │
 │  🟢 Stable     🟡 Watch     🟠 At Risk     🔴 Critical   │
 │                                                          │
-│              INDIA RISK MAP                              │
+│              INDIA RISK MAP (Google Maps)                │
 │                                                          │
-│        [Interactive district-level map]                  │
+│        [Interactive district-level map layer]            │
 │                                                          │
 │  12 districts at risk                                    │
 │  7 supply bottlenecks                                     │
@@ -79,11 +79,15 @@ Then:
 └──────────────────────────────────────────────────────────┘
 ```
 
-But here's the important part:
+But here's the important part—the **Interactive Google Map Integration**:
 
-### Don't show only a risk map.
-
-Click a district → **the entire food system of that district opens.**
+*   **Hover State:** When a judge hovers over a state or district (e.g., Tamil Nadu), a sleek tooltip pops up showing a quick summary (e.g., Overall Risk: 🟠 At Risk, Primary Crop: Rice).
+*   **Click State:** Clicking a district zooms in and opens a side-panel loaded with **current real-time data**:
+    *   🌡️ Current Temperature vs. Historical Average
+    *   🌧️ Current Rainfall Deficit (%)
+    *   🌾 Primary Crops currently in the ground
+    *   📉 Soil Moisture Levels
+    *   **The Wow Factor:** It transitions seamlessly from showing *real* current data to opening the entire food system digital twin for that specific district.
 
 ---
 
