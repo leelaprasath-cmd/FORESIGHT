@@ -190,22 +190,22 @@ export default function Home() {
   }, [districts, searchQuery, filterCategory]);
 
   return (
-    <div className="relative flex h-screen w-full bg-slate-900 text-slate-100 font-sans overflow-hidden">
+    <div className="relative flex h-screen w-full bg-white text-slate-900 font-sans overflow-hidden">
       {/* Floating Header & Controls over the map */}
-      <div className="absolute top-3 left-4 z-20 flex items-center space-x-3 bg-slate-900/90 backdrop-blur-md px-4 py-2 rounded-2xl border border-slate-700/60 shadow-2xl">
+      <div className="absolute top-3 left-4 z-20 flex items-center space-x-3 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl border border-slate-200 shadow-2xl">
         <Image src="/logo.png" alt="FORESIGHT Logo" width={130} height={42} className="object-contain" />
-        <span className="h-5 w-px bg-slate-700"></span>
+        <span className="h-5 w-px bg-slate-300"></span>
         <input
           type="text"
           placeholder="Search district, state or crop..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="bg-slate-800 text-xs px-3 py-1.5 rounded-lg text-slate-200 placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-blue-500 w-56 border border-slate-700"
+          className="bg-slate-50 text-xs px-3 py-1.5 rounded-lg text-slate-800 placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-blue-500 w-56 border border-slate-200"
         />
         <select
           value={filterCategory}
           onChange={(e) => setFilterCategory(e.target.value)}
-          className="bg-slate-800 text-xs px-2.5 py-1.5 rounded-lg text-slate-200 border border-slate-700 focus:outline-none"
+          className="bg-slate-50 text-xs px-2.5 py-1.5 rounded-lg text-slate-800 border border-slate-200 focus:outline-none"
         >
           <option value="ALL">All Risk Levels</option>
           <option value="CRITICAL RISK">Critical Risk (🔴)</option>
@@ -224,14 +224,14 @@ export default function Home() {
 
       {/* Sidebar for Analytics & Digital Twin Details */}
       <div
-        className={`absolute right-0 top-0 h-full w-[420px] bg-slate-900/95 backdrop-blur-xl p-6 shadow-2xl flex flex-col z-10 border-l border-slate-800 transition-transform duration-500 ease-in-out ${
+        className={`absolute right-0 top-0 h-full w-[420px] bg-white/95 backdrop-blur-xl p-6 shadow-2xl flex flex-col z-10 border-l border-slate-200 transition-transform duration-500 ease-in-out ${
           isSidebarOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         {/* Toggle Button */}
         <button
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-          className="absolute top-1/2 -left-10 transform -translate-y-1/2 w-10 h-16 bg-slate-900/90 text-slate-300 flex items-center justify-center rounded-l-xl shadow-xl border-y border-l border-slate-700 hover:text-blue-400 transition-colors cursor-pointer"
+          className="absolute top-1/2 -left-10 transform -translate-y-1/2 w-10 h-16 bg-white/90 text-slate-700 flex items-center justify-center rounded-l-xl shadow-xl border-y border-l border-slate-200 hover:text-blue-600 transition-colors cursor-pointer"
         >
           {isSidebarOpen ? (
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
@@ -242,22 +242,22 @@ export default function Home() {
 
         <div className="flex items-center justify-between mb-2">
           <div>
-            <h2 className="text-lg font-black tracking-tight text-slate-100 uppercase">Command Center MVP</h2>
-            <p className="text-slate-400 text-xs">Real-World El Niño Food Resilience Platform</p>
+            <h2 className="text-lg font-black tracking-tight text-slate-900 uppercase">Command Center MVP</h2>
+            <p className="text-slate-500 text-xs">Real-World El Niño Food Resilience Platform</p>
           </div>
-          <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-blue-900/60 text-blue-300 border border-blue-700/50">
+          <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200">
             665 Districts
           </span>
         </div>
 
         {selectedDistrict ? (
-          <div className="flex-1 overflow-y-auto pr-1 space-y-4 text-xs scrollbar-thin scrollbar-thumb-slate-700">
+          <div className="flex-1 overflow-y-auto pr-1 space-y-4 text-xs scrollbar-thin scrollbar-thumb-slate-300">
             {/* Header Status Card */}
-            <div className="bg-slate-800/80 rounded-xl p-4 border border-slate-700/80 shadow-md">
+            <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 shadow-md">
               <div className="flex items-center justify-between mb-2">
                 <div>
-                  <h3 className="text-base font-bold text-slate-100">{selectedDistrict.district_name}</h3>
-                  <p className="text-slate-400 text-xs">{selectedDistrict.state_name}</p>
+                  <h3 className="text-base font-bold text-slate-900">{selectedDistrict.district_name}</h3>
+                  <p className="text-slate-500 text-xs">{selectedDistrict.state_name}</p>
                 </div>
                 <div className="text-right">
                   <span
@@ -266,145 +266,145 @@ export default function Home() {
                   >
                     {selectedDistrict.risk_category}
                   </span>
-                  <p className="text-[10px] text-slate-400 mt-1">Live Risk Score: <span className="font-bold text-slate-200">{selectedDistrict.risk_score} / 100</span></p>
+                  <p className="text-[10px] text-slate-500 mt-1">Live Risk Score: <span className="font-bold text-slate-900">{selectedDistrict.risk_score} / 100</span></p>
                 </div>
               </div>
-              <div className="flex justify-between items-center text-[11px] text-slate-300 bg-slate-900/60 p-2 rounded border border-slate-700/50">
-                <span>📍 GPS: <strong className="font-mono text-blue-400">{selectedDistrict.latitude.toFixed(4)}, {selectedDistrict.longitude.toFixed(4)}</strong></span>
-                {selectedDistrict.pincode && <span className="font-mono text-slate-400">PIN: {selectedDistrict.pincode}</span>}
+              <div className="flex justify-between items-center text-[11px] text-slate-600 bg-white p-2 rounded border border-slate-200">
+                <span>📍 GPS: <strong className="font-mono text-blue-600">{selectedDistrict.latitude.toFixed(4)}, {selectedDistrict.longitude.toFixed(4)}</strong></span>
+                {selectedDistrict.pincode && <span className="font-mono text-slate-500">PIN: {selectedDistrict.pincode}</span>}
               </div>
             </div>
 
             {/* Live OpenWeatherMap API Integration */}
-            <div className="bg-slate-800/60 rounded-xl p-3.5 border border-slate-700/60">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-cyan-400 mb-2 flex items-center justify-between">
+            <div className="bg-slate-50 rounded-xl p-3.5 border border-slate-200">
+              <h4 className="text-[11px] font-bold uppercase tracking-wider text-cyan-700 mb-2 flex items-center justify-between">
                 <span>🌤️ Live OpenWeatherMap Feed</span>
                 <span className="text-[9px] text-slate-500 font-normal">Real-Time</span>
               </h4>
               {weather ? (
-                <div className="grid grid-cols-3 gap-2 text-center text-slate-200">
-                  <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                    <p className="text-[10px] text-slate-400">Temperature</p>
-                    <p className="font-bold text-cyan-300 text-sm">{weather.temp}°C</p>
+                <div className="grid grid-cols-3 gap-2 text-center text-slate-800">
+                  <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                    <p className="text-[10px] text-slate-500">Temperature</p>
+                    <p className="font-bold text-cyan-600 text-sm">{weather.temp}°C</p>
                   </div>
-                  <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                    <p className="text-[10px] text-slate-400">Humidity</p>
-                    <p className="font-bold text-blue-300 text-sm">{weather.humidity}%</p>
+                  <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                    <p className="text-[10px] text-slate-500">Humidity</p>
+                    <p className="font-bold text-blue-600 text-sm">{weather.humidity}%</p>
                   </div>
-                  <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                    <p className="text-[10px] text-slate-400">Condition</p>
-                    <p className="font-bold text-slate-200 text-xs capitalize truncate">{weather.desc}</p>
+                  <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                    <p className="text-[10px] text-slate-500">Condition</p>
+                    <p className="font-bold text-slate-800 text-xs capitalize truncate">{weather.desc}</p>
                   </div>
                 </div>
               ) : (
-                <div className="bg-slate-900/50 p-2.5 rounded text-center text-slate-400 italic">
+                <div className="bg-white p-2.5 rounded border border-slate-200 text-center text-slate-500 italic shadow-sm">
                   Fetching live weather stream...
                 </div>
               )}
             </div>
 
             {/* Crop & Production Twin */}
-            <div className="bg-slate-800/60 rounded-xl p-3.5 border border-slate-700/60">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-blue-400 mb-2 flex items-center">
+            <div className="bg-slate-50 rounded-xl p-3.5 border border-slate-200">
+              <h4 className="text-[11px] font-bold uppercase tracking-wider text-blue-700 mb-2 flex items-center">
                 🌾 Crop & Agricultural Production
               </h4>
-              <div className="grid grid-cols-2 gap-2 text-slate-300">
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Cultivated Crop</p>
-                  <p className="font-bold text-slate-100">{selectedDistrict.crop_type}</p>
+              <div className="grid grid-cols-2 gap-2 text-slate-700">
+                <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <p className="text-slate-500 text-[10px]">Cultivated Crop</p>
+                  <p className="font-bold text-slate-900">{selectedDistrict.crop_type}</p>
                 </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Area Sown</p>
-                  <p className="font-bold text-slate-100">{selectedDistrict.area_sown_ha.toLocaleString()} ha</p>
+                <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <p className="text-slate-500 text-[10px]">Area Sown</p>
+                  <p className="font-bold text-slate-900">{selectedDistrict.area_sown_ha.toLocaleString()} ha</p>
                 </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Historical Yield</p>
-                  <p className="font-bold text-slate-100">{selectedDistrict.yield_t_ha} tonnes / ha</p>
+                <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <p className="text-slate-500 text-[10px]">Historical Yield</p>
+                  <p className="font-bold text-slate-900">{selectedDistrict.yield_t_ha} tonnes / ha</p>
                 </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Total Production</p>
-                  <p className="font-bold text-slate-100">{selectedDistrict.production_tonnes.toLocaleString()} tonnes</p>
+                <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <p className="text-slate-500 text-[10px]">Total Production</p>
+                  <p className="font-bold text-slate-900">{selectedDistrict.production_tonnes.toLocaleString()} tonnes</p>
                 </div>
               </div>
             </div>
 
             {/* Climate & El Niño Indicators */}
-            <div className="bg-slate-800/60 rounded-xl p-3.5 border border-slate-700/60">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-amber-400 mb-2 flex items-center">
+            <div className="bg-slate-50 rounded-xl p-3.5 border border-slate-200">
+              <h4 className="text-[11px] font-bold uppercase tracking-wider text-amber-600 mb-2 flex items-center">
                 🌦️ Historical Climate & Reservoir Level
               </h4>
-              <div className="grid grid-cols-3 gap-2 text-slate-300 text-center">
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Rain Deficit</p>
-                  <p className="font-bold text-amber-300">-{selectedDistrict.rainfall_deficit_pct}%</p>
+              <div className="grid grid-cols-3 gap-2 text-slate-700 text-center">
+                <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <p className="text-slate-500 text-[10px]">Rain Deficit</p>
+                  <p className="font-bold text-amber-600">-{selectedDistrict.rainfall_deficit_pct}%</p>
                 </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Temp Anomaly</p>
-                  <p className="font-bold text-red-400">+{selectedDistrict.temp_anomaly_c}°C</p>
+                <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <p className="text-slate-500 text-[10px]">Temp Anomaly</p>
+                  <p className="font-bold text-red-600">+{selectedDistrict.temp_anomaly_c}°C</p>
                 </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Reservoir</p>
-                  <p className="font-bold text-blue-300">{selectedDistrict.reservoir_level_pct}%</p>
+                <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <p className="text-slate-500 text-[10px]">Reservoir</p>
+                  <p className="font-bold text-blue-600">{selectedDistrict.reservoir_level_pct}%</p>
                 </div>
               </div>
             </div>
 
             {/* Storage Infrastructure */}
-            <div className="bg-slate-800/60 rounded-xl p-3.5 border border-slate-700/60">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-emerald-400 mb-2">
+            <div className="bg-slate-50 rounded-xl p-3.5 border border-slate-200">
+              <h4 className="text-[11px] font-bold uppercase tracking-wider text-emerald-700 mb-2">
                 📦 Storage Infrastructure (Capacity vs Stock)
               </h4>
-              <div className="space-y-1.5 text-slate-300">
-                <div className="flex justify-between bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <span className="text-slate-400">Total Storage Capacity:</span>
-                  <span className="font-bold text-emerald-300">{selectedDistrict.total_storage_capacity_tonnes.toLocaleString()} tonnes</span>
+              <div className="space-y-1.5 text-slate-700">
+                <div className="flex justify-between bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <span className="text-slate-500">Total Storage Capacity:</span>
+                  <span className="font-bold text-emerald-600">{selectedDistrict.total_storage_capacity_tonnes.toLocaleString()} tonnes</span>
                 </div>
-                <div className="grid grid-cols-3 gap-1 text-[10px] text-slate-400 text-center">
-                  <div className="bg-slate-900/40 p-1.5 rounded">SWC: <span className="text-slate-200 font-semibold">{selectedDistrict.swc_capacity_tonnes.toLocaleString()} t</span></div>
-                  <div className="bg-slate-900/40 p-1.5 rounded">FCI: <span className="text-slate-200 font-semibold">{selectedDistrict.fci_capacity_tonnes.toLocaleString()} t</span></div>
-                  <div className="bg-slate-900/40 p-1.5 rounded">Cold: <span className="text-slate-200 font-semibold">{selectedDistrict.cold_storage_capacity_tonnes.toLocaleString()} t</span></div>
+                <div className="grid grid-cols-3 gap-1 text-[10px] text-slate-500 text-center">
+                  <div className="bg-white p-1.5 rounded border border-slate-100 shadow-sm">SWC: <span className="text-slate-700 font-semibold">{selectedDistrict.swc_capacity_tonnes.toLocaleString()} t</span></div>
+                  <div className="bg-white p-1.5 rounded border border-slate-100 shadow-sm">FCI: <span className="text-slate-700 font-semibold">{selectedDistrict.fci_capacity_tonnes.toLocaleString()} t</span></div>
+                  <div className="bg-white p-1.5 rounded border border-slate-100 shadow-sm">Cold: <span className="text-slate-700 font-semibold">{selectedDistrict.cold_storage_capacity_tonnes.toLocaleString()} t</span></div>
                 </div>
-                <div className="flex justify-between bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <span className="text-slate-400">Physical Stock Level:</span>
-                  <span className="font-bold text-amber-400">{selectedDistrict.current_stock}</span>
+                <div className="flex justify-between bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <span className="text-slate-500">Physical Stock Level:</span>
+                  <span className="font-bold text-amber-600">{selectedDistrict.current_stock}</span>
                 </div>
               </div>
             </div>
 
             {/* Demand & Vulnerable Population */}
-            <div className="bg-slate-800/60 rounded-xl p-3.5 border border-slate-700/60">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-purple-400 mb-2">
+            <div className="bg-slate-50 rounded-xl p-3.5 border border-slate-200">
+              <h4 className="text-[11px] font-bold uppercase tracking-wider text-purple-700 mb-2">
                 💰 Demand & Population Vulnerability
               </h4>
-              <div className="grid grid-cols-2 gap-2 text-slate-300">
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">30-Day Food Demand</p>
-                  <p className="font-bold text-purple-300">{selectedDistrict.demand_30d_tonnes.toLocaleString()} tonnes</p>
+              <div className="grid grid-cols-2 gap-2 text-slate-700">
+                <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <p className="text-slate-500 text-[10px]">30-Day Food Demand</p>
+                  <p className="font-bold text-purple-600">{selectedDistrict.demand_30d_tonnes.toLocaleString()} tonnes</p>
                 </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Vulnerable People</p>
-                  <p className="font-bold text-purple-300">{selectedDistrict.vulnerable_population.toLocaleString()}</p>
+                <div className="bg-white p-2 rounded border border-slate-200 shadow-sm">
+                  <p className="text-slate-500 text-[10px]">Vulnerable People</p>
+                  <p className="font-bold text-purple-600">{selectedDistrict.vulnerable_population.toLocaleString()}</p>
                 </div>
               </div>
             </div>
 
             {/* AI Decision & SHAP Root Cause */}
-            <div className="bg-blue-950/70 rounded-xl p-3.5 border border-blue-800/80 shadow-inner">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-blue-300 mb-1 flex items-center">
+            <div className="bg-blue-50 rounded-xl p-3.5 border border-blue-200 shadow-inner">
+              <h4 className="text-[11px] font-bold uppercase tracking-wider text-blue-700 mb-1 flex items-center">
                 🤖 AI Root-Cause & Action Recommendation
               </h4>
-              <p className="text-[11px] text-slate-300 mb-2">
-                <strong className="text-amber-300">Primary Stress Driver:</strong> {selectedDistrict.primary_driver}
+              <p className="text-[11px] text-slate-700 mb-2">
+                <strong className="text-amber-600">Primary Stress Driver:</strong> {selectedDistrict.primary_driver}
               </p>
-              <div className="bg-slate-900/80 p-2.5 rounded border border-blue-700/50 text-[11px] text-blue-200">
+              <div className="bg-white p-2.5 rounded border border-blue-200 text-[11px] text-blue-800 shadow-sm">
                 💡 <strong>Recommended Action:</strong> {selectedDistrict.recommended_action}
               </div>
             </div>
           </div>
         ) : (
-          <div className="bg-slate-800/40 rounded-xl p-6 border-2 border-slate-700 border-dashed flex flex-col items-center justify-center flex-1 text-center">
-            <svg className="w-12 h-12 text-blue-400 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
-            <p className="text-slate-300 font-medium">Select any district marker on the interactive map to load real-time MVP analytics.</p>
+          <div className="bg-slate-50 rounded-xl p-6 border-2 border-slate-200 border-dashed flex flex-col items-center justify-center flex-1 text-center">
+            <svg className="w-12 h-12 text-blue-500 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
+            <p className="text-slate-500 font-medium">Select any district marker on the interactive map to load real-time MVP analytics.</p>
           </div>
         )}
       </div>
