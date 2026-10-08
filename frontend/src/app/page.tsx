@@ -77,16 +77,27 @@ export default function Home() {
   };
 
   return (
-    <div className="flex h-screen w-full bg-slate-50 text-slate-900 font-sans">
-      {/* Sidebar for Data */}
-      <div className="w-96 bg-white p-6 shadow-2xl flex flex-col z-10 border-r border-slate-200">
-        <div className="mb-2 w-48 relative -ml-4">
-          <Image src="/logo.png" alt="FORESIGHT Logo" width={200} height={70} className="object-contain" />
-        </div>
+    <div className="flex h-screen w-full bg-slate-50 text-slate-900 font-sans overflow-hidden">
+      
+      {/* Floating Logo over the map */}
+      <div className="absolute top-6 left-6 z-20 pointer-events-none drop-shadow-lg">
+        <Image src="/logo.png" alt="FORESIGHT Logo" width={220} height={80} className="object-contain" />
+      </div>
+
+      {/* Main Map Area (Now on the left) */}
+      <div className="flex-1 relative z-0">
+        <APIProvider apiKey={API_KEY}>
+          <MapHandler onDistrictClick={handleDistrictClick} />
+        </APIProvider>
+      </div>
+
+      {/* Sidebar for Data (Now on the right) */}
+      <div className="w-96 bg-white p-6 shadow-2xl flex flex-col z-10 border-l border-slate-200">
+        <h2 className="text-xl font-black mb-1 tracking-tight text-slate-800">COMMAND CENTER</h2>
         <p className="text-slate-500 mb-8 text-sm font-medium tracking-wide">El Niño Food System Resilience Platform</p>
         
         {selectedDistrict ? (
-          <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 shadow-sm">
+          <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 shadow-sm transition-all duration-300">
             <h2 className="text-xl font-bold mb-4 text-blue-800">{selectedDistrict}</h2>
             
             <div className="space-y-4">
@@ -103,18 +114,11 @@ export default function Home() {
             </div>
           </div>
         ) : (
-          <div className="bg-slate-50/80 rounded-xl p-5 border-2 border-slate-200 border-dashed flex flex-col items-center justify-center h-48 text-center">
+          <div className="bg-slate-50/80 rounded-xl p-5 border-2 border-slate-200 border-dashed flex flex-col items-center justify-center h-48 text-center transition-all duration-300">
             <svg className="w-10 h-10 text-blue-300 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
             <p className="text-slate-500 text-sm font-medium">Click any district on the map to view analytics</p>
           </div>
         )}
-      </div>
-
-      {/* Main Map Area */}
-      <div className="flex-1 relative">
-        <APIProvider apiKey={API_KEY}>
-          <MapHandler onDistrictClick={handleDistrictClick} />
-        </APIProvider>
       </div>
     </div>
   );
