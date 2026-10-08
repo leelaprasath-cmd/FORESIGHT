@@ -5,7 +5,7 @@ import Image from "next/image";
 import { APIProvider, Map, useMap, useMapsLibrary, MapMouseEvent } from "@vis.gl/react-google-maps";
 
 // Make sure to securely load this in production (e.g., process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY)
-const API_KEY = "AIzaSyB0bvqkB-Q46jHPxMs7YyJ-SM94MfYJ4tY";
+const API_KEY = "AIzaSyD_MtRcsdyXcAni4Uh1dC4jAIreNmx3e_U";
 
 // Center of India
 const defaultCenter = { lat: 20.5937, lng: 78.9629 };
