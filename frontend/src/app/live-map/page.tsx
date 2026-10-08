@@ -128,6 +128,9 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filterCategory, setFilterCategory] = useState<string>("ALL");
   const [weather, setWeather] = useState<{ temp: number; desc: string; humidity: number } | null>(null);
+  const [apiUrl, setApiUrl] = useState("https://your-localtunnel-url.loca.lt");
+  const [aiPrediction, setAiPrediction] = useState<{ predicted_risk: number } | null>(null);
+  const [isPredicting, setIsPredicting] = useState(false);
 
   useEffect(() => {
     fetch("/data/district_data.json")
@@ -158,6 +161,7 @@ export default function Home() {
     setSelectedDistrict(liveDistrict);
     setIsSidebarOpen(true);
     setWeather(null);
+    setAiPrediction(null);
 
     // Fetch Live Weather Data from OpenWeatherMap
     try {
@@ -174,6 +178,31 @@ export default function Home() {
       }
     } catch (err) {
       console.error("Failed to fetch weather:", err);
+    }
+  };
+
+  const runAiPrediction = async () => {
+    if (!selectedDistrict) return;
+    setIsPredicting(true);
+    try {
+      const res = await fetch(`${apiUrl.replace(/\/$/, '')}/predict`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "bypass-tunnel-reminder": "true" },
+        body: JSON.stringify({
+           rainfall_deficit_pct: selectedDistrict.rainfall_deficit_pct,
+           temp_anomaly_c: selectedDistrict.temp_anomaly_c,
+           area_sown_ha: selectedDistrict.area_sown_ha,
+           reservoir_level_pct: selectedDistrict.reservoir_level_pct,
+           yield_t_ha: selectedDistrict.yield_t_ha
+        })
+      });
+      const data = await res.json();
+      setAiPrediction(data);
+    } catch (err) {
+      console.error(err);
+      alert("Failed to connect to AI Model. Check if your Colab API is running and the URL is correct.");
+    } finally {
+      setIsPredicting(false);
     }
   };
 
@@ -390,14 +419,39 @@ export default function Home() {
 
             {/* AI Decision & SHAP Root Cause */}
             <div className="bg-blue-50 rounded-xl p-3.5 border border-blue-200 shadow-inner">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-blue-700 mb-1 flex items-center">
-                🤖 AI Root-Cause & Action Recommendation
+              <h4 className="text-[11px] font-bold uppercase tracking-wider text-blue-700 mb-2 flex items-center">
+                🤖 Live AI Model Connection (Colab)
               </h4>
-              <p className="text-[11px] text-slate-700 mb-2">
-                <strong className="text-amber-600">Primary Stress Driver:</strong> {selectedDistrict.primary_driver}
+              
+              <div className="flex flex-col gap-2 mb-3">
+                <input 
+                  type="text" 
+                  value={apiUrl}
+                  onChange={(e) => setApiUrl(e.target.value)}
+                  className="bg-white text-xs px-2 py-1.5 rounded border border-blue-200 text-slate-800 w-full focus:outline-none focus:ring-1 focus:ring-blue-500 shadow-sm"
+                  placeholder="Paste localtunnel URL here"
+                />
+                <button 
+                  onClick={runAiPrediction}
+                  disabled={isPredicting}
+                  className="bg-blue-600 hover:bg-blue-500 disabled:bg-slate-400 text-white text-xs font-bold py-1.5 px-3 rounded transition-colors shadow-sm cursor-pointer"
+                >
+                  {isPredicting ? "Running Live Prediction..." : "Run Real-Time AI Prediction"}
+                </button>
+              </div>
+
+              {aiPrediction && (
+                 <div className="bg-emerald-50 p-2.5 rounded border border-emerald-200 text-[11px] text-emerald-800 mb-3 shadow-sm">
+                   <strong className="text-emerald-700 text-xs">Live Model Output:</strong> <br/>
+                   Predicted Risk Score: <span className="font-mono font-bold text-emerald-900">{aiPrediction.predicted_risk.toFixed(2)}</span> / 100
+                 </div>
+              )}
+
+              <p className="text-[11px] text-slate-700 mb-2 border-t border-blue-200 pt-3">
+                <strong className="text-amber-600">Baseline Primary Stress Driver:</strong> {selectedDistrict.primary_driver}
               </p>
               <div className="bg-white p-2.5 rounded border border-blue-200 text-[11px] text-blue-800 shadow-sm">
-                💡 <strong>Recommended Action:</strong> {selectedDistrict.recommended_action}
+                💡 <strong>Baseline Recommended Action:</strong> {selectedDistrict.recommended_action}
               </div>
             </div>
           </div>
