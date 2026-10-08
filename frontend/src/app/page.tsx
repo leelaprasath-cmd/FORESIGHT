@@ -10,7 +10,7 @@ export default function LandingPage() {
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover opacity-15 z-0 pointer-events-none mix-blend-multiply"
+        className="absolute inset-0 w-full h-full object-cover opacity-40 z-0 pointer-events-none mix-blend-multiply"
       >
         <source src="/vid/hero-bg.mp4" type="video/mp4" />
       </video>
