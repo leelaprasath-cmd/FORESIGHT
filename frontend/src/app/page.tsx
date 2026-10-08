@@ -22,6 +22,9 @@ function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, l
       const lat = e.detail.latLng.lat;
       const lng = e.detail.latLng.lng;
       
+      // Immediately give UI feedback
+      onDistrictClick("Loading district data...", lat, lng);
+      
       const geocoder = new geocodingLib.Geocoder();
       geocoder.geocode({ location: { lat, lng } }, (results, status) => {
         if (status === "OK" && results && results.length > 0) {
@@ -41,6 +44,10 @@ function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, l
           }
           
           onDistrictClick(`${district}, ${state}`, lat, lng);
+        } else {
+          // If Geocoding API is not enabled on this API key, it will hit this
+          console.error("Geocoding failed:", status);
+          onDistrictClick(`Error: Geocoding API (${status})`, lat, lng);
         }
       });
     },
