@@ -71,9 +71,15 @@ env/
 venv/
 .venv/
 
-# Environment and logs
+# Environment, keys and secrets
 *.log
+.env
+.env.*
 .env*.local
+*.env
+!.env.example
+*_key.txt
+*api_key*
 response.json
 
 # Large media files
