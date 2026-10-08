@@ -1,95 +1,57 @@
 "use client";
 
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useCallback } from "react";
 import Image from "next/image";
-import { APIProvider, Map, useMap, AdvancedMarker, Pin, MapMouseEvent } from "@vis.gl/react-google-maps";
+import { APIProvider, Map, useMap, useMapsLibrary, MapMouseEvent } from "@vis.gl/react-google-maps";
 
+// Make sure to securely load this in production
 const MAP_API_KEY = "AIzaSyB0bvqkB-Q46jHPxMs7YyJ-SM94MfYJ4tY";
+const GEOCODING_API_KEY = "AIzaSyDDwl-RtO39lHejjpUh3G1SlmCLa1u2LKI";
 
+// Center of India
 const defaultCenter = { lat: 20.5937, lng: 78.9629 };
 const defaultZoom = 5;
 
-export interface DistrictProfile {
-  district_name: string;
-  state_name: string;
-  latitude: number;
-  longitude: number;
-  crop_type: string;
-  area_sown_ha: number;
-  production_tonnes: number;
-  yield_t_ha: number;
-  swc_capacity_tonnes: number;
-  fci_capacity_tonnes: number;
-  cold_storage_capacity_tonnes: number;
-  total_storage_capacity_tonnes: number;
-  current_stock: string;
-  rainfall_deficit_pct: number;
-  temp_anomaly_c: number;
-  reservoir_level_pct: number;
-  population: number;
-  demand_30d_tonnes: number;
-  vulnerable_population: number;
-  retail_price_rs: number;
-  risk_score: number;
-  risk_category: string;
-  status_color: string;
-  primary_driver: string;
-  recommended_action: string;
-  pincode?: string;
-}
-
-function MapHandler({
-  districts,
-  onSelectDistrict
-}: {
-  districts: DistrictProfile[];
-  onSelectDistrict: (d: DistrictProfile) => void;
-}) {
+function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, lat: number, lng: number, pincode?: string) => void }) {
   const map = useMap();
 
-  const handleMapClick = useCallback(
+  // Handle map clicks
+  const handleClick = useCallback(
     (e: MapMouseEvent) => {
       if (!map || !e.detail.latLng) return;
+      
       const lat = e.detail.latLng.lat;
       const lng = e.detail.latLng.lng;
-
-      // Find nearest district profile from dataset by GPS distance
-      let closest: DistrictProfile | null = null;
-      let minDistance = Infinity;
-
-      for (const d of districts) {
-        const dist = Math.hypot(d.latitude - lat, d.longitude - lng);
-        if (dist < minDistance) {
-          minDistance = dist;
-          closest = d;
+      
+      // Immediately give UI feedback
+      onDistrictClick("Loading district data...", lat, lng);
+      
+      // Use Free OpenStreetMap Nominatim API to bypass Google Billing restrictions!
+      fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json`, {
+        headers: {
+          'Accept-Language': 'en'
         }
-      }
-
-      if (closest && minDistance < 1.5) {
-        onSelectDistrict(closest);
-      } else {
-        // Fallback OpenStreetMap Nominatim reverse geocoder
-        fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json`, {
-          headers: { 'Accept-Language': 'en' }
+      })
+        .then(res => res.json())
+        .then(data => {
+          if (data && data.address) {
+            // Nominatim returns district usually as state_district or county
+            const district = data.address.state_district || data.address.county || data.address.city || data.address.region || "Unknown District";
+            const state = data.address.state || "Unknown State";
+            const pincode = data.address.postcode || "Unknown";
+            
+            onDistrictClick(`${district}, ${state}`, lat, lng, pincode);
+          } else {
+            console.error("Geocoding failed:", data);
+            onDistrictClick(`Error: Location not found`, lat, lng);
+          }
         })
-          .then(res => res.json())
-          .then(data => {
-            if (data && data.address) {
-              const name = data.address.state_district || data.address.county || data.address.city || data.address.region || "Unknown";
-              const pincode = data.address.postcode || "";
-
-              const found = districts.find(d => d.district_name.toLowerCase().includes(name.toLowerCase()));
-              if (found) {
-                onSelectDistrict({ ...found, pincode });
-              } else if (closest) {
-                onSelectDistrict({ ...closest, pincode });
-              }
-            }
-          })
-          .catch(console.error);
-      }
+        .catch(err => {
+          console.error("Geocoding network error:", err);
+          onDistrictClick("Error: Network failure", lat, lng);
+        });
     },
-    [map, districts, onSelectDistrict]
+    [map, onDistrictClick]
   );
 
   return (
@@ -98,53 +60,25 @@ function MapHandler({
       defaultCenter={defaultCenter}
       gestureHandling={"greedy"}
       disableDefaultUI={true}
-      onClick={handleMapClick}
-      mapId="DEMO_MAP_ID"
-    >
-      {districts.map((d) => (
-        <AdvancedMarker
-          key={`${d.district_name}-${d.state_name}`}
-          position={{ lat: d.latitude, lng: d.longitude }}
-          onClick={() => onSelectDistrict(d)}
-          title={`${d.district_name}, ${d.state_name} (${d.risk_category})`}
-        >
-          <Pin
-            background={d.status_color}
-            borderColor={"#ffffff"}
-            glyphColor={"#ffffff"}
-            scale={d.risk_score > 60 ? 1.2 : 0.9}
-          />
-        </AdvancedMarker>
-      ))}
-    </Map>
+      onClick={handleClick}
+      mapId="DEMO_MAP_ID" // Required for modern map features
+    />
   );
 }
 
 export default function Home() {
-  const [districts, setDistricts] = useState<DistrictProfile[]>([]);
-  const [selectedDistrict, setSelectedDistrict] = useState<DistrictProfile | null>(null);
+  const [selectedDistrict, setSelectedDistrict] = useState<string | null>(null);
+  const [clickCoords, setClickCoords] = useState<{lat: number, lng: number} | null>(null);
+  const [clickPincode, setClickPincode] = useState<string | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [filterCategory, setFilterCategory] = useState<string>("ALL");
-  const [weather, setWeather] = useState<{ temp: number; desc: string; humidity: number } | null>(null);
+  const [weather, setWeather] = useState<{temp: number, desc: string, humidity: number} | null>(null);
   const [aiSummary, setAiSummary] = useState<string | null>(null);
   const [isAiLoading, setIsAiLoading] = useState(false);
 
-  useEffect(() => {
-    fetch("/data/district_data.json")
-      .then((res) => res.json())
-      .then((data: DistrictProfile[]) => {
-        setDistricts(data);
-        if (data.length > 0) {
-          const defaultSelect = data.find((d) => d.district_name === "Thanjavur") || data[0];
-          handleSelectDistrict(defaultSelect);
-        }
-      })
-      .catch((err) => console.error("Error loading district profiles:", err));
-  }, []);
-
-  const handleSelectDistrict = async (d: DistrictProfile) => {
-    setSelectedDistrict(d);
+  const handleDistrictClick = async (districtName: string, lat: number, lng: number, pincode?: string) => {
+    setSelectedDistrict(districtName);
+    setClickCoords({ lat, lng });
+    if (pincode !== undefined) setClickPincode(pincode);
     setIsSidebarOpen(true);
     setWeather(null);
     setAiSummary(null);
@@ -154,12 +88,11 @@ export default function Home() {
     let humidity = 0;
     let desc = "Unknown";
 
-    // Fetch Live Weather Data from OpenWeatherMap
+    // Fetch Weather Data from OpenWeatherMap
     try {
-      const res = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?lat=${d.latitude}&lon=${d.longitude}&appid=8c85517b8391d50ff56ff492a726e1e9&units=metric`
-      );
+      const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=8c85517b8391d50ff56ff492a726e1e9&units=metric`);
       const data = await res.json();
+      
       if (data && data.main) {
         temp = Math.round(data.main.temp);
         humidity = data.main.humidity;
@@ -172,7 +105,7 @@ export default function Home() {
 
     // Fetch AI Summary from Groq
     try {
-      const prompt = `Act as an expert AI named FORESIGHT. The user clicked on ${d.district_name}, ${d.state_name} (Pincode: ${d.pincode || 'Unknown'}) in India. The current live weather is ${temp}°C, humidity ${humidity}%, conditions: ${desc}. Give a 2-3 sentence insightful summary of the current weather conditions. Make it sound professional, intelligent, and highly contextual to the region. Do not use robotic greetings, just dive straight into the analysis. Generate a unique and creative angle each time.`;
+      const prompt = `Act as an expert AI named FORESIGHT. The user clicked on ${districtName} (Pincode: ${pincode || 'Unknown'}) in India. The current live weather is ${temp}°C, humidity ${humidity}%, conditions: ${desc}. Give a 2-3 sentence insightful summary of the current weather conditions. Make it sound professional, intelligent, and highly contextual to the region. Do not use robotic greetings, just dive straight into the analysis. Generate a unique and creative angle each time.`;
 
       const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
@@ -202,153 +135,103 @@ export default function Home() {
     }
   };
 
-  const filteredDistricts = useMemo(() => {
-    return districts.filter((d) => {
-      const matchesSearch =
-        d.district_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        d.state_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        d.crop_type.toLowerCase().includes(searchQuery.toLowerCase());
-      const matchesCategory =
-        filterCategory === "ALL" || d.risk_category === filterCategory;
-      return matchesSearch && matchesCategory;
-    });
-  }, [districts, searchQuery, filterCategory]);
-
   return (
-    <div className="relative flex h-screen w-full bg-slate-900 text-slate-100 font-sans overflow-hidden">
-      {/* Floating Header & Controls over the map */}
-      <div className="absolute top-3 left-4 z-20 flex items-center space-x-3 bg-slate-900/90 backdrop-blur-md px-4 py-2 rounded-2xl border border-slate-700/60 shadow-2xl">
-        <Image src="/logo.png" alt="FORESIGHT Logo" width={130} height={42} className="object-contain" />
-        <span className="h-5 w-px bg-slate-700"></span>
-        <input
-          type="text"
-          placeholder="Search district, state or crop..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="bg-slate-800 text-xs px-3 py-1.5 rounded-lg text-slate-200 placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-blue-500 w-56 border border-slate-700"
-        />
-        <select
-          value={filterCategory}
-          onChange={(e) => setFilterCategory(e.target.value)}
-          className="bg-slate-800 text-xs px-2.5 py-1.5 rounded-lg text-slate-200 border border-slate-700 focus:outline-none"
-        >
-          <option value="ALL">All Risk Levels</option>
-          <option value="CRITICAL RISK">Critical Risk (🔴)</option>
-          <option value="HIGH RISK">High Risk (🟠)</option>
-          <option value="MODERATE RISK">Moderate Risk (🟡)</option>
-          <option value="STABLE">Stable (🟢)</option>
-        </select>
+    <div className="relative flex h-screen w-full bg-slate-50 text-slate-900 font-sans overflow-hidden">
+      
+      {/* Floating Logo over the map */}
+      <div className="absolute top-2 left-2 z-20 pointer-events-none drop-shadow-lg">
+        <Image src="/logo.png" alt="FORESIGHT Logo" width={140} height={50} className="object-contain" />
       </div>
 
-      {/* Main Interactive Map */}
+      {/* Main Map Area */}
       <div className="absolute inset-0 z-0">
         <APIProvider apiKey={MAP_API_KEY}>
-          <MapHandler districts={filteredDistricts} onSelectDistrict={handleSelectDistrict} />
+          <MapHandler onDistrictClick={handleDistrictClick} />
         </APIProvider>
       </div>
 
-      {/* Sidebar for Analytics & Digital Twin Details */}
-      <div
-        className={`absolute right-0 top-0 h-full w-[420px] bg-slate-900/95 backdrop-blur-xl p-6 shadow-2xl flex flex-col z-10 border-l border-slate-800 transition-transform duration-500 ease-in-out ${
-          isSidebarOpen ? "translate-x-0" : "translate-x-full"
+      {/* Sidebar for Data (Sliding from right) */}
+      <div 
+        className={`absolute right-0 top-0 h-full w-96 bg-white p-6 shadow-2xl flex flex-col z-10 border-l border-slate-200 transition-transform duration-500 ease-in-out ${
+          isSidebarOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         {/* Toggle Button */}
-        <button
+        <button 
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-          className="absolute top-1/2 -left-10 transform -translate-y-1/2 w-10 h-16 bg-slate-900/90 text-slate-300 flex items-center justify-center rounded-l-xl shadow-xl border-y border-l border-slate-700 hover:text-blue-400 transition-colors cursor-pointer"
+          className="absolute top-1/2 -left-10 transform -translate-y-1/2 w-10 h-16 bg-white flex items-center justify-center rounded-l-lg shadow-[-4px_0_10px_rgba(0,0,0,0.1)] border-y border-l border-slate-200 text-slate-500 hover:text-blue-600 focus:outline-none transition-colors cursor-pointer"
         >
           {isSidebarOpen ? (
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
           ) : (
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" /></svg>
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" /></svg>
           )}
         </button>
 
-        <div className="flex items-center justify-between mb-2">
-          <div>
-            <h2 className="text-lg font-black tracking-tight text-slate-100 uppercase">Command Center MVP</h2>
-            <p className="text-slate-400 text-xs">Real-World El Niño Food Resilience Platform</p>
-          </div>
-          <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-blue-900/60 text-blue-300 border border-blue-700/50">
-            665 Districts
-          </span>
-        </div>
-
+        <h2 className="text-xl font-black mb-1 tracking-tight text-slate-800">COMMAND CENTER</h2>
+        <p className="text-slate-500 mb-8 text-sm font-medium tracking-wide">El Niño Food System Resilience Platform</p>
+        
         {selectedDistrict ? (
-          <div className="flex-1 overflow-y-auto pr-1 space-y-4 text-xs scrollbar-thin scrollbar-thumb-slate-700">
-            {/* Header Status Card */}
-            <div className="bg-slate-800/80 rounded-xl p-4 border border-slate-700/80 shadow-md">
-              <div className="flex items-center justify-between mb-2">
-                <div>
-                  <h3 className="text-base font-bold text-slate-100">{selectedDistrict.district_name}</h3>
-                  <p className="text-slate-400 text-xs">{selectedDistrict.state_name}</p>
+          <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 shadow-sm transition-all duration-300">
+            <h2 className="text-xl font-bold mb-4 text-blue-800">{selectedDistrict}</h2>
+            
+            <div className="space-y-4">
+              <div className="flex space-x-4">
+                <div className="flex-1">
+                  <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-1">Coordinates</p>
+                  <p className="font-mono text-sm text-slate-700 bg-white p-2 rounded border border-slate-100">{clickCoords?.lat.toFixed(4)}, {clickCoords?.lng.toFixed(4)}</p>
                 </div>
-                <div className="text-right">
-                  <span
-                    className="inline-block px-2.5 py-1 rounded-full text-[11px] font-bold text-white shadow-sm"
-                    style={{ backgroundColor: selectedDistrict.status_color }}
-                  >
-                    {selectedDistrict.risk_category}
-                  </span>
-                  <p className="text-[10px] text-slate-400 mt-1">Score: <span className="font-bold text-slate-200">{selectedDistrict.risk_score} / 100</span></p>
-                </div>
+                {clickPincode && clickPincode !== "Unknown" && (
+                  <div>
+                    <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-1">Pincode</p>
+                    <p className="font-mono text-sm text-slate-700 bg-white p-2 rounded border border-slate-100">{clickPincode}</p>
+                  </div>
+                )}
               </div>
-              <div className="flex justify-between items-center text-[11px] text-slate-300 bg-slate-900/60 p-2 rounded border border-slate-700/50">
-                <span>📍 GPS: <strong className="font-mono text-blue-400">{selectedDistrict.latitude.toFixed(4)}, {selectedDistrict.longitude.toFixed(4)}</strong></span>
-                {selectedDistrict.pincode && <span className="font-mono text-slate-400">PIN: {selectedDistrict.pincode}</span>}
+              
+              <div className="pt-4 border-t border-slate-200">
+                <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-2">Live Climate Data</p>
+                {weather ? (
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="bg-white p-3 rounded border border-slate-100 shadow-sm">
+                      <p className="text-xs text-slate-400 mb-1 font-medium">Temperature</p>
+                      <p className="text-xl font-bold text-slate-700">{weather.temp}°C</p>
+                    </div>
+                    <div className="bg-white p-3 rounded border border-slate-100 shadow-sm">
+                      <p className="text-xs text-slate-400 mb-1 font-medium">Humidity</p>
+                      <p className="text-xl font-bold text-slate-700">{weather.humidity}%</p>
+                    </div>
+                    <div className="bg-white p-3 rounded border border-slate-100 shadow-sm col-span-2">
+                      <p className="text-xs text-slate-400 mb-1 font-medium">Conditions</p>
+                      <p className="text-sm font-bold text-slate-700 capitalize">{weather.desc}</p>
+                    </div>
+                  </div>
+                ) : (
+                  <p className="text-sm text-slate-500 italic">Fetching real-time weather...</p>
+                )}
+              </div>
+
+              <div className="pt-4 border-t border-slate-200">
+                <div className="flex items-center space-x-2 mb-2">
+                  <svg className="w-4 h-4 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                  <p className="text-xs text-slate-500 font-bold uppercase tracking-wider">AI Insight (Llama-3.1)</p>
+                </div>
+                {isAiLoading ? (
+                  <div className="bg-slate-100 animate-pulse rounded p-4 h-20 w-full"></div>
+                ) : aiSummary ? (
+                  <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-4 rounded-lg border border-indigo-100 shadow-inner">
+                    <p className="text-sm text-slate-700 leading-relaxed font-medium">
+                      {aiSummary}
+                    </p>
+                  </div>
+                ) : null}
               </div>
             </div>
-
-            {/* Live OpenWeatherMap API Integration */}
-            <div className="bg-slate-800/60 rounded-xl p-3.5 border border-slate-700/60">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-cyan-400 mb-2 flex items-center justify-between">
-                <span>🌤️ Live OpenWeatherMap Feed</span>
-                <span className="text-[9px] text-slate-500 font-normal">Real-Time</span>
-              </h4>
-              {weather ? (
-                <div className="grid grid-cols-3 gap-2 text-center text-slate-200">
-                  <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                    <p className="text-[10px] text-slate-400">Temperature</p>
-                    <p className="font-bold text-cyan-300 text-sm">{weather.temp}°C</p>
-                  </div>
-                  <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                    <p className="text-[10px] text-slate-400">Humidity</p>
-                    <p className="font-bold text-blue-300 text-sm">{weather.humidity}%</p>
-                  </div>
-                  <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                    <p className="text-[10px] text-slate-400">Condition</p>
-                    <p className="font-bold text-slate-200 text-xs capitalize truncate">{weather.desc}</p>
-                  </div>
-                </div>
-              ) : (
-                <div className="bg-slate-900/50 p-2.5 rounded text-center text-slate-400 italic">
-                  Fetching live weather stream...
-                </div>
-              )}
-            </div>
-
-            {/* AI Weather & Crop Analysis */}
-            <div className="bg-indigo-950/40 rounded-xl p-3.5 border border-indigo-500/30">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-indigo-300 mb-2 flex items-center">
-                🧠 Groq Llama-3.1 Live Insight
-              </h4>
-              {isAiLoading ? (
-                <div className="bg-slate-900/50 animate-pulse rounded p-3 h-16 w-full border border-slate-800"></div>
-              ) : aiSummary ? (
-                <div className="bg-slate-900/60 p-3 rounded border border-indigo-500/20 shadow-inner">
-                  <p className="text-[11px] text-indigo-100 leading-relaxed">
-                    {aiSummary}
-                  </p>
-                </div>
-              ) : null}
-            </div>
-
           </div>
         ) : (
-          <div className="bg-slate-800/40 rounded-xl p-6 border-2 border-slate-700 border-dashed flex flex-col items-center justify-center flex-1 text-center">
-            <svg className="w-12 h-12 text-blue-400 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
-            <p className="text-slate-300 font-medium">Select any district marker on the interactive map to load real-time MVP analytics.</p>
+          <div className="bg-slate-50/80 rounded-xl p-5 border-2 border-slate-200 border-dashed flex flex-col items-center justify-center h-48 text-center transition-all duration-300">
+            <svg className="w-10 h-10 text-blue-300 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
+            <p className="text-slate-500 text-sm font-medium">Click any district on the map to view analytics</p>
           </div>
         )}
       </div>
