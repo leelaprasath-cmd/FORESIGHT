@@ -26,30 +26,23 @@ function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, l
       // Immediately give UI feedback
       onDistrictClick("Loading district data...", lat, lng);
       
-      // Call Google Geocoding REST API directly with the separate Geocoding Key
-      fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=${GEOCODING_API_KEY}`)
+      // Use Free OpenStreetMap Nominatim API to bypass Google Billing restrictions!
+      fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json`, {
+        headers: {
+          'Accept-Language': 'en'
+        }
+      })
         .then(res => res.json())
         .then(data => {
-          if (data.status === "OK" && data.results && data.results.length > 0) {
-            // Find the district (administrative_area_level_2 or level_3)
-            let district = "Unknown District";
-            let state = "Unknown State";
-            
-            for (const result of data.results) {
-              for (const component of result.address_components) {
-                if (component.types.includes("administrative_area_level_2") || component.types.includes("administrative_area_level_3")) {
-                  district = component.long_name;
-                }
-                if (component.types.includes("administrative_area_level_1")) {
-                  state = component.long_name;
-                }
-              }
-            }
+          if (data && data.address) {
+            // Nominatim returns district usually as state_district or county
+            const district = data.address.state_district || data.address.county || data.address.city || data.address.region || "Unknown District";
+            const state = data.address.state || "Unknown State";
             
             onDistrictClick(`${district}, ${state}`, lat, lng);
           } else {
-            console.error("Geocoding failed:", data.status);
-            onDistrictClick(`Error: Geocoding API (${data.status})`, lat, lng);
+            console.error("Geocoding failed:", data);
+            onDistrictClick(`Error: Location not found`, lat, lng);
           }
         })
         .catch(err => {
