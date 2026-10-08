@@ -128,6 +128,9 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filterCategory, setFilterCategory] = useState<string>("ALL");
   const [weather, setWeather] = useState<{ temp: number; desc: string; humidity: number } | null>(null);
+  const [apiUrl, setApiUrl] = useState("https://your-localtunnel-url.loca.lt");
+  const [aiPrediction, setAiPrediction] = useState<{ predicted_risk: number } | null>(null);
+  const [isPredicting, setIsPredicting] = useState(false);
 
   useEffect(() => {
     fetch("/data/district_data.json")
@@ -158,6 +161,7 @@ export default function Home() {
     setSelectedDistrict(liveDistrict);
     setIsSidebarOpen(true);
     setWeather(null);
+    setAiPrediction(null);
 
     // Fetch Live Weather Data from OpenWeatherMap
     try {
@@ -177,6 +181,31 @@ export default function Home() {
     }
   };
 
+  const runAiPrediction = async () => {
+    if (!selectedDistrict) return;
+    setIsPredicting(true);
+    try {
+      const res = await fetch(`${apiUrl.replace(/\/$/, '')}/predict`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "bypass-tunnel-reminder": "true" },
+        body: JSON.stringify({
+           rainfall_deficit_pct: selectedDistrict.rainfall_deficit_pct,
+           temp_anomaly_c: selectedDistrict.temp_anomaly_c,
+           area_sown_ha: selectedDistrict.area_sown_ha,
+           reservoir_level_pct: selectedDistrict.reservoir_level_pct,
+           yield_t_ha: selectedDistrict.yield_t_ha
+        })
+      });
+      const data = await res.json();
+      setAiPrediction(data);
+    } catch (err) {
+      console.error(err);
+      alert("Failed to connect to AI Model. Check if your Colab API is running and the URL is correct.");
+    } finally {
+      setIsPredicting(false);
+    }
+  };
+
   const filteredDistricts = useMemo(() => {
     return districts.filter((d) => {
       const matchesSearch =
@@ -191,28 +220,9 @@ export default function Home() {
 
   return (
     <div className="relative flex h-screen w-full bg-white text-slate-900 font-sans overflow-hidden">
-      {/* Floating Header & Controls over the map */}
-      <div className="absolute top-3 left-4 z-20 flex items-center space-x-3 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl border border-slate-200 shadow-2xl">
-        <Image src="/logo.png" alt="FORESIGHT Logo" width={130} height={42} className="object-contain" />
-        <span className="h-5 w-px bg-slate-300"></span>
-        <input
-          type="text"
-          placeholder="Search district, state or crop..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="bg-slate-50 text-xs px-3 py-1.5 rounded-lg text-slate-800 placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-blue-500 w-56 border border-slate-200"
-        />
-        <select
-          value={filterCategory}
-          onChange={(e) => setFilterCategory(e.target.value)}
-          className="bg-slate-50 text-xs px-2.5 py-1.5 rounded-lg text-slate-800 border border-slate-200 focus:outline-none"
-        >
-          <option value="ALL">All Risk Levels</option>
-          <option value="CRITICAL RISK">Critical Risk (🔴)</option>
-          <option value="HIGH RISK">High Risk (🟠)</option>
-          <option value="MODERATE RISK">Moderate Risk (🟡)</option>
-          <option value="STABLE">Stable (🟢)</option>
-        </select>
+      {/* Floating Logo over the map */}
+      <div className="absolute top-2 left-2 z-20 pointer-events-none drop-shadow-lg">
+        <Image src="/logo.png" alt="FORESIGHT Logo" width={140} height={50} className="object-contain" />
       </div>
 
       {/* Main Interactive Map */}
@@ -388,18 +398,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* AI Decision & SHAP Root Cause */}
-            <div className="bg-blue-50 rounded-xl p-3.5 border border-blue-200 shadow-inner">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-blue-700 mb-1 flex items-center">
-                🤖 AI Root-Cause & Action Recommendation
-              </h4>
-              <p className="text-[11px] text-slate-700 mb-2">
-                <strong className="text-amber-600">Primary Stress Driver:</strong> {selectedDistrict.primary_driver}
-              </p>
-              <div className="bg-white p-2.5 rounded border border-blue-200 text-[11px] text-blue-800 shadow-sm">
-                💡 <strong>Recommended Action:</strong> {selectedDistrict.recommended_action}
-              </div>
-            </div>
+
           </div>
         ) : (
           <div className="bg-slate-50 rounded-xl p-6 border-2 border-slate-200 border-dashed flex flex-col items-center justify-center flex-1 text-center">
