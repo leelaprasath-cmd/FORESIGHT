@@ -220,28 +220,9 @@ export default function Home() {
 
   return (
     <div className="relative flex h-screen w-full bg-white text-slate-900 font-sans overflow-hidden">
-      {/* Floating Header & Controls over the map */}
-      <div className="absolute top-3 left-4 z-20 flex items-center space-x-3 bg-white/90 backdrop-blur-md px-4 py-2 rounded-2xl border border-slate-200 shadow-2xl">
-        <Image src="/logo.png" alt="FORESIGHT Logo" width={130} height={42} className="object-contain" />
-        <span className="h-5 w-px bg-slate-300"></span>
-        <input
-          type="text"
-          placeholder="Search district, state or crop..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="bg-slate-50 text-xs px-3 py-1.5 rounded-lg text-slate-800 placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-blue-500 w-56 border border-slate-200"
-        />
-        <select
-          value={filterCategory}
-          onChange={(e) => setFilterCategory(e.target.value)}
-          className="bg-slate-50 text-xs px-2.5 py-1.5 rounded-lg text-slate-800 border border-slate-200 focus:outline-none"
-        >
-          <option value="ALL">All Risk Levels</option>
-          <option value="CRITICAL RISK">Critical Risk (🔴)</option>
-          <option value="HIGH RISK">High Risk (🟠)</option>
-          <option value="MODERATE RISK">Moderate Risk (🟡)</option>
-          <option value="STABLE">Stable (🟢)</option>
-        </select>
+      {/* Floating Logo over the map */}
+      <div className="absolute top-2 left-2 z-20 pointer-events-none drop-shadow-lg">
+        <Image src="/logo.png" alt="FORESIGHT Logo" width={140} height={50} className="object-contain" />
       </div>
 
       {/* Main Interactive Map */}
