@@ -4,8 +4,9 @@ import { useState, useCallback } from "react";
 import Image from "next/image";
 import { APIProvider, Map, useMap, useMapsLibrary, MapMouseEvent } from "@vis.gl/react-google-maps";
 
-// Make sure to securely load this in production (e.g., process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY)
-const API_KEY = "AIzaSyD_MtRcsdyXcAni4Uh1dC4jAIreNmx3e_U";
+// Make sure to securely load this in production
+const MAP_API_KEY = "AIzaSyB0bvqkB-Q46jHPxMs7YyJ-SM94MfYJ4tY";
+const GEOCODING_API_KEY = "AIzaSyDDwl-RtO39lHejjpUh3G1SlmCLa1u2LKI";
 
 // Center of India
 const defaultCenter = { lat: 20.5937, lng: 78.9629 };
@@ -13,12 +14,11 @@ const defaultZoom = 5;
 
 function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, lat: number, lng: number) => void }) {
   const map = useMap();
-  const geocodingLib = useMapsLibrary("geocoding");
 
   // Handle map clicks
   const handleClick = useCallback(
     (e: MapMouseEvent) => {
-      if (!geocodingLib || !map || !e.detail.latLng) return;
+      if (!map || !e.detail.latLng) return;
       
       const lat = e.detail.latLng.lat;
       const lng = e.detail.latLng.lng;
@@ -26,33 +26,38 @@ function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, l
       // Immediately give UI feedback
       onDistrictClick("Loading district data...", lat, lng);
       
-      const geocoder = new geocodingLib.Geocoder();
-      geocoder.geocode({ location: { lat, lng } }, (results, status) => {
-        if (status === "OK" && results && results.length > 0) {
-          // Find the district (administrative_area_level_2 or level_3)
-          let district = "Unknown District";
-          let state = "Unknown State";
-          
-          for (const result of results) {
-            for (const component of result.address_components) {
-              if (component.types.includes("administrative_area_level_2") || component.types.includes("administrative_area_level_3")) {
-                district = component.long_name;
-              }
-              if (component.types.includes("administrative_area_level_1")) {
-                state = component.long_name;
+      // Call Google Geocoding REST API directly with the separate Geocoding Key
+      fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=${GEOCODING_API_KEY}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.status === "OK" && data.results && data.results.length > 0) {
+            // Find the district (administrative_area_level_2 or level_3)
+            let district = "Unknown District";
+            let state = "Unknown State";
+            
+            for (const result of data.results) {
+              for (const component of result.address_components) {
+                if (component.types.includes("administrative_area_level_2") || component.types.includes("administrative_area_level_3")) {
+                  district = component.long_name;
+                }
+                if (component.types.includes("administrative_area_level_1")) {
+                  state = component.long_name;
+                }
               }
             }
+            
+            onDistrictClick(`${district}, ${state}`, lat, lng);
+          } else {
+            console.error("Geocoding failed:", data.status);
+            onDistrictClick(`Error: Geocoding API (${data.status})`, lat, lng);
           }
-          
-          onDistrictClick(`${district}, ${state}`, lat, lng);
-        } else {
-          // If Geocoding API is not enabled on this API key, it will hit this
-          console.error("Geocoding failed:", status);
-          onDistrictClick(`Error: Geocoding API (${status})`, lat, lng);
-        }
-      });
+        })
+        .catch(err => {
+          console.error("Geocoding network error:", err);
+          onDistrictClick("Error: Network failure", lat, lng);
+        });
     },
-    [geocodingLib, map, onDistrictClick]
+    [map, onDistrictClick]
   );
 
   return (
@@ -88,7 +93,7 @@ export default function Home() {
 
       {/* Main Map Area */}
       <div className="absolute inset-0 z-0">
-        <APIProvider apiKey={API_KEY}>
+        <APIProvider apiKey={MAP_API_KEY}>
           <MapHandler onDistrictClick={handleDistrictClick} />
         </APIProvider>
       </div>

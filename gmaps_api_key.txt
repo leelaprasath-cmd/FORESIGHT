@@ -1,1 +1,5 @@
-AIzaSyD_MtRcsdyXcAni4Uh1dC4jAIreNmx3e_U
+Map API Key (Drawing the map):
+AIzaSyB0bvqkB-Q46jHPxMs7YyJ-SM94MfYJ4tY
+
+Geocoding API Key (Converting clicks to District Names):
+AIzaSyDDwl-RtO39lHejjpUh3G1SlmCLa1u2LKI
