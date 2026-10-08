@@ -1,0 +1,260 @@
+year,month,season_code,oni_index,total_sst_celsius,ENSO_phase,El_Nino_strength,data_category,source,source_url
+1950,DJF,DJF,-1.32,25.01,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,JFM,JFM,-1.2,25.36,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,FMA,FMA,-1.12,25.88,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,MAM,MAM,-1.08,26.24,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,AMJ,AMJ,-1.1,26.35,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,MJJ,MJJ,-0.9,26.32,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,JJA,JJA,-0.62,26.24,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,JAS,JAS,-0.57,25.94,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,ASO,ASO,-0.56,25.76,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,SON,SON,-0.62,25.6,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,OND,OND,-0.66,25.55,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1950,NDJ,NDJ,-0.79,25.41,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,DJF,DJF,-0.66,25.67,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,JFM,JFM,-0.36,26.2,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,FMA,FMA,-0.04,26.96,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,MAM,MAM,0.16,27.48,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,AMJ,AMJ,0.27,27.72,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,MJJ,MJJ,0.5,27.72,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,JJA,JJA,0.71,27.57,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,JAS,JAS,0.9,27.41,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,ASO,ASO,1.02,27.34,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,SON,SON,1.03,27.25,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,OND,OND,0.96,27.18,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1951,NDJ,NDJ,0.71,26.91,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,DJF,DJF,0.52,26.86,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,JFM,JFM,0.27,26.82,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,FMA,FMA,0.33,27.33,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,MAM,MAM,0.18,27.5,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,AMJ,AMJ,-0.07,27.38,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,MJJ,MJJ,-0.44,26.78,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,JJA,JJA,-0.45,26.41,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,JAS,JAS,-0.2,26.31,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,ASO,ASO,0.03,26.35,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,SON,SON,0.04,26.26,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,OND,OND,-0.11,26.11,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1952,NDJ,NDJ,0.06,26.25,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,DJF,DJF,0.25,26.58,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,JFM,JFM,0.5,27.06,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,FMA,FMA,0.48,27.48,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,MAM,MAM,0.56,27.88,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,AMJ,AMJ,0.77,28.22,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,MJJ,MJJ,0.74,27.96,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,JJA,JJA,0.63,27.49,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,JAS,JAS,0.68,27.19,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,ASO,ASO,0.59,26.91,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,SON,SON,0.78,27.0,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,OND,OND,0.52,26.74,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1953,NDJ,NDJ,0.56,26.76,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,DJF,DJF,0.41,26.74,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,JFM,JFM,0.35,26.91,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,FMA,FMA,0.01,27.01,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,MAM,MAM,-0.27,27.04,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,AMJ,AMJ,-0.48,26.97,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,MJJ,MJJ,-0.48,26.74,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,JJA,JJA,-0.67,26.18,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,JAS,JAS,-0.83,25.68,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,ASO,ASO,-0.73,25.58,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,SON,SON,-0.52,25.7,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,OND,OND,-0.4,25.82,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1954,NDJ,NDJ,-0.44,25.76,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,DJF,DJF,-0.5,25.83,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,JFM,JFM,-0.48,26.08,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,FMA,FMA,-0.58,26.42,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,MAM,MAM,-0.76,26.56,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,AMJ,AMJ,-0.78,26.67,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,MJJ,MJJ,-0.88,26.34,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,JJA,JJA,-0.72,26.13,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,JAS,JAS,-0.92,25.59,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,ASO,ASO,-1.11,25.21,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,SON,SON,-1.44,24.78,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,OND,OND,-1.59,24.63,La Nina,Strong,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1955,NDJ,NDJ,-1.51,24.73,La Nina,Strong,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,DJF,DJF,-1.17,25.2,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,JFM,JFM,-0.81,25.82,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,FMA,FMA,-0.57,26.47,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,MAM,MAM,-0.51,26.84,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,AMJ,AMJ,-0.49,27.0,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,MJJ,MJJ,-0.47,26.81,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,JJA,JJA,-0.55,26.37,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,JAS,JAS,-0.52,26.02,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,ASO,ASO,-0.43,25.9,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,SON,SON,-0.39,25.85,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,OND,OND,-0.37,25.87,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1956,NDJ,NDJ,-0.39,25.87,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,DJF,DJF,-0.27,26.11,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,JFM,JFM,-0.06,26.57,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,FMA,FMA,0.26,27.3,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,MAM,MAM,0.63,27.99,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,AMJ,AMJ,0.72,28.21,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,MJJ,MJJ,0.82,28.09,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,JJA,JJA,0.96,27.88,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,JAS,JAS,1.03,27.57,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,ASO,ASO,1.12,27.45,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,SON,SON,1.15,27.38,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,OND,OND,1.39,27.63,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1957,NDJ,NDJ,1.62,27.87,El Nino,Strong,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,DJF,DJF,1.69,28.07,El Nino,Strong,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,JFM,JFM,1.59,28.21,El Nino,Strong,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,FMA,FMA,1.17,28.21,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,MAM,MAM,0.84,28.2,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,AMJ,AMJ,0.57,28.06,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,MJJ,MJJ,0.49,27.77,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,JJA,JJA,0.43,27.36,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,JAS,JAS,0.32,26.86,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,ASO,ASO,0.28,26.61,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,SON,SON,0.3,26.53,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,OND,OND,0.36,26.6,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1958,NDJ,NDJ,0.56,26.82,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,DJF,DJF,0.6,26.99,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,JFM,JFM,0.64,27.27,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,FMA,FMA,0.48,27.51,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,MAM,MAM,0.39,27.75,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,AMJ,AMJ,0.24,27.73,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,MJJ,MJJ,0.02,27.29,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,JJA,JJA,-0.19,26.74,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,JAS,JAS,-0.23,26.31,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,ASO,ASO,-0.04,26.29,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,SON,SON,0.11,26.34,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,OND,OND,0.23,26.47,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1959,NDJ,NDJ,0.14,26.4,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,DJF,DJF,0.02,26.4,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,JFM,JFM,0.03,26.65,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,FMA,FMA,0.06,27.1,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,MAM,MAM,0.17,27.52,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,AMJ,AMJ,0.04,27.53,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,MJJ,MJJ,0.0,27.27,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,JJA,JJA,0.01,26.93,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,JAS,JAS,0.15,26.69,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,ASO,ASO,0.19,26.52,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,SON,SON,0.08,26.32,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,OND,OND,-0.07,26.17,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1960,NDJ,NDJ,-0.07,26.16,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,DJF,DJF,0.0,26.34,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,JFM,JFM,0.03,26.6,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,FMA,FMA,0.01,26.98,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,MAM,MAM,0.05,27.33,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,AMJ,AMJ,0.22,27.62,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,MJJ,MJJ,0.22,27.41,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,JJA,JJA,0.08,26.94,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,JAS,JAS,-0.2,26.32,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,ASO,ASO,-0.32,26.01,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,SON,SON,-0.22,26.02,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,OND,OND,-0.11,26.09,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1961,NDJ,NDJ,-0.05,26.14,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,DJF,DJF,-0.16,26.16,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,JFM,JFM,-0.17,26.4,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,FMA,FMA,-0.15,26.83,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,MAM,MAM,-0.2,27.09,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,AMJ,AMJ,-0.19,27.21,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,MJJ,MJJ,-0.13,27.06,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,JJA,JJA,0.0,26.85,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,JAS,JAS,-0.1,26.42,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,ASO,ASO,-0.16,26.17,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,SON,SON,-0.25,25.98,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,OND,OND,-0.25,25.95,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1962,NDJ,NDJ,-0.32,25.87,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,DJF,DJF,-0.33,25.98,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,JFM,JFM,-0.17,26.4,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,FMA,FMA,0.01,26.99,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,MAM,MAM,0.13,27.41,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,AMJ,AMJ,0.12,27.52,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,MJJ,MJJ,0.45,27.64,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,JJA,JJA,0.76,27.61,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,JAS,JAS,1.09,27.61,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,ASO,ASO,1.09,27.42,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,SON,SON,1.13,27.37,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,OND,OND,1.19,27.39,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1963,NDJ,NDJ,1.13,27.33,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,DJF,DJF,0.95,27.26,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,JFM,JFM,0.52,27.09,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,FMA,FMA,0.06,27.04,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,MAM,MAM,-0.35,26.93,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,AMJ,AMJ,-0.6,26.8,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,MJJ,MJJ,-0.66,26.53,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,JJA,JJA,-0.67,26.19,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,JAS,JAS,-0.7,25.82,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,ASO,ASO,-0.72,25.6,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,SON,SON,-0.8,25.44,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,OND,OND,-0.79,25.41,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1964,NDJ,NDJ,-0.75,25.45,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,DJF,DJF,-0.51,25.8,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,JFM,JFM,-0.25,26.32,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,FMA,FMA,-0.04,26.93,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,MAM,MAM,0.16,27.45,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,AMJ,AMJ,0.47,27.86,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,MJJ,MJJ,0.79,27.98,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,JJA,JJA,1.1,27.95,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,JAS,JAS,1.27,27.79,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,ASO,ASO,1.55,27.87,El Nino,Strong,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,SON,SON,1.7,27.93,El Nino,Strong,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,OND,OND,1.82,28.02,El Nino,Strong,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1965,NDJ,NDJ,1.6,27.83,El Nino,Strong,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,DJF,DJF,1.24,27.61,El Nino,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,JFM,JFM,0.95,27.6,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,FMA,FMA,0.76,27.79,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,MAM,MAM,0.43,27.77,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,AMJ,AMJ,0.24,27.68,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,MJJ,MJJ,0.18,27.44,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,JJA,JJA,0.25,27.18,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,JAS,JAS,0.13,26.73,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,ASO,ASO,-0.09,26.34,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,SON,SON,-0.12,26.27,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,OND,OND,-0.23,26.17,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1966,NDJ,NDJ,-0.35,26.02,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,DJF,DJF,-0.46,25.97,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,JFM,JFM,-0.48,26.18,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,FMA,FMA,-0.5,26.53,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,MAM,MAM,-0.37,26.97,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,AMJ,AMJ,-0.15,27.3,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,MJJ,MJJ,0.05,27.31,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,JJA,JJA,-0.02,26.92,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,JAS,JAS,-0.26,26.33,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,ASO,ASO,-0.4,26.03,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,SON,SON,-0.4,25.99,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,OND,OND,-0.36,26.03,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1967,NDJ,NDJ,-0.42,25.95,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,DJF,DJF,-0.62,25.81,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,JFM,JFM,-0.73,25.92,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,FMA,FMA,-0.63,26.41,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,MAM,MAM,-0.48,26.85,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,AMJ,AMJ,-0.1,27.35,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,MJJ,MJJ,0.17,27.43,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,JJA,JJA,0.44,27.37,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,JAS,JAS,0.38,26.97,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,ASO,ASO,0.34,26.78,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,SON,SON,0.5,26.9,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,OND,OND,0.66,27.06,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1968,NDJ,NDJ,0.93,27.3,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,DJF,DJF,0.98,27.42,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,JFM,JFM,0.98,27.63,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,FMA,FMA,0.77,27.8,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,MAM,MAM,0.69,28.02,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,AMJ,AMJ,0.62,28.06,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,MJJ,MJJ,0.48,27.74,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,JJA,JJA,0.37,27.3,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,JAS,JAS,0.41,27.0,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,ASO,ASO,0.61,27.04,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,SON,SON,0.71,27.11,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,OND,OND,0.81,27.21,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1969,NDJ,NDJ,0.71,27.08,El Nino,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,DJF,DJF,0.46,26.89,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,JFM,JFM,0.23,26.89,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,FMA,FMA,0.23,27.27,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,MAM,MAM,0.28,27.61,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,AMJ,AMJ,0.11,27.56,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,MJJ,MJJ,-0.26,27.0,Neutral,Neutral,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,JJA,JJA,-0.55,26.38,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,JAS,JAS,-0.72,25.88,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,ASO,ASO,-0.69,25.74,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,SON,SON,-0.72,25.67,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,OND,OND,-0.78,25.61,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1970,NDJ,NDJ,-1.1,25.29,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1971,DJF,DJF,-1.29,25.17,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1971,JFM,JFM,-1.36,25.34,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1971,FMA,FMA,-1.08,25.97,La Nina,Moderate,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1971,MAM,MAM,-0.81,26.55,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1971,AMJ,AMJ,-0.72,26.76,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1971,MJJ,MJJ,-0.69,26.62,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt
+1971,JJA,JJA,-0.68,26.3,La Nina,Weak,OBSERVED_DATA,NOAA Climate Prediction Center (CPC),https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt

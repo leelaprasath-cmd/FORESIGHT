@@ -1,0 +1,11 @@
+feature,meaning,unit,source,expected_direction,data_type
+rainfall_deficit_pct,Percentage deficit below IMD 30-year normal monsoon rainfall,Percentage (%),India Meteorological Department (IMD),Positive (+ Risk),FLOAT / DERIVED
+temp_anomaly_c,Temperature deviation above 30-year normal in Celsius,Degrees C,India Meteorological Department (IMD),Positive (+ Risk),FLOAT / DERIVED
+reservoir_level_pct,Current water storage capacity percentage in local dams,Percentage (%),Central Water Commission (CWC) & State PWDs,Negative (- Risk),FLOAT / DERIVED
+soil_moisture_index,Satellite topsoil moisture index (0-1),Index (0-1),ISRO MOSDAC / Soil Moisture Active Passive (SMAP),Negative (- Risk),FLOAT / MISSING
+area_sown_hectares,Total district land cultivated under primary crop,Hectares (ha),Directorate of Economics & Statistics (DES),Neutral,FLOAT / REAL
+historical_yield_tonnes_per_hectare,Normal crop yield per hectare,t/ha,Directorate of Economics & Statistics (DES),Negative (- Risk),FLOAT / REAL
+storage_capacity_tonnes,Total licensed warehouse and silo capacity in district,Metric Tonnes,"FCI, CWC & State Warehousing Corporations",Negative (- Risk),FLOAT / REAL
+projected_demand_tonnes_30d,Estimated 30-day district population food demand,Metric Tonnes,Census 2011 & ICMR Dietary Guidelines,Positive (+ Risk),FLOAT / DERIVED
+current_market_price_rs_per_kg,Wholesale/Retail market price of crop,Rs/kg,AGMARKNET / Ministry of Consumer Affairs,Positive (+ Risk),FLOAT / REAL
+distance_to_nearest_hub_km,Geographic distance to nearest regional food storage hub,Kilometers (km),NHAI & GIS Distance Engine,Positive (+ Risk),FLOAT / DERIVED

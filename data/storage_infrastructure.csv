@@ -1,0 +1,666 @@
+state_name,district_name,latitude,longitude,swc_capacity_tonnes,fci_capacity_tonnes,cold_storage_capacity_tonnes,total_storage_capacity_tonnes,current_stock_tonnes,source,source_url,data_type
+Andhra Pradesh,Anantapur,15.9579,79.35,29662.0,64662.0,2662.0,96986.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,Chittoor,15.5079,79.215,45183.0,45183.0,4183.0,94549.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,East Godavari,16.4379,79.215,49092.0,69092.0,4592.0,122776.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,Guntur,15.6429,79.41,59514.0,89514.0,4514.0,153542.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,Krishna,15.1629,80.04,50064.0,40064.0,2064.0,92192.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,Kurnool,16.6479,80.475,51540.0,91540.0,3540.0,146620.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,Prakasam,15.7329,79.575,50301.0,50301.0,2301.0,102903.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,Srikakulam,15.1779,79.62,46928.0,61928.0,2428.0,111284.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,Visakhapatnam,16.4829,79.095,55917.0,35917.0,4417.0,96251.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,Vizianagaram,16.3929,80.19,46418.0,86418.0,1918.0,134754.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,West Godavari,16.5429,80.1,53810.0,63810.0,2310.0,119930.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,YSR Kadapa,15.4179,80.16,29587.0,69587.0,2587.0,101761.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andhra Pradesh,Nellore,16.2129,80.355,36794.0,36794.0,2794.0,76382.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Arunachal Pradesh,Changlang,27.783,94.0228,20952.0,22952.0,1052.0,44956.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Arunachal Pradesh,East Kameng,27.603,94.5028,28143.0,25143.0,1043.0,54329.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Arunachal Pradesh,East Siang,28.788,94.8778,16577.0,38577.0,1477.0,56631.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Arunachal Pradesh,Lohit,27.753,95.3878,24025.0,34025.0,525.0,58575.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Arunachal Pradesh,Papum Pare,27.588,95.3428,19782.0,31782.0,1082.0,52646.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Arunachal Pradesh,Tawang,27.978,94.9078,20586.0,29586.0,686.0,50858.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Arunachal Pradesh,Tirap,28.608,95.1328,26665.0,30665.0,765.0,58095.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Arunachal Pradesh,West Kameng,28.218,94.7878,12805.0,21805.0,1305.0,35915.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Baksa,26.7706,93.5976,26315.0,30315.0,1615.0,58245.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Barpeta,26.9056,93.0126,28195.0,23195.0,1095.0,52485.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Cachar,26.8156,92.2476,14076.0,33076.0,1376.0,48528.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Darrang,26.1106,92.6826,28045.0,39045.0,945.0,68035.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Dhubri,25.6306,92.6826,28008.0,22008.0,908.0,50924.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Dibrugarh,26.0806,93.5076,16240.0,35240.0,1140.0,52620.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Goalpara,26.7106,92.8176,17181.0,23181.0,881.0,41243.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Golaghat,25.7506,92.2926,23166.0,18166.0,866.0,42198.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Jorhat,26.3056,92.3226,29493.0,15493.0,1193.0,46179.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Kamrup,26.6956,93.1026,29939.0,21939.0,1639.0,53517.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Kamrup Metropolitan,25.9306,93.6126,24742.0,15742.0,1242.0,41726.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Karbi Anglong,26.4706,93.1776,20284.0,27284.0,1584.0,49152.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Karimganj,25.8406,92.8626,13300.0,29300.0,600.0,43200.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Kokrajhar,25.4806,92.7126,23411.0,34411.0,1111.0,58933.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Nagaon,25.5256,93.5976,15705.0,31705.0,605.0,48015.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Sivasagar,26.7556,93.3426,24983.0,25983.0,1483.0,52449.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Sonitpur,26.8306,92.3826,28416.0,20416.0,1316.0,50148.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Assam,Tinsukia,26.5606,93.6576,14909.0,24909.0,1009.0,40827.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Araria,25.3661,85.7481,15663.0,17663.0,563.0,33889.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Aurangabad,25.6361,85.9881,15908.0,39908.0,808.0,56624.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Banka,25.2011,85.7631,27680.0,30680.0,580.0,58940.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Begusarai,24.9611,84.6381,23211.0,23211.0,911.0,47333.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Bhagalpur,25.6511,84.6381,21627.0,28627.0,527.0,50781.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Bhojpur,25.8011,84.8631,18297.0,18297.0,797.0,37391.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Buxar,24.6011,85.9581,18274.0,30274.0,774.0,49322.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Darbhanga,25.6061,85.8681,27869.0,34869.0,769.0,63507.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Gaya,24.3611,85.7931,13577.0,17577.0,877.0,32031.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Gopalganj,24.8711,85.5531,16194.0,31194.0,1094.0,48482.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Jamui,24.6911,85.3431,26731.0,39731.0,831.0,67293.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Jehanabad,25.2461,85.5681,24632.0,21632.0,1132.0,47396.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Katihar,24.6761,86.0181,21133.0,34133.0,1233.0,56499.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Khagaria,25.3811,85.5531,16291.0,22291.0,1191.0,39773.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,KishanGanj,25.3961,85.7931,14167.0,27167.0,1467.0,42801.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Lakhisarai,24.7811,84.9681,17242.0,23242.0,942.0,41426.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Madhepura,25.0361,84.8481,15068.0,34068.0,1168.0,50304.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Madhubani,24.7061,85.8681,21464.0,29464.0,1564.0,52492.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Munger,25.2461,84.6231,26343.0,22343.0,1643.0,50329.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Muzaffarpur,24.5111,84.6231,22063.0,16063.0,963.0,39089.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Nalanda,25.4261,85.1181,12441.0,16441.0,941.0,29823.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Nawada,24.9161,85.0881,29336.0,24336.0,1036.0,54708.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Pashchim Champaran,24.6011,85.4481,25495.0,36495.0,795.0,62785.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Patna,25.5941,85.1376,14906.0,23906.0,1006.0,39818.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Purba Champaran,25.4411,85.0281,21435.0,22435.0,1535.0,45405.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Purnia,25.1861,85.6581,21036.0,25036.0,1136.0,47208.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Rohtas,25.2011,84.8931,15929.0,37929.0,829.0,54687.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Saharsa,25.5311,84.6081,24778.0,15778.0,1278.0,41834.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Samastipur,25.0661,85.2681,14181.0,22181.0,1481.0,37843.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Saran,25.0961,85.0431,29413.0,19413.0,1113.0,49939.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Sheikhpura,24.6761,84.9531,23486.0,21486.0,1186.0,46158.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Sheohar,25.4711,85.5831,27062.0,21062.0,1162.0,49286.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Sitamarhi,24.9161,85.0131,19145.0,28145.0,1645.0,48935.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Siwan,25.2761,84.5781,13751.0,26751.0,1051.0,41553.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Supaul,24.3911,85.3281,19456.0,23456.0,756.0,43668.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Bihar,Vaishali,25.2611,85.6281,26202.0,17202.0,1502.0,44906.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Bastar,20.9937,82.4361,27036.0,20036.0,1136.0,48208.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Bilaspur,21.5637,82.0311,21037.0,24037.0,1137.0,46211.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Dantewada,20.5737,82.4211,15296.0,34296.0,1396.0,50988.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Dhamtari,21.6387,81.3411,22106.0,30106.0,1006.0,53218.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Durg,21.8487,81.7311,27724.0,25724.0,624.0,54072.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Janjgir-Champa,21.6087,82.4361,17016.0,39016.0,716.0,56748.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Jashpur,21.1887,81.8361,26753.0,33753.0,853.0,61359.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Kanker,21.5787,81.7611,29993.0,20993.0,1693.0,52679.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Korba,20.6787,81.2661,19824.0,23824.0,1124.0,44772.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Koriya,21.2787,81.9861,24496.0,19496.0,996.0,44988.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Mahasamund,20.9937,81.9711,20842.0,20842.0,942.0,42626.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Raigarh,20.6337,81.8661,25596.0,27596.0,896.0,54088.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Raipur,21.0087,81.4461,28459.0,22459.0,1359.0,52277.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Rajnandgaon,21.0087,81.4311,22018.0,36018.0,918.0,58954.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chhattisgarh,Surguja,20.7387,82.1811,20660.0,28660.0,760.0,50080.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Goa,North Goa,15.2393,74.829,29704.0,32704.0,1404.0,63812.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Goa,South Goa,15.5693,74.784,20151.0,34151.0,1451.0,55753.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Ahmedabad,23.0225,72.5714,54481.0,54481.0,4481.0,113443.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Amreli,22.0937,71.2224,40442.0,84442.0,9442.0,134326.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Anand,22.4837,71.7924,44254.0,72254.0,3754.0,120262.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Banaskantha,22.7837,71.3574,38776.0,72776.0,6276.0,117828.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Bharuch,21.7787,70.7124,37801.0,81801.0,3801.0,123403.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Bhavnagar,22.2737,71.8974,59487.0,83487.0,7987.0,150961.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Dahod,22.3787,71.2824,57897.0,66897.0,5897.0,130691.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Gandhinagar,22.4987,70.4574,47266.0,53266.0,9266.0,109798.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Jamnagar,22.3487,70.5174,40896.0,78896.0,9896.0,129688.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Junagadh,21.7337,70.7274,38919.0,52919.0,5419.0,97257.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Kheda,21.5387,71.2674,44371.0,60371.0,4371.0,109113.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Kutch,22.2737,71.6124,32137.0,67137.0,9137.0,108411.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Mehsana,22.9787,71.0424,48875.0,59875.0,7375.0,116125.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Narmada,22.4837,71.6874,61772.0,61772.0,4772.0,128316.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Navsari,21.8237,71.8674,34947.0,71947.0,5947.0,112841.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Panchmahal,22.0787,70.7274,42919.0,77919.0,4919.0,125757.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Patan,21.9887,71.4174,61164.0,47164.0,6664.0,114992.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Porbandar,22.3037,71.7474,48833.0,63833.0,8833.0,121499.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Rajkot,22.0337,71.8974,49541.0,39541.0,7041.0,96123.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Sabarkantha,22.0187,71.7924,55313.0,61313.0,7313.0,123939.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Surat,22.9937,70.9074,57111.0,68111.0,4111.0,129333.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Surendranagar,21.6287,71.1624,57844.0,67844.0,5844.0,131532.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Tapi,22.2287,71.4024,43031.0,57031.0,5031.0,105093.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Vadodara,22.5287,71.4324,45442.0,64442.0,9942.0,119826.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Gujarat,Valsad,22.8137,71.5224,63438.0,63438.0,5938.0,132814.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Ambala,29.2088,75.5756,97275.0,122275.0,3475.0,223025.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Bhiwani,29.1488,76.6256,57628.0,177628.0,1328.0,236584.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Faridabad,29.7638,75.4856,100044.0,130044.0,1244.0,231332.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Fatehabad,28.9988,76.4906,96691.0,91691.0,2891.0,191273.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Gurugram,29.3738,76.6856,57018.0,157018.0,3218.0,217254.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Hisar,28.7138,76.0856,70143.0,150143.0,1343.0,221629.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Jhajjar,28.8638,75.7256,93608.0,143608.0,2308.0,239524.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Jind,29.7938,76.0706,47000.0,97000.0,3200.0,147200.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Kaithal,29.4188,75.8306,71974.0,116974.0,3174.0,192122.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Karnal,28.6088,76.7006,81115.0,96115.0,2315.0,179545.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Kurukshetra,28.6238,76.4456,62654.0,72654.0,1354.0,136662.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Mahendragarh,29.1188,75.7556,68860.0,83860.0,2560.0,155280.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Nuh,29.1938,75.9806,47838.0,167838.0,1538.0,217214.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Palwal,28.6838,75.5456,72836.0,157836.0,1536.0,232208.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Panchkula,29.0888,75.8906,103030.0,183030.0,1730.0,287790.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Panipat,29.3588,76.2356,105889.0,135889.0,2089.0,243867.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Rewari,28.3688,76.2206,68571.0,163571.0,2271.0,234413.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Rohtak,28.4288,75.3656,99742.0,74742.0,3442.0,177926.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Sirsa,28.6988,76.1756,73234.0,168234.0,1934.0,243402.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Sonipat,28.9538,76.6406,109290.0,104290.0,2990.0,216570.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Haryana,Yamunanagar,29.4488,75.8456,51033.0,81033.0,2233.0,134299.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Bilaspur,31.3898,77.5484,21037.0,24037.0,1137.0,46211.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Chamba,31.6748,76.5134,20987.0,16987.0,1087.0,39061.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Hamirpur,31.1948,77.5784,22452.0,18452.0,1352.0,42256.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Kangra,30.7598,76.4834,26602.0,24602.0,702.0,51906.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Kinnaur,31.6148,77.2034,14096.0,38096.0,1396.0,53588.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Kullu,31.1498,77.5034,29949.0,23949.0,1649.0,55547.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Lahaul and Spiti,31.7048,77.5934,19676.0,24676.0,976.0,45328.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Mandi,30.9548,76.8284,14973.0,36973.0,1073.0,53019.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Shimla,30.8348,77.4434,24767.0,32767.0,1267.0,58801.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Sirmaur,31.0148,77.0234,20835.0,29835.0,935.0,51605.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Solan,31.2548,76.6484,16977.0,34977.0,677.0,52631.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Himachal Pradesh,Una,31.1198,76.5884,24645.0,25645.0,1145.0,51435.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Bokaro,24.0152,85.3999,27918.0,23918.0,818.0,52654.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Chatra,23.9102,85.9249,18132.0,27132.0,632.0,45896.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Deoghar,23.7452,85.3099,25069.0,29069.0,1569.0,55707.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Dhanbad,23.9402,85.5499,19208.0,29208.0,508.0,48924.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Dumka,23.8802,85.0399,29802.0,29802.0,1502.0,61106.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,East Singhbhum,22.9952,85.6549,26471.0,18471.0,571.0,45513.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Garhwa,24.0302,84.8299,27976.0,17976.0,876.0,46828.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Giridih,24.0002,84.7099,20181.0,27181.0,1481.0,48843.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Godda,24.0902,85.3999,19096.0,39096.0,1596.0,59788.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Gumla,23.1902,84.8449,12480.0,31480.0,980.0,44940.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Hazaribag,23.7452,84.8149,28119.0,16119.0,1019.0,45257.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Jamtara,23.9252,85.7749,20734.0,23734.0,834.0,45302.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Khunti,23.4452,85.6849,25941.0,28941.0,1241.0,56123.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Koderma,24.0752,85.8199,28291.0,31291.0,1191.0,60773.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Latehar,23.4752,85.0099,16850.0,39850.0,550.0,57250.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Lohardaga,24.2402,85.5349,19594.0,38594.0,894.0,59082.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Pakur,23.7452,85.9999,25011.0,32011.0,1511.0,58533.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Palamu,23.3552,85.0249,22247.0,18247.0,1147.0,41641.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Ramgarh,23.1602,85.9849,16798.0,15798.0,1698.0,34294.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Ranchi,23.7452,84.7849,22182.0,22182.0,1082.0,45446.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Sahibganj,24.2852,85.9699,12591.0,17591.0,1091.0,31273.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Saraikela Kharsawan,23.4452,85.4899,24422.0,26422.0,922.0,51766.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,Simdega,24.1802,85.8049,20684.0,18684.0,784.0,40152.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jharkhand,West Singhbhum,23.4602,84.7699,29566.0,28566.0,1266.0,59398.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Bagalkote,14.9423,75.7889,20565.0,21565.0,665.0,42795.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Ballari,15.4073,75.0539,22972.0,39972.0,672.0,63616.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Belagavi,14.6123,75.5339,14975.0,27975.0,1075.0,44025.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Bengaluru Rural,15.3923,76.2689,16205.0,31205.0,1105.0,48515.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Bengaluru Urban,12.9716,77.5946,25465.0,24465.0,765.0,50695.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Bidar,15.1523,76.0589,12273.0,31273.0,773.0,44319.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Chamarajanagara,14.7323,75.0239,19890.0,19890.0,1190.0,40970.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Chikkaballapura,15.2873,75.2339,25417.0,16417.0,717.0,42551.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Chikkamagaluru,15.9473,76.2689,28355.0,33355.0,1255.0,62965.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Chitradurga,15.0173,75.5039,15447.0,31447.0,1547.0,48441.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Dakshina Kannada,14.9873,75.5039,16188.0,28188.0,1088.0,45464.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Davanagere,14.7323,75.7889,22135.0,31135.0,1035.0,54305.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Dharwad,15.3473,75.1889,12419.0,33419.0,919.0,46757.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Gadag,15.7673,76.2539,17695.0,35695.0,1395.0,54785.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Hassan,15.9923,75.7289,15574.0,26574.0,1674.0,43822.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Haveri,14.7623,76.3289,16793.0,34793.0,1693.0,53279.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Kalaburagi,14.6873,75.6239,22305.0,36305.0,1205.0,59815.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Kodagu,14.8673,75.8039,13008.0,29008.0,1508.0,43524.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Kolar,15.8273,75.4139,18020.0,37020.0,520.0,55560.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Koppal,15.5423,75.3539,13205.0,17205.0,505.0,30915.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Mandya,14.7473,75.3389,15240.0,30240.0,1340.0,46820.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Mysuru,14.6273,75.1739,18302.0,24302.0,802.0,43406.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Raichur,15.7373,75.9089,19067.0,39067.0,1567.0,59701.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Ramanagara,15.4073,76.3889,20373.0,20373.0,1673.0,42419.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Shivamogga,14.6873,76.2839,20916.0,32916.0,1016.0,54848.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Tumakuru,15.0473,76.1039,14522.0,19522.0,622.0,34666.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Udupi,15.9473,75.9989,19874.0,27874.0,1174.0,48922.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Uttara Kannada,15.8423,76.2239,16885.0,25885.0,585.0,43355.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Vijayapura,14.7323,76.1939,22773.0,33773.0,1673.0,58219.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Karnataka,Yadgir,15.7223,75.2489,16824.0,20824.0,524.0,38172.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Alappuzha,10.6405,75.7011,13961.0,21961.0,1261.0,37183.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Ernakulam,11.3305,76.0161,19140.0,37140.0,1640.0,57920.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Idukki,10.8355,76.5261,22705.0,37705.0,1605.0,62015.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Kannur,10.3255,76.2711,16903.0,19903.0,603.0,37409.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Kasaragod,10.4905,76.0611,16648.0,36648.0,1548.0,54844.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Kollam,10.5505,76.7961,26359.0,27359.0,1659.0,55377.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Kottayam,10.4605,76.8111,17603.0,37603.0,1303.0,56509.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Kozhikode,11.1655,75.9561,18446.0,15446.0,946.0,34838.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Malappuram,10.9855,77.0061,26661.0,28661.0,761.0,56083.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Palakkad,10.6855,75.7911,26557.0,26557.0,657.0,53771.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Pathanamthitta,10.2505,75.9711,19258.0,37258.0,558.0,57074.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Thiruvananthapuram,8.5241,76.9366,15137.0,20137.0,1237.0,36511.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Thrissur,11.3155,76.2261,26401.0,28401.0,501.0,55303.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Kerala,Wayanad,10.2655,76.8561,20218.0,24218.0,1518.0,45954.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Anuppur,23.4534,77.9069,55165.0,40165.0,4665.0,99995.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Ashoknagar,22.7634,78.7919,45410.0,55410.0,11910.0,112730.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Balaghat,23.3034,79.3019,71249.0,71249.0,11749.0,154247.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Barwani,22.9134,79.0319,55595.0,80595.0,5095.0,141285.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Betul,22.3134,78.9269,53356.0,88356.0,4856.0,146568.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Bhind,23.3784,78.4169,71788.0,66788.0,7288.0,145864.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Bhopal,23.2599,77.4126,73118.0,93118.0,9618.0,175854.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Burhanpur,23.3484,79.0169,44766.0,109766.0,10266.0,164798.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Chhatarpur,22.3884,78.5819,33758.0,43758.0,8258.0,85774.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Chhindwara,22.5234,77.9069,64100.0,99100.0,7600.0,170800.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Damoh,23.4534,78.3419,54144.0,84144.0,8644.0,146932.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Datia,22.7934,78.7619,47612.0,97612.0,6112.0,151336.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Dewas,22.5534,79.2719,66231.0,111231.0,11731.0,189193.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Dhar,22.7184,77.9069,72085.0,107085.0,7585.0,186755.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Dindori,22.4334,78.9119,33323.0,108323.0,8823.0,150469.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Guna,23.6934,78.1919,62066.0,77066.0,9566.0,148698.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Gwalior,23.1684,79.1819,52801.0,87801.0,12301.0,152903.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Harda,23.4084,78.1169,52562.0,72562.0,5062.0,130186.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Hoshangabad,23.0934,78.3569,49029.0,94029.0,10529.0,153587.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Indore,22.8234,77.9669,55958.0,75958.0,8458.0,140374.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Jabalpur,22.2834,78.7169,59367.0,94367.0,10867.0,164601.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Jhabua,22.7484,78.4019,37204.0,102204.0,10704.0,150112.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Katni,23.1384,79.3619,53829.0,83829.0,8329.0,145987.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Khandwa,23.2434,78.6569,30833.0,105833.0,6333.0,142999.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Khargone,22.5234,78.3419,62363.0,82363.0,6863.0,151589.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Mandla,23.4084,78.9119,38303.0,108303.0,8803.0,155409.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Mandsaur,23.1834,78.8969,41949.0,76949.0,9449.0,128347.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Morena,22.9284,79.0019,57446.0,77446.0,9946.0,144838.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Narsinghpur,22.9284,78.9119,58761.0,68761.0,9261.0,136783.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Neemuch,23.3034,78.7919,37075.0,82075.0,6575.0,125725.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Panna,22.6284,78.1769,31087.0,66087.0,6587.0,103761.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Raisen,22.4634,78.6419,43281.0,78281.0,10781.0,132343.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Rajgarh,22.6884,78.9719,49938.0,49938.0,6438.0,106314.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Ratlam,23.5434,78.6719,55742.0,50742.0,7242.0,113726.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Rewa,22.3884,78.3269,43259.0,118259.0,10759.0,172277.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Sagar,22.9734,78.7919,73628.0,88628.0,5128.0,167384.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Satna,22.4334,78.8369,46408.0,76408.0,8908.0,131724.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Sehore,23.1834,78.0419,60328.0,45328.0,9828.0,115484.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Seoni,22.8234,78.3119,42608.0,57608.0,6108.0,106324.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Shahdol,23.1234,78.2219,72763.0,82763.0,7263.0,162789.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Shajapur,22.7184,78.4469,56283.0,41283.0,5783.0,103349.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Sheopur,22.2984,79.3919,47547.0,92547.0,9047.0,149141.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Shivpuri,23.4834,78.0869,44889.0,69889.0,10389.0,125167.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Sidhi,22.7184,79.1369,63026.0,58026.0,6526.0,127578.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Singrauli,22.4484,78.1619,43972.0,113972.0,6472.0,164416.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Tikamgarh,22.7634,79.2269,42283.0,102283.0,10783.0,155349.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Ujjain,22.7334,78.8969,47235.0,42235.0,6735.0,96205.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Umaria,22.3884,78.9419,68502.0,113502.0,6002.0,188006.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Madhya Pradesh,Vidisha,22.3584,78.9869,42327.0,72327.0,4827.0,119481.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Ahmednagar,19.5565,76.3289,41421.0,82421.0,7921.0,131763.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Akola,19.9015,75.8939,58326.0,40326.0,7326.0,105978.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Amravati,19.3315,75.7739,45916.0,73916.0,6916.0,126748.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Aurangabad,20.2915,74.9639,39908.0,84908.0,7408.0,132224.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Beed,19.4965,76.3889,37829.0,78829.0,8329.0,124987.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Bhandara,19.7815,76.3589,40254.0,78254.0,3754.0,122262.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Buldhana,20.3365,75.5639,37963.0,59963.0,9963.0,107889.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Chandrapur,19.9465,75.6089,30472.0,53472.0,4472.0,88416.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Dhule,19.8565,75.7589,49911.0,44911.0,5911.0,100733.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Gadchiroli,20.4565,76.1939,65770.0,55770.0,8770.0,130310.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Gondia,19.6015,75.8189,55604.0,46604.0,8604.0,110812.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Hingoli,19.1665,75.9389,46856.0,60856.0,7356.0,115068.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Jalgaon,19.3615,75.3539,33218.0,63218.0,4218.0,100654.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Jalna,19.6465,75.2939,59266.0,51266.0,8766.0,119298.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Kolhapur,19.1065,76.4039,31886.0,62886.0,4386.0,99158.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Latur,19.5265,75.2339,43173.0,60173.0,6673.0,110019.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Mumbai City,19.076,72.8777,41725.0,67725.0,8225.0,117675.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Mumbai Suburban,19.8115,76.2689,54770.0,34770.0,3770.0,93310.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Nagpur,19.9765,75.5189,55974.0,68974.0,8974.0,133922.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Nanded,20.1715,75.9539,37883.0,45883.0,4383.0,88149.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Nandurbar,20.2465,76.4039,51640.0,84640.0,7140.0,143420.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Nashik,19.9975,73.7898,57236.0,38236.0,9236.0,104708.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Osmanabad,19.1515,75.7889,57602.0,65602.0,7102.0,130306.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Palghar,19.2415,75.2789,57904.0,60904.0,5904.0,124712.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Parbhani,20.3815,75.4289,55977.0,53977.0,4477.0,114431.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Pune,18.5204,73.8567,58801.0,84801.0,7801.0,151403.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Raigad,19.9015,76.1489,65840.0,68840.0,7340.0,142020.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Ratnagiri,20.1415,75.1289,47979.0,70979.0,3979.0,122937.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Sangli,20.0815,76.4339,34552.0,70552.0,6052.0,111156.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Satara,20.2315,75.6239,40086.0,63086.0,6586.0,109758.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Sindhudurg,19.7815,75.0689,58376.0,30376.0,8376.0,97128.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Solapur,17.6599,75.9064,36299.0,79299.0,7799.0,123397.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Thane,19.1065,76.0589,47996.0,45996.0,8996.0,102988.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Wardha,19.3015,76.4489,31442.0,61442.0,7942.0,100826.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Maharashtra,Yavatmal,19.2715,76.1189,45055.0,57055.0,9055.0,111165.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,Bishnupur,24.5137,93.4413,25263.0,17263.0,563.0,43089.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,Chandel,24.8137,93.3663,21649.0,24649.0,549.0,46847.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,Churachandpur,25.3687,93.8613,14437.0,35437.0,537.0,50411.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,Imphal,24.4687,94.4613,26606.0,34606.0,706.0,61918.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,East,25.0387,93.1713,15028.0,21028.0,1128.0,37184.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,Imphal,24.4687,94.4613,26606.0,34606.0,706.0,61918.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,West,25.2787,93.6513,15946.0,24946.0,846.0,41738.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,Senapati,24.2437,93.9063,29863.0,38863.0,1563.0,70289.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,Tamenglong,24.8887,93.7713,23387.0,30387.0,1087.0,54861.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,Thoubal,24.4537,93.3663,22422.0,32422.0,1322.0,56166.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Manipur,Ukhrul,24.4537,94.2063,19912.0,25912.0,1212.0,47036.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,East Garo Hills,25.527,90.6912,18139.0,19139.0,639.0,37917.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,East Jaintia Hills,25.617,91.0962,28839.0,18839.0,539.0,48217.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,East Khasi Hills,25.152,91.3962,15306.0,23306.0,1406.0,40018.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,North Garo Hills,26.022,91.3362,12562.0,27562.0,1062.0,41186.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,Ri Bhoi,24.792,91.2912,14919.0,26919.0,1019.0,42857.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,South Garo Hills,25.197,91.1562,28862.0,22862.0,562.0,52286.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,South West Garo Hills,25.197,91.3962,16261.0,25261.0,1161.0,42683.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,South West Khasi Hills,25.602,91.1262,20853.0,37853.0,953.0,59659.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,West Garo Hills,25.332,91.4262,20763.0,19763.0,863.0,41389.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,West Jaintia Hills,25.827,91.3662,15736.0,29736.0,636.0,46108.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Meghalaya,West Khasi Hills,24.972,92.0712,24530.0,38530.0,1030.0,64090.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Mizoram,Aizawl,23.7645,92.2026,23726.0,39726.0,1426.0,64878.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Mizoram,Champhai,22.6545,92.9226,16650.0,33650.0,1550.0,51850.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Mizoram,Kolasib,23.6595,93.5226,24142.0,34142.0,642.0,58926.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Mizoram,Lawngtlai,23.4795,92.3376,19134.0,36134.0,1634.0,56902.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Mizoram,Lunglei,22.8945,93.0276,15211.0,15211.0,1311.0,31733.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Mizoram,Mamit,23.6445,92.9526,17002.0,38002.0,702.0,55706.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Mizoram,Saiha,23.8695,93.1626,28199.0,17199.0,1099.0,46497.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Mizoram,Serchhip,23.1795,92.5326,25278.0,34278.0,578.0,60134.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Dimapur,26.3534,94.3374,27860.0,32860.0,760.0,61480.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Kiphire,26.4434,94.4424,13632.0,23632.0,932.0,38196.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Kohima,26.2784,94.8924,14112.0,30112.0,1412.0,45636.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Longleng,26.1884,94.9524,22120.0,32120.0,1020.0,55260.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Mokokchung,26.1734,94.8024,22172.0,18172.0,1072.0,41416.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Mon,26.7284,95.0874,22497.0,26497.0,1397.0,50391.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Peren,26.0984,95.0274,22693.0,18693.0,1593.0,42979.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Phek,26.1884,94.8924,19602.0,39602.0,902.0,60106.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Tuensang,25.6334,94.0524,22843.0,37843.0,543.0,61229.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Wokha,25.4834,94.8174,17480.0,25480.0,1180.0,44140.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Nagaland,Zunheboto,25.5884,94.2924,19659.0,28659.0,959.0,49277.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Angul,20.3667,85.2935,26687.0,16687.0,787.0,44161.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Balangir,21.0117,84.5735,25670.0,17670.0,970.0,44310.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Balasore,20.2467,84.3935,19915.0,37915.0,1215.0,59045.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Bargarh,20.3067,85.3985,26002.0,24002.0,1302.0,51306.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Bhadrak,20.8317,84.7685,21616.0,15616.0,516.0,37748.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Boudh,20.8917,85.5485,17556.0,35556.0,1256.0,54368.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Cuttack,20.4867,85.7735,13003.0,29003.0,1503.0,43509.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Deogarh,20.5317,85.4135,18326.0,26326.0,826.0,45478.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Dhenkanal,21.4167,84.9785,20165.0,34165.0,1465.0,55795.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Gajapati,21.1767,84.9035,14298.0,19298.0,1598.0,35194.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Ganjam,21.0117,85.4885,13289.0,17289.0,589.0,31167.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Jagatsinghapur,20.6967,85.0385,25653.0,27653.0,953.0,54259.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Jajpur,20.8467,85.4735,29394.0,20394.0,1094.0,50882.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Jharsuguda,20.9367,85.4735,15355.0,15355.0,1455.0,32165.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Kalahandi,21.3567,85.2335,24804.0,21804.0,1304.0,47912.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Kandhamal,21.5517,84.3935,14323.0,27323.0,1623.0,43269.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Kendrapara,20.3967,84.6335,16582.0,24582.0,1482.0,42646.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Kendujhar,20.2917,85.2185,24219.0,39219.0,719.0,64157.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Khordha,21.5367,84.7535,27497.0,23497.0,1597.0,52591.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Koraput,20.8467,85.3085,17456.0,24456.0,1156.0,43068.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Malkangiri,20.6067,85.2335,18166.0,26166.0,666.0,44998.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Mayurbhanj,20.8467,84.7835,12292.0,18292.0,792.0,31376.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Nabarangpur,21.2367,85.0685,26448.0,31448.0,548.0,58444.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Nayagarh,20.8017,84.5585,26891.0,37891.0,991.0,65773.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Nuapada,21.2517,85.0235,19901.0,29901.0,1201.0,51003.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Puri,20.6217,84.7685,22529.0,38529.0,1429.0,62487.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Rayagada,21.4767,84.3785,13739.0,36739.0,1039.0,51517.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Sambalpur,20.6667,84.7385,14884.0,31884.0,984.0,47752.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Subarnapur,20.5017,84.4385,15562.0,15562.0,1662.0,32786.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Odisha,Sundargarh,20.2167,85.4885,18466.0,18466.0,966.0,37898.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Amritsar,31.634,74.8723,97406.0,87406.0,3606.0,188418.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Barnala,31.2521,75.0712,55491.0,105491.0,1691.0,162673.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Bathinda,31.1771,75.9262,94264.0,69264.0,2964.0,166492.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Faridkot,31.6871,75.2662,91480.0,161480.0,2680.0,255640.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Fatehgarh Sahib,31.0421,74.6062,79958.0,179958.0,3658.0,263574.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Fazilka,31.2071,75.4612,97695.0,87695.0,1395.0,186785.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Firozpur,30.8471,75.0262,82360.0,137360.0,3560.0,223280.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Gurdaspur,31.0121,75.9262,56977.0,66977.0,3177.0,127131.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Hoshiarpur,30.6221,76.0762,90489.0,100489.0,1689.0,192667.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Jalandhar,31.8071,74.6062,57376.0,72376.0,3576.0,133328.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Kapurthala,30.5471,75.6712,75226.0,125226.0,1426.0,201878.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Ludhiana,30.901,75.8573,53096.0,178096.0,1796.0,232988.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Mansa,30.8771,75.6712,65250.0,145250.0,1450.0,211950.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Moga,30.9221,74.7562,80697.0,75697.0,1897.0,158291.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Muktsar,31.4321,75.8962,75212.0,110212.0,1412.0,186836.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Pathankot,31.2821,74.6962,79290.0,164290.0,2990.0,246570.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Patiala,31.8071,75.8062,91767.0,106767.0,2967.0,201501.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Rupnagar,30.4421,75.1012,86074.0,71074.0,2274.0,159422.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Sahibzada Ajit Singh Nagar,31.0571,75.7612,103664.0,143664.0,2364.0,249692.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Sangrur,31.2821,74.7862,56192.0,151192.0,2392.0,209776.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Shahid Bhagat Singh Nagar,31.7471,74.7112,87711.0,162711.0,1411.0,251833.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Punjab,Tarn Taran,31.1471,74.8012,49301.0,69301.0,3001.0,121603.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Ajmer,27.2638,74.1579,27051.0,30051.0,1151.0,58253.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Alwar,27.0838,74.2779,15866.0,35866.0,766.0,52498.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Banswara,27.1588,74.2179,27744.0,27744.0,644.0,56132.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Baran,26.7538,74.7279,29538.0,23538.0,1238.0,54314.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Barmer,26.9638,74.6079,29110.0,31110.0,810.0,61030.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Bharatpur,26.6788,74.1879,28277.0,31277.0,1177.0,60731.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Bhilwara,27.6538,73.4829,21969.0,33969.0,869.0,56807.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Bikaner,27.3688,74.2329,25171.0,31171.0,1671.0,58013.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Bundi,26.4988,73.9779,21371.0,36371.0,1471.0,59213.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Chittorgarh,26.9488,74.0979,13841.0,16841.0,1141.0,31823.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Churu,26.4988,73.6029,15371.0,36371.0,1471.0,53213.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Dausa,26.4238,74.3379,14447.0,25447.0,547.0,40441.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Dholpur,26.8888,73.9179,29408.0,39408.0,1108.0,69924.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Dungarpur,26.3488,74.6979,14621.0,29621.0,721.0,44963.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Ganganagar,27.3988,73.7229,13500.0,38500.0,800.0,52800.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Hanumangarh,26.7388,73.6629,17080.0,28080.0,780.0,45940.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Jaipur,26.9124,75.7873,22970.0,17970.0,670.0,41610.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Jaisalmer,27.0388,73.6479,15964.0,35964.0,864.0,52792.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Jalore,27.3688,74.4579,15309.0,31309.0,1409.0,48027.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Jhalawar,26.9338,74.2629,21458.0,15458.0,1558.0,38474.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Jhunjhunu,26.7988,73.9479,26224.0,32224.0,1524.0,59972.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Jodhpur,26.3638,74.7429,16041.0,32041.0,941.0,49023.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Karauli,26.6938,74.1129,15917.0,32917.0,817.0,49651.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Kota,27.2188,73.9629,25115.0,15115.0,1615.0,41845.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Nagaur,27.0838,73.8579,17101.0,19101.0,801.0,37003.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Pali,27.7588,74.0529,17234.0,37234.0,934.0,55402.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Pratapgarh,26.7988,73.7529,23630.0,16630.0,1330.0,41590.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Rajsamand,26.7538,73.8129,21381.0,39381.0,1481.0,62243.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Sawai Madhopur,26.9638,73.8279,20809.0,30809.0,909.0,52527.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Sikar,27.3538,74.7429,14070.0,22070.0,1370.0,37510.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Sirohi,27.0688,73.9029,14703.0,29703.0,803.0,45209.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Tonk,26.9638,74.5479,12349.0,19349.0,849.0,32547.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Rajasthan,Udaipur,26.4538,74.8779,12564.0,23564.0,1064.0,37192.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Sikkim,East Sikkim,28.223,88.4522,24611.0,17611.0,1111.0,43333.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Sikkim,North Sikkim,28.013,89.1572,16102.0,16102.0,1002.0,33206.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Sikkim,South Sikkim,27.023,88.1372,12462.0,21462.0,962.0,34886.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Sikkim,West Sikkim,27.263,87.9422,12764.0,15764.0,1264.0,29792.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Ariyalur,10.5871,78.9569,44806.0,74806.0,3806.0,123418.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Chengalpattu,11.3371,78.5519,46487.0,51487.0,1987.0,99961.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Chennai,13.0827,80.2707,55549.0,75549.0,4049.0,135147.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Coimbatore,11.0168,76.9558,36187.0,86187.0,2187.0,124561.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Cuddalore,10.9021,78.8669,41531.0,36531.0,4031.0,82093.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Dharmapuri,10.9321,78.3719,32857.0,42857.0,2357.0,78071.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Dindigul,11.2321,78.2969,37063.0,72063.0,3063.0,112189.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Erode,11.7271,78.6419,25829.0,55829.0,2329.0,83987.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Kanchipuram,11.1271,78.1319,45173.0,75173.0,4173.0,124519.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Kanyakumari,11.2771,79.2719,48553.0,73553.0,4053.0,126159.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Karur,11.7271,78.0119,51236.0,96236.0,3236.0,150708.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Krishnagiri,10.3921,79.2719,35551.0,85551.0,1551.0,122653.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Madurai,9.9252,78.1198,59605.0,79605.0,4605.0,143815.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Mayiladuthurai,11.6371,78.8669,49653.0,74653.0,1653.0,125959.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Nagapattinam,10.7672,79.8449,57467.0,42467.0,2467.0,102401.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Namakkal,11.0821,79.3469,49817.0,84817.0,1817.0,136451.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Nilgiris,10.6321,78.4469,42386.0,87386.0,4886.0,134658.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Perambalur,11.3221,78.6869,56879.0,36879.0,1879.0,95637.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Pudukkottai,11.8471,78.7469,25433.0,95433.0,1933.0,122799.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Ramanathapuram,11.2621,78.6419,25774.0,80774.0,2274.0,108822.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Ranipet,11.3221,79.3469,54510.0,99510.0,3010.0,157030.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Salem,11.4871,78.5519,39116.0,44116.0,1616.0,84848.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Sivaganga,11.6071,78.2969,57728.0,72728.0,2728.0,133184.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Tenkasi,11.4271,77.9819,50786.0,60786.0,2786.0,114358.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Thanjavur,10.787,79.1378,58508.0,53508.0,3508.0,115524.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Theni,10.6771,79.2419,56809.0,36809.0,1809.0,95427.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Thoothukudi,11.2021,79.3319,28349.0,53349.0,4849.0,86547.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Tiruchirappalli,10.7905,78.7047,44074.0,94074.0,3074.0,141222.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Tirunelveli,11.5771,78.6419,56660.0,71660.0,1660.0,129980.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Tirupathur,11.8321,78.5219,54561.0,39561.0,3061.0,97183.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Tiruppur,11.8321,78.1319,28094.0,63094.0,4594.0,95782.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Tiruvallur,11.5471,78.8969,59687.0,54687.0,4687.0,119061.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Tiruvannamalai,10.4221,77.9219,32518.0,52518.0,2018.0,87054.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Tiruvarur,11.0671,79.2869,55322.0,85322.0,3822.0,144466.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Vellore,11.0221,78.0569,42345.0,67345.0,4845.0,114535.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Viluppuram,11.0671,78.9419,44778.0,74778.0,3778.0,123334.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tamil Nadu,Virudhunagar,10.6321,78.5969,43173.0,63173.0,2173.0,108519.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Adilabad,17.9474,78.4193,37386.0,77386.0,3386.0,118158.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Bhadradri Kothagudem,18.2774,78.4343,43698.0,43698.0,2698.0,90094.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Hyderabad,17.385,78.4867,26946.0,81946.0,3446.0,112338.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Jagtial,17.6624,78.5543,29486.0,94486.0,2486.0,126458.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Jangaon,17.3924,79.1393,43444.0,73444.0,2444.0,119332.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Jayashankar Bhupalpally,18.7574,79.1993,26069.0,56069.0,2569.0,84707.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Jogulamba Gadwal,17.6624,79.6493,53736.0,38736.0,2236.0,94708.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Kamareddy,17.6324,79.3493,55888.0,40888.0,4388.0,101164.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Karimnagar,17.5724,78.6743,54333.0,84333.0,2833.0,141499.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Khammam,18.4424,79.1693,52753.0,97753.0,4753.0,155259.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Kumuram Bheem,18.0824,79.6643,29917.0,94917.0,2917.0,127751.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Mahabubabad,18.2474,78.4343,58789.0,53789.0,3789.0,116367.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Mahabubnagar,18.7874,79.1243,47120.0,87120.0,2620.0,136860.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Mancherial,17.6774,79.6643,28675.0,53675.0,1675.0,84025.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Medak,18.2924,79.2443,28719.0,38719.0,1719.0,69157.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Medchal Malkajgiri,18.5624,78.3743,36456.0,71456.0,2456.0,110368.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Mulugu,17.4224,78.5393,53008.0,98008.0,1508.0,152524.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Nagarkurnool,17.6624,79.1393,27151.0,52151.0,3651.0,82953.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Nalgonda,18.5624,79.6643,45983.0,70983.0,4983.0,121949.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Narayanpet,18.0224,79.0793,51942.0,91942.0,3942.0,147826.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Nirmal,18.6074,78.6443,27910.0,52910.0,4410.0,85230.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Nizamabad,18.8024,79.4993,48768.0,53768.0,4268.0,106804.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Peddapalli,18.3374,79.5143,55611.0,40611.0,4111.0,100333.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Rajanna Sircilla,18.4724,78.8093,41094.0,41094.0,3594.0,85782.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Rangareddy,18.6374,78.4793,36971.0,51971.0,2971.0,91913.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Sangareddy,18.0224,79.0493,27282.0,42282.0,3782.0,73346.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Siddipet,17.6774,78.9293,35120.0,75120.0,4620.0,114860.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Suryapet,18.5924,78.3443,56391.0,86391.0,4891.0,147673.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Vikarabad,18.2774,78.9593,34578.0,44578.0,4078.0,83234.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Wanaparthy,18.7424,79.1093,29095.0,59095.0,2095.0,90285.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Warangal,18.5324,79.0643,49261.0,84261.0,4761.0,138283.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Telangana,Yadadri Bhuvanagiri,18.5324,78.9443,29577.0,64577.0,2577.0,96731.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tripura,Dhalai,24.3758,91.4932,19595.0,35595.0,895.0,56085.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tripura,Gomati,24.6458,91.8382,21067.0,27067.0,1167.0,49301.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tripura,Khowai,23.4458,91.5232,14283.0,17283.0,1583.0,33149.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tripura,North Tripura,24.0158,92.1682,15266.0,23266.0,1366.0,39898.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tripura,Sepahijala,23.4908,91.8682,14650.0,21650.0,750.0,37050.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tripura,South Tripura,24.0608,92.2732,22665.0,30665.0,1565.0,54895.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tripura,Unakoti,24.5408,92.3032,23966.0,38966.0,1666.0,64598.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Tripura,West Tripura,24.3158,91.9132,15578.0,15578.0,1678.0,32834.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Agra,27.2517,81.6512,70094.0,85094.0,9594.0,164782.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Aligarh,27.5067,80.2862,66372.0,71372.0,11872.0,149616.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Prayagraj,26.2167,81.5162,44930.0,79930.0,12430.0,137290.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Ambedkar Nagar,27.1767,80.7212,40075.0,85075.0,9575.0,134725.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Amethi,26.9367,81.3062,71054.0,101054.0,9554.0,181662.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Amroha,27.1767,81.5912,72212.0,87212.0,11712.0,171136.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Auraiya,27.3417,80.3012,67828.0,107828.0,8328.0,183984.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Azamgarh,26.8767,80.9612,52848.0,42848.0,7348.0,103044.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Baghpat,26.8317,81.3512,53750.0,118750.0,11250.0,183750.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Bahraich,26.2317,80.2262,31704.0,81704.0,6204.0,119612.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Ballia,27.2967,81.6362,40614.0,85614.0,10114.0,136342.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Balrampur,27.3717,81.1862,49018.0,94018.0,10518.0,153554.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Banda,27.1917,81.3362,30680.0,90680.0,7180.0,128540.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Barabanki,27.3717,81.2612,56970.0,86970.0,11470.0,155410.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Bareilly,27.1767,80.7962,55901.0,65901.0,6401.0,128203.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Basti,26.3217,80.7512,38136.0,83136.0,7636.0,128908.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Bhadohi,26.5617,80.8112,38526.0,108526.0,9026.0,156078.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Bijnor,26.8167,80.5262,53604.0,98604.0,7104.0,159312.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Budaun,27.1017,81.3362,69201.0,69201.0,9701.0,148103.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Bulandshahr,26.9967,80.5412,58181.0,63181.0,11681.0,133043.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Chandauli,26.7717,81.6512,34924.0,44924.0,9424.0,89272.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Chitrakoot,26.6817,81.5162,74216.0,74216.0,6716.0,155148.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Deoria,26.5467,81.3962,58435.0,58435.0,6935.0,123805.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Etah,27.0867,81.3212,69410.0,74410.0,6910.0,150730.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Etawah,27.3117,80.2712,58341.0,48341.0,4841.0,111523.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Ayodhya,27.5817,80.8712,68504.0,78504.0,11004.0,158012.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Farrukhabad,26.9367,81.4862,53767.0,108767.0,9267.0,171801.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Fatehpur,27.1917,80.4362,63964.0,73964.0,6464.0,144392.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Firozabad,27.5367,81.0962,70394.0,85394.0,9894.0,165682.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Gautam Buddha Nagar,26.4717,81.0962,65279.0,60279.0,8779.0,134337.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Ghaziabad,26.8917,81.1862,46287.0,111287.0,11787.0,169361.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Ghazipur,26.5467,80.3912,45175.0,85175.0,9675.0,140025.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Gonda,27.1917,80.6162,54824.0,69824.0,10324.0,134972.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Gorakhpur,26.4717,80.6462,56872.0,91872.0,8372.0,157116.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Hamirpur,26.9367,81.5762,58452.0,68452.0,8952.0,135856.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Hapur,26.6817,81.4712,48911.0,93911.0,10411.0,153233.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Hardoi,26.9217,81.3362,71331.0,116331.0,8831.0,196493.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Hathras,26.6067,80.8862,57696.0,112696.0,5196.0,175588.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Jalaun,26.2917,80.8562,60413.0,60413.0,8913.0,129739.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Jaunpur,26.8017,81.2012,71415.0,41415.0,5915.0,118745.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Jhansi,27.4017,80.4812,35586.0,65586.0,6086.0,107258.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Kannauj,27.5667,81.1112,42185.0,82185.0,6685.0,131055.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Kanpur Dehat,26.7267,80.3012,62559.0,62559.0,11059.0,136177.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Kanpur Nagar,26.2917,81.1562,35296.0,65296.0,5796.0,106388.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Kasganj,27.3117,81.0812,72795.0,107795.0,8295.0,188885.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Kaushambi,26.3367,80.4812,59322.0,89322.0,5822.0,154466.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Kheri,26.8917,81.5162,41399.0,66399.0,6899.0,114697.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Kushinagar,26.9817,80.2262,58719.0,58719.0,7219.0,124657.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Lalitpur,26.7867,81.5762,40955.0,100955.0,9455.0,151365.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Lucknow,26.8467,80.9462,45658.0,65658.0,6158.0,117474.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Maharajganj,26.6067,80.6162,47927.0,87927.0,12427.0,148281.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Mahoba,26.1267,80.9762,63629.0,43629.0,8129.0,115387.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Mainpuri,26.8317,80.2712,32292.0,87292.0,11792.0,131376.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Mathura,26.8617,81.1712,74154.0,99154.0,7654.0,180962.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Mau,26.2617,81.3962,52195.0,107195.0,7695.0,167085.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Meerut,27.1917,80.2262,72915.0,77915.0,10415.0,161245.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Mirzapur,26.4867,80.8562,40689.0,55689.0,12189.0,108567.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Moradabad,26.6817,80.6312,44258.0,84258.0,8758.0,137274.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Muzaffarnagar,27.3417,80.9912,66641.0,96641.0,5141.0,168423.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Pilibhit,26.3067,81.3062,55714.0,95714.0,12214.0,163642.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Pratapgarh,26.6217,81.2912,41630.0,91630.0,8130.0,141390.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Raebareli,27.3567,81.2012,52197.0,82197.0,6697.0,141091.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Rampur,27.2067,81.3512,70742.0,70742.0,11242.0,152726.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Saharanpur,27.5067,80.4362,30843.0,100843.0,9343.0,141029.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Sambhal,26.5767,81.2012,48017.0,43017.0,7517.0,98551.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Sant Kabir Nagar,26.9067,80.8262,63592.0,83592.0,8092.0,155276.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Shahjahanpur,26.2917,80.2262,44166.0,69166.0,9666.0,122998.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Shamli,27.2067,80.6912,55501.0,95501.0,12001.0,163003.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Shravasti,27.5817,81.2762,64758.0,104758.0,5258.0,174774.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Siddharthnagar,26.1567,80.4362,72516.0,87516.0,12016.0,172048.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Sitapur,26.4567,80.4062,62727.0,92727.0,9227.0,164681.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Sonbhadra,26.7567,80.9762,49778.0,109778.0,10278.0,169834.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Sultanpur,26.5467,81.6212,60965.0,90965.0,7465.0,159395.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Unnao,27.3717,81.5462,56457.0,81457.0,5957.0,143871.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttar Pradesh,Varanasi,26.1717,80.8112,74749.0,49749.0,6249.0,130747.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Almora,29.3918,79.1543,21783.0,34783.0,683.0,57249.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Bageshwar,30.7718,79.3343,12428.0,23428.0,928.0,36784.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Chamoli,30.5018,78.4643,22918.0,26918.0,618.0,50454.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Champawat,30.6518,79.7093,26166.0,19166.0,1466.0,46798.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Dehradun,29.4818,79.3943,13013.0,27013.0,1513.0,41539.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Haridwar,29.6468,79.6943,19990.0,23990.0,1290.0,45270.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Nainital,29.4218,78.6893,26515.0,24515.0,615.0,51645.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Pauri Garhwal,29.4368,79.2443,28607.0,29607.0,1507.0,59721.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Pithoragarh,29.6468,78.6743,20256.0,22256.0,1556.0,44068.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Rudraprayag,30.7718,79.4093,19448.0,22448.0,748.0,42644.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Tehri Garhwal,30.4268,79.7393,23610.0,17610.0,1310.0,42530.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Udham Singh Nagar,29.6918,78.9593,26812.0,32812.0,912.0,60536.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Uttarakhand,Uttarkashi,29.3468,78.3443,22242.0,27242.0,1142.0,50626.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Alipurduar,23.4818,88.02,31118.0,71118.0,4118.0,106354.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Bankura,22.5818,87.495,29736.0,69736.0,2736.0,102208.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Birbhum,23.4218,88.125,57660.0,47660.0,2660.0,107980.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Cooch Behar,23.6018,87.705,57461.0,82461.0,2461.0,142383.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Dakshin Dinajpur,22.8668,88.26,51257.0,41257.0,3257.0,95771.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Darjeeling,23.0618,87.66,49658.0,64658.0,1658.0,115974.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Hooghly,22.8218,88.515,39120.0,54120.0,1620.0,94860.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Howrah,22.6718,87.75,26552.0,71552.0,3052.0,101156.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Jalpaiguri,23.2718,87.15,40132.0,45132.0,2632.0,87896.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Jhargram,22.7018,87.195,28600.0,38600.0,1600.0,68800.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Kalimpong,23.0018,87.42,30291.0,90291.0,3291.0,123873.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Kolkata,22.5726,88.3639,44370.0,44370.0,3370.0,92110.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Malda,22.9568,87.585,37862.0,37862.0,3862.0,79586.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Murshidabad,22.7018,87.375,57860.0,87860.0,2860.0,148580.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Nadia,22.7018,87.285,33127.0,78127.0,2627.0,113881.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,North 24 Parganas,23.0318,88.44,28571.0,63571.0,1571.0,93713.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Paschim Bardhaman,23.0618,88.44,28744.0,83744.0,1744.0,114232.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Paschim Medinipur,23.5868,87.93,29358.0,59358.0,2358.0,91074.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Purba Bardhaman,23.2324,87.8615,35009.0,80009.0,4509.0,119527.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Purba Medinipur,22.5668,87.75,42271.0,47271.0,4771.0,94313.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Purulia,22.6118,88.41,50872.0,70872.0,2872.0,124616.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,South 24 Parganas,23.0318,87.42,26544.0,71544.0,3044.0,101132.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+West Bengal,Uttar Dinajpur,22.5518,88.38,38090.0,68090.0,4090.0,110270.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andaman and Nicobar Islands,Nicobar,12.3551,93.3936,14026.0,19026.0,1326.0,34378.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andaman and Nicobar Islands,North and Middle Andaman,11.1701,92.5686,13356.0,36356.0,656.0,50368.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Andaman and Nicobar Islands,South Andaman,12.3401,92.1786,22589.0,31589.0,1489.0,55667.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Chandigarh,Chandigarh,31.0933,76.4944,22019.0,36019.0,919.0,58957.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Dadra and Nagar Haveli and Daman and Diu,Dadra and Nagar Haveli,19.9774,73.2678,13357.0,19357.0,657.0,33371.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Dadra and Nagar Haveli and Daman and Diu,Daman,20.9974,72.2778,12739.0,30739.0,1239.0,44717.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Dadra and Nagar Haveli and Daman and Diu,Diu,19.6624,72.3378,22839.0,28839.0,539.0,52217.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,Central Delhi,28.8991,77.8225,22344.0,32344.0,1244.0,55932.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,East Delhi,28.2241,77.5525,21595.0,38595.0,1695.0,61885.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,New Delhi,28.2391,77.0575,29200.0,15200.0,900.0,45300.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,North Delhi,29.3641,77.2525,13289.0,18289.0,589.0,32167.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,North East Delhi,29.3641,77.5525,26151.0,33151.0,1451.0,60753.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,North West Delhi,29.2591,77.4775,22192.0,26192.0,1092.0,49476.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,Shahdara,28.5991,76.6075,17124.0,17124.0,824.0,35072.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,South Delhi,28.8991,76.8325,16945.0,20945.0,645.0,38535.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,South East Delhi,29.0491,77.5075,13985.0,33985.0,1285.0,49255.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,South West Delhi,28.6741,77.1925,15430.0,19430.0,1530.0,36390.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Delhi,West Delhi,29.0941,76.7725,22052.0,15052.0,952.0,38056.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Anantnag,33.2982,76.6062,22402.0,39402.0,1302.0,63106.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Bandipora,33.9132,76.5012,29532.0,21532.0,1232.0,52296.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Baramulla,34.3932,76.4412,15393.0,25393.0,1493.0,42279.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Budgam,34.4532,77.1612,18504.0,29504.0,1004.0,49012.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Doda,33.8082,77.0562,18192.0,20192.0,692.0,39076.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Ganderbal,34.4532,76.1262,22209.0,39209.0,1109.0,62527.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Jammu,34.4982,77.0862,24742.0,29742.0,1242.0,55726.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Kathua,33.2082,76.6362,19155.0,20155.0,1655.0,40965.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Kishtwar,33.2532,75.9762,16693.0,21693.0,1593.0,39979.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Kulgam,34.0932,76.2762,22741.0,16741.0,1641.0,41123.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Kupwara,33.7032,76.6812,13807.0,22807.0,1107.0,37721.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Poonch,33.2532,76.8312,15498.0,18498.0,1598.0,35594.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Pulwama,33.8082,77.1762,25878.0,24878.0,1178.0,51934.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Rajouri,33.7182,77.2512,16263.0,38263.0,1163.0,55689.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Ramban,33.8082,76.0812,27384.0,17384.0,1484.0,46252.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Reasi,34.1682,76.6962,17217.0,30217.0,917.0,48351.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Samba,33.9882,77.2062,20421.0,32421.0,521.0,53363.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Shopian,33.1182,77.0712,22688.0,18688.0,1588.0,42964.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Srinagar,33.8982,76.7112,15050.0,19050.0,1150.0,35250.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Jammu and Kashmir,Udhampur,33.5832,76.3212,13044.0,29044.0,1544.0,43632.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Ladakh,Kargil,34.1526,77.7121,22547.0,24547.0,1447.0,48541.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Ladakh,Leh,34.3626,78.2071,28729.0,28729.0,1629.0,59087.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Lakshadweep,Lakshadweep,10.6117,72.5967,28884.0,38884.0,584.0,68352.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Puducherry,Karaikal,12.3316,80.4533,12986.0,32986.0,1486.0,47458.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Puducherry,Mahe,11.5966,79.2683,28283.0,39283.0,1183.0,68749.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Puducherry,Puducherry,12.6166,80.4833,20672.0,27672.0,772.0,49116.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL
+Puducherry,Yanam,12.4816,80.4983,15508.0,25508.0,1608.0,42624.0,MISSING,Food Corporation of India (FCI) & State Warehousing Corporations,https://fci.gov.in/,REAL

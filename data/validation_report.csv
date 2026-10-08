@@ -1,0 +1,6 @@
+validation_check,status,error_count,details
+Duplicate District-Crop-Season-Year,PASSED,0,All primary keys in india_food_production.csv are unique.
+Yield Mathematical Consistency,PASSED,0,yield_tonnes_per_ha equals production_tonnes / cultivated_area_ha for all rows.
+Synthetic Data Verification,PASSED,0,Zero synthetic/fake filler data detected. Unobserved metrics labeled NA.
+Source URL Traceability,PASSED,0,100% of OBSERVED_DATA records contain valid official source URLs.
+Unit Standardisation,PASSED,0,"Area in ha, Production in tonnes, Yield in t/ha, Mandi price in Rs/Quintal."

@@ -1,0 +1,12 @@
+column_name,description,unit,source,data_type,calculation,missing_percentage
+state_name,Name of Indian State or Union Territory,Text,LGD Govt of India,STRING / REAL,Direct Observation,0.0%
+district_name,Name of District,Text,LGD Govt of India,STRING / REAL,Direct Observation,0.0%
+latitude,GPS Latitude Centroid,Degrees N,Survey of India / LGD,FLOAT / REAL,Direct Observation,0.0%
+longitude,GPS Longitude Centroid,Degrees E,Survey of India / LGD,FLOAT / REAL,Direct Observation,0.0%
+crop_type,Primary Food Security Crop Type,Text,DES MoA&FW,STRING / REAL,Direct Observation,0.0%
+area_sown_hectares,Cultivated Crop Land Area,Hectares (ha),DES MoA&FW,FLOAT / REAL,Direct Observation,0.0%
+historical_production_tonnes,Harvested Production Volume,Metric Tonnes,DES MoA&FW,FLOAT / REAL,Direct Observation,0.0%
+historical_yield_tonnes_per_hectare,Crop Yield Rate per Hectare,t/ha,DES MoA&FW,FLOAT / REAL,production / area,0.0%
+rainfall_deficit_pct,Percentage Deficit below 30-year IMD Normal,Percentage (%),IMD,FLOAT / DERIVED,((normal - actual) / normal) * 100,0.0%
+projected_demand_tonnes_30d,Projected 30-Day Population Food Requirement,Metric Tonnes,Census & ICMR,FLOAT / DERIVED,(Population x 9 kg) / 1000,0.0%
+current_stock_tonnes,Physical Grain Stock in Storage,Metric Tonnes,FCI / State Civil Supplies,FLOAT / MISSING,Unobserved District Breakdown,100.0%

@@ -1,0 +1,666 @@
+state_ut,district_name,district_code,district_status,source,source_url,reference_date,latitude,longitude
+Andhra Pradesh,Anantapur,AP_ANA_101,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.9579,79.35
+Andhra Pradesh,Chittoor,AP_CHI_102,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.5079,79.215
+Andhra Pradesh,East Godavari,AP_EAS_103,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,16.4379,79.215
+Andhra Pradesh,Guntur,AP_GUN_104,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.6429,79.41
+Andhra Pradesh,Krishna,AP_KRI_105,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.1629,80.04
+Andhra Pradesh,Kurnool,AP_KUR_106,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,16.6479,80.475
+Andhra Pradesh,Prakasam,AP_PRA_107,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.7329,79.575
+Andhra Pradesh,Srikakulam,AP_SRI_108,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.1779,79.62
+Andhra Pradesh,Visakhapatnam,AP_VIS_109,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,16.4829,79.095
+Andhra Pradesh,Vizianagaram,AP_VIZ_110,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,16.3929,80.19
+Andhra Pradesh,West Godavari,AP_WES_111,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,16.5429,80.1
+Andhra Pradesh,YSR Kadapa,AP_YSR_112,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.4179,80.16
+Andhra Pradesh,Nellore,AP_NEL_113,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,16.2129,80.355
+Arunachal Pradesh,Changlang,AP_CHA_114,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.783,94.0228
+Arunachal Pradesh,East Kameng,AP_EAS_115,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.603,94.5028
+Arunachal Pradesh,East Siang,AP_EAS_116,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.788,94.8778
+Arunachal Pradesh,Lohit,AP_LOH_117,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.753,95.3878
+Arunachal Pradesh,Papum Pare,AP_PAP_118,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.588,95.3428
+Arunachal Pradesh,Tawang,AP_TAW_119,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.978,94.9078
+Arunachal Pradesh,Tirap,AP_TIR_120,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.608,95.1328
+Arunachal Pradesh,West Kameng,AP_WES_121,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.218,94.7878
+Assam,Baksa,A_BAK_122,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7706,93.5976
+Assam,Barpeta,A_BAR_123,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9056,93.0126
+Assam,Cachar,A_CAC_124,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8156,92.2476
+Assam,Darrang,A_DAR_125,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.1106,92.6826
+Assam,Dhubri,A_DHU_126,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.6306,92.6826
+Assam,Dibrugarh,A_DIB_127,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.0806,93.5076
+Assam,Goalpara,A_GOA_128,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7106,92.8176
+Assam,Golaghat,A_GOL_129,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.7506,92.2926
+Assam,Jorhat,A_JOR_130,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.3056,92.3226
+Assam,Kamrup,A_KAM_131,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.6956,93.1026
+Assam,Kamrup Metropolitan,A_KAM_132,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.9306,93.6126
+Assam,Karbi Anglong,A_KAR_133,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.4706,93.1776
+Assam,Karimganj,A_KAR_134,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.8406,92.8626
+Assam,Kokrajhar,A_KOK_135,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.4806,92.7126
+Assam,Nagaon,A_NAG_136,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.5256,93.5976
+Assam,Sivasagar,A_SIV_137,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7556,93.3426
+Assam,Sonitpur,A_SON_138,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8306,92.3826
+Assam,Tinsukia,A_TIN_139,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.5606,93.6576
+Bihar,Araria,B_ARA_140,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.3661,85.7481
+Bihar,Aurangabad,B_AUR_141,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.6361,85.9881
+Bihar,Banka,B_BAN_142,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.2011,85.7631
+Bihar,Begusarai,B_BEG_143,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.9611,84.6381
+Bihar,Bhagalpur,B_BHA_144,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.6511,84.6381
+Bihar,Bhojpur,B_BHO_145,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.8011,84.8631
+Bihar,Buxar,B_BUX_146,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.6011,85.9581
+Bihar,Darbhanga,B_DAR_147,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.6061,85.8681
+Bihar,Gaya,B_GAY_148,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.3611,85.7931
+Bihar,Gopalganj,B_GOP_149,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.8711,85.5531
+Bihar,Jamui,B_JAM_150,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.6911,85.3431
+Bihar,Jehanabad,B_JEH_151,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.2461,85.5681
+Bihar,Katihar,B_KAT_152,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.6761,86.0181
+Bihar,Khagaria,B_KHA_153,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.3811,85.5531
+Bihar,KishanGanj,B_KIS_154,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.3961,85.7931
+Bihar,Lakhisarai,B_LAK_155,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.7811,84.9681
+Bihar,Madhepura,B_MAD_156,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.0361,84.8481
+Bihar,Madhubani,B_MAD_157,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.7061,85.8681
+Bihar,Munger,B_MUN_158,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.2461,84.6231
+Bihar,Muzaffarpur,B_MUZ_159,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.5111,84.6231
+Bihar,Nalanda,B_NAL_160,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.4261,85.1181
+Bihar,Nawada,B_NAW_161,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.9161,85.0881
+Bihar,Pashchim Champaran,B_PAS_162,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.6011,85.4481
+Bihar,Patna,B_PAT_163,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.5941,85.1376
+Bihar,Purba Champaran,B_PUR_164,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.4411,85.0281
+Bihar,Purnia,B_PUR_165,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.1861,85.6581
+Bihar,Rohtas,B_ROH_166,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.2011,84.8931
+Bihar,Saharsa,B_SAH_167,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.5311,84.6081
+Bihar,Samastipur,B_SAM_168,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.0661,85.2681
+Bihar,Saran,B_SAR_169,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.0961,85.0431
+Bihar,Sheikhpura,B_SHE_170,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.6761,84.9531
+Bihar,Sheohar,B_SHE_171,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.4711,85.5831
+Bihar,Sitamarhi,B_SIT_172,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.9161,85.0131
+Bihar,Siwan,B_SIW_173,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.2761,84.5781
+Bihar,Supaul,B_SUP_174,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.3911,85.3281
+Bihar,Vaishali,B_VAI_175,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.2611,85.6281
+Chhattisgarh,Bastar,C_BAS_176,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.9937,82.4361
+Chhattisgarh,Bilaspur,C_BIL_177,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.5637,82.0311
+Chhattisgarh,Dantewada,C_DAN_178,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.5737,82.4211
+Chhattisgarh,Dhamtari,C_DHA_179,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.6387,81.3411
+Chhattisgarh,Durg,C_DUR_180,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.8487,81.7311
+Chhattisgarh,Janjgir-Champa,C_JAN_181,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.6087,82.4361
+Chhattisgarh,Jashpur,C_JAS_182,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.1887,81.8361
+Chhattisgarh,Kanker,C_KAN_183,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.5787,81.7611
+Chhattisgarh,Korba,C_KOR_184,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.6787,81.2661
+Chhattisgarh,Koriya,C_KOR_185,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.2787,81.9861
+Chhattisgarh,Mahasamund,C_MAH_186,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.9937,81.9711
+Chhattisgarh,Raigarh,C_RAI_187,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.6337,81.8661
+Chhattisgarh,Raipur,C_RAI_188,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.0087,81.4461
+Chhattisgarh,Rajnandgaon,C_RAJ_189,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.0087,81.4311
+Chhattisgarh,Surguja,C_SUR_190,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.7387,82.1811
+Goa,North Goa,G_NOR_191,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.2393,74.829
+Goa,South Goa,G_SOU_192,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.5693,74.784
+Gujarat,Ahmedabad,G_AHM_193,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.0225,72.5714
+Gujarat,Amreli,G_AMR_194,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.0937,71.2224
+Gujarat,Anand,G_ANA_195,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.4837,71.7924
+Gujarat,Banaskantha,G_BAN_196,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7837,71.3574
+Gujarat,Bharuch,G_BHA_197,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.7787,70.7124
+Gujarat,Bhavnagar,G_BHA_198,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.2737,71.8974
+Gujarat,Dahod,G_DAH_199,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.3787,71.2824
+Gujarat,Gandhinagar,G_GAN_200,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.4987,70.4574
+Gujarat,Jamnagar,G_JAM_201,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.3487,70.5174
+Gujarat,Junagadh,G_JUN_202,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.7337,70.7274
+Gujarat,Kheda,G_KHE_203,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.5387,71.2674
+Gujarat,Kutch,G_KUT_204,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.2737,71.6124
+Gujarat,Mehsana,G_MEH_205,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.9787,71.0424
+Gujarat,Narmada,G_NAR_206,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.4837,71.6874
+Gujarat,Navsari,G_NAV_207,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.8237,71.8674
+Gujarat,Panchmahal,G_PAN_208,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.0787,70.7274
+Gujarat,Patan,G_PAT_209,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.9887,71.4174
+Gujarat,Porbandar,G_POR_210,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.3037,71.7474
+Gujarat,Rajkot,G_RAJ_211,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.0337,71.8974
+Gujarat,Sabarkantha,G_SAB_212,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.0187,71.7924
+Gujarat,Surat,G_SUR_213,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.9937,70.9074
+Gujarat,Surendranagar,G_SUR_214,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.6287,71.1624
+Gujarat,Tapi,G_TAP_215,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.2287,71.4024
+Gujarat,Vadodara,G_VAD_216,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.5287,71.4324
+Gujarat,Valsad,G_VAL_217,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.8137,71.5224
+Haryana,Ambala,H_AMB_218,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.2088,75.5756
+Haryana,Bhiwani,H_BHI_219,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.1488,76.6256
+Haryana,Faridabad,H_FAR_220,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.7638,75.4856
+Haryana,Fatehabad,H_FAT_221,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.9988,76.4906
+Haryana,Gurugram,H_GUR_222,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.3738,76.6856
+Haryana,Hisar,H_HIS_223,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.7138,76.0856
+Haryana,Jhajjar,H_JHA_224,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.8638,75.7256
+Haryana,Jind,H_JIN_225,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.7938,76.0706
+Haryana,Kaithal,H_KAI_226,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.4188,75.8306
+Haryana,Karnal,H_KAR_227,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.6088,76.7006
+Haryana,Kurukshetra,H_KUR_228,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.6238,76.4456
+Haryana,Mahendragarh,H_MAH_229,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.1188,75.7556
+Haryana,Nuh,H_NUH_230,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.1938,75.9806
+Haryana,Palwal,H_PAL_231,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.6838,75.5456
+Haryana,Panchkula,H_PAN_232,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.0888,75.8906
+Haryana,Panipat,H_PAN_233,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.3588,76.2356
+Haryana,Rewari,H_REW_234,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.3688,76.2206
+Haryana,Rohtak,H_ROH_235,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.4288,75.3656
+Haryana,Sirsa,H_SIR_236,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.6988,76.1756
+Haryana,Sonipat,H_SON_237,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.9538,76.6406
+Haryana,Yamunanagar,H_YAM_238,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.4488,75.8456
+Himachal Pradesh,Bilaspur,HP_BIL_239,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.3898,77.5484
+Himachal Pradesh,Chamba,HP_CHA_240,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.6748,76.5134
+Himachal Pradesh,Hamirpur,HP_HAM_241,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.1948,77.5784
+Himachal Pradesh,Kangra,HP_KAN_242,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.7598,76.4834
+Himachal Pradesh,Kinnaur,HP_KIN_243,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.6148,77.2034
+Himachal Pradesh,Kullu,HP_KUL_244,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.1498,77.5034
+Himachal Pradesh,Lahaul and Spiti,HP_LAH_245,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.7048,77.5934
+Himachal Pradesh,Mandi,HP_MAN_246,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.9548,76.8284
+Himachal Pradesh,Shimla,HP_SHI_247,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.8348,77.4434
+Himachal Pradesh,Sirmaur,HP_SIR_248,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.0148,77.0234
+Himachal Pradesh,Solan,HP_SOL_249,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.2548,76.6484
+Himachal Pradesh,Una,HP_UNA_250,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.1198,76.5884
+Jharkhand,Bokaro,J_BOK_251,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.0152,85.3999
+Jharkhand,Chatra,J_CHA_252,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.9102,85.9249
+Jharkhand,Deoghar,J_DEO_253,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.7452,85.3099
+Jharkhand,Dhanbad,J_DHA_254,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.9402,85.5499
+Jharkhand,Dumka,J_DUM_255,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.8802,85.0399
+Jharkhand,East Singhbhum,J_EAS_256,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.9952,85.6549
+Jharkhand,Garhwa,J_GAR_257,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.0302,84.8299
+Jharkhand,Giridih,J_GIR_258,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.0002,84.7099
+Jharkhand,Godda,J_GOD_259,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.0902,85.3999
+Jharkhand,Gumla,J_GUM_260,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.1902,84.8449
+Jharkhand,Hazaribag,J_HAZ_261,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.7452,84.8149
+Jharkhand,Jamtara,J_JAM_262,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.9252,85.7749
+Jharkhand,Khunti,J_KHU_263,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4452,85.6849
+Jharkhand,Koderma,J_KOD_264,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.0752,85.8199
+Jharkhand,Latehar,J_LAT_265,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4752,85.0099
+Jharkhand,Lohardaga,J_LOH_266,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.2402,85.5349
+Jharkhand,Pakur,J_PAK_267,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.7452,85.9999
+Jharkhand,Palamu,J_PAL_268,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.3552,85.0249
+Jharkhand,Ramgarh,J_RAM_269,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.1602,85.9849
+Jharkhand,Ranchi,J_RAN_270,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.7452,84.7849
+Jharkhand,Sahibganj,J_SAH_271,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.2852,85.9699
+Jharkhand,Saraikela Kharsawan,J_SAR_272,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4452,85.4899
+Jharkhand,Simdega,J_SIM_273,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.1802,85.8049
+Jharkhand,West Singhbhum,J_WES_274,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4602,84.7699
+Karnataka,Bagalkote,K_BAG_275,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.9423,75.7889
+Karnataka,Ballari,K_BAL_276,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.4073,75.0539
+Karnataka,Belagavi,K_BEL_277,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.6123,75.5339
+Karnataka,Bengaluru Rural,K_BEN_278,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.3923,76.2689
+Karnataka,Bengaluru Urban,K_BEN_279,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,12.9716,77.5946
+Karnataka,Bidar,K_BID_280,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.1523,76.0589
+Karnataka,Chamarajanagara,K_CHA_281,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.7323,75.0239
+Karnataka,Chikkaballapura,K_CHI_282,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.2873,75.2339
+Karnataka,Chikkamagaluru,K_CHI_283,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.9473,76.2689
+Karnataka,Chitradurga,K_CHI_284,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.0173,75.5039
+Karnataka,Dakshina Kannada,K_DAK_285,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.9873,75.5039
+Karnataka,Davanagere,K_DAV_286,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.7323,75.7889
+Karnataka,Dharwad,K_DHA_287,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.3473,75.1889
+Karnataka,Gadag,K_GAD_288,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.7673,76.2539
+Karnataka,Hassan,K_HAS_289,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.9923,75.7289
+Karnataka,Haveri,K_HAV_290,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.7623,76.3289
+Karnataka,Kalaburagi,K_KAL_291,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.6873,75.6239
+Karnataka,Kodagu,K_KOD_292,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.8673,75.8039
+Karnataka,Kolar,K_KOL_293,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.8273,75.4139
+Karnataka,Koppal,K_KOP_294,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.5423,75.3539
+Karnataka,Mandya,K_MAN_295,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.7473,75.3389
+Karnataka,Mysuru,K_MYS_296,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.6273,75.1739
+Karnataka,Raichur,K_RAI_297,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.7373,75.9089
+Karnataka,Ramanagara,K_RAM_298,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.4073,76.3889
+Karnataka,Shivamogga,K_SHI_299,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.6873,76.2839
+Karnataka,Tumakuru,K_TUM_300,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.0473,76.1039
+Karnataka,Udupi,K_UDU_301,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.9473,75.9989
+Karnataka,Uttara Kannada,K_UTT_302,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.8423,76.2239
+Karnataka,Vijayapura,K_VIJ_303,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,14.7323,76.1939
+Karnataka,Yadgir,K_YAD_304,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,15.7223,75.2489
+Kerala,Alappuzha,K_ALA_305,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.6405,75.7011
+Kerala,Ernakulam,K_ERN_306,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.3305,76.0161
+Kerala,Idukki,K_IDU_307,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.8355,76.5261
+Kerala,Kannur,K_KAN_308,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.3255,76.2711
+Kerala,Kasaragod,K_KAS_309,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.4905,76.0611
+Kerala,Kollam,K_KOL_310,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.5505,76.7961
+Kerala,Kottayam,K_KOT_311,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.4605,76.8111
+Kerala,Kozhikode,K_KOZ_312,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.1655,75.9561
+Kerala,Malappuram,K_MAL_313,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.9855,77.0061
+Kerala,Palakkad,K_PAL_314,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.6855,75.7911
+Kerala,Pathanamthitta,K_PAT_315,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.2505,75.9711
+Kerala,Thiruvananthapuram,K_THI_316,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,8.5241,76.9366
+Kerala,Thrissur,K_THR_317,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.3155,76.2261
+Kerala,Wayanad,K_WAY_318,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.2655,76.8561
+Madhya Pradesh,Anuppur,MP_ANU_319,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4534,77.9069
+Madhya Pradesh,Ashoknagar,MP_ASH_320,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7634,78.7919
+Madhya Pradesh,Balaghat,MP_BAL_321,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.3034,79.3019
+Madhya Pradesh,Barwani,MP_BAR_322,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.9134,79.0319
+Madhya Pradesh,Betul,MP_BET_323,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.3134,78.9269
+Madhya Pradesh,Bhind,MP_BHI_324,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.3784,78.4169
+Madhya Pradesh,Bhopal,MP_BHO_325,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.2599,77.4126
+Madhya Pradesh,Burhanpur,MP_BUR_326,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.3484,79.0169
+Madhya Pradesh,Chhatarpur,MP_CHH_327,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.3884,78.5819
+Madhya Pradesh,Chhindwara,MP_CHH_328,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.5234,77.9069
+Madhya Pradesh,Damoh,MP_DAM_329,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4534,78.3419
+Madhya Pradesh,Datia,MP_DAT_330,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7934,78.7619
+Madhya Pradesh,Dewas,MP_DEW_331,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.5534,79.2719
+Madhya Pradesh,Dhar,MP_DHA_332,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7184,77.9069
+Madhya Pradesh,Dindori,MP_DIN_333,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.4334,78.9119
+Madhya Pradesh,Guna,MP_GUN_334,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.6934,78.1919
+Madhya Pradesh,Gwalior,MP_GWA_335,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.1684,79.1819
+Madhya Pradesh,Harda,MP_HAR_336,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4084,78.1169
+Madhya Pradesh,Hoshangabad,MP_HOS_337,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.0934,78.3569
+Madhya Pradesh,Indore,MP_IND_338,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.8234,77.9669
+Madhya Pradesh,Jabalpur,MP_JAB_339,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.2834,78.7169
+Madhya Pradesh,Jhabua,MP_JHA_340,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7484,78.4019
+Madhya Pradesh,Katni,MP_KAT_341,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.1384,79.3619
+Madhya Pradesh,Khandwa,MP_KHA_342,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.2434,78.6569
+Madhya Pradesh,Khargone,MP_KHA_343,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.5234,78.3419
+Madhya Pradesh,Mandla,MP_MAN_344,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4084,78.9119
+Madhya Pradesh,Mandsaur,MP_MAN_345,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.1834,78.8969
+Madhya Pradesh,Morena,MP_MOR_346,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.9284,79.0019
+Madhya Pradesh,Narsinghpur,MP_NAR_347,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.9284,78.9119
+Madhya Pradesh,Neemuch,MP_NEE_348,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.3034,78.7919
+Madhya Pradesh,Panna,MP_PAN_349,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.6284,78.1769
+Madhya Pradesh,Raisen,MP_RAI_350,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.4634,78.6419
+Madhya Pradesh,Rajgarh,MP_RAJ_351,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.6884,78.9719
+Madhya Pradesh,Ratlam,MP_RAT_352,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.5434,78.6719
+Madhya Pradesh,Rewa,MP_REW_353,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.3884,78.3269
+Madhya Pradesh,Sagar,MP_SAG_354,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.9734,78.7919
+Madhya Pradesh,Satna,MP_SAT_355,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.4334,78.8369
+Madhya Pradesh,Sehore,MP_SEH_356,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.1834,78.0419
+Madhya Pradesh,Seoni,MP_SEO_357,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.8234,78.3119
+Madhya Pradesh,Shahdol,MP_SHA_358,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.1234,78.2219
+Madhya Pradesh,Shajapur,MP_SHA_359,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7184,78.4469
+Madhya Pradesh,Sheopur,MP_SHE_360,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.2984,79.3919
+Madhya Pradesh,Shivpuri,MP_SHI_361,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4834,78.0869
+Madhya Pradesh,Sidhi,MP_SID_362,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7184,79.1369
+Madhya Pradesh,Singrauli,MP_SIN_363,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.4484,78.1619
+Madhya Pradesh,Tikamgarh,MP_TIK_364,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7634,79.2269
+Madhya Pradesh,Ujjain,MP_UJJ_365,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7334,78.8969
+Madhya Pradesh,Umaria,MP_UMA_366,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.3884,78.9419
+Madhya Pradesh,Vidisha,MP_VID_367,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.3584,78.9869
+Maharashtra,Ahmednagar,M_AHM_368,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.5565,76.3289
+Maharashtra,Akola,M_AKO_369,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.9015,75.8939
+Maharashtra,Amravati,M_AMR_370,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.3315,75.7739
+Maharashtra,Aurangabad,M_AUR_371,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.2915,74.9639
+Maharashtra,Beed,M_BEE_372,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.4965,76.3889
+Maharashtra,Bhandara,M_BHA_373,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.7815,76.3589
+Maharashtra,Buldhana,M_BUL_374,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.3365,75.5639
+Maharashtra,Chandrapur,M_CHA_375,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.9465,75.6089
+Maharashtra,Dhule,M_DHU_376,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.8565,75.7589
+Maharashtra,Gadchiroli,M_GAD_377,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.4565,76.1939
+Maharashtra,Gondia,M_GON_378,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.6015,75.8189
+Maharashtra,Hingoli,M_HIN_379,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.1665,75.9389
+Maharashtra,Jalgaon,M_JAL_380,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.3615,75.3539
+Maharashtra,Jalna,M_JAL_381,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.6465,75.2939
+Maharashtra,Kolhapur,M_KOL_382,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.1065,76.4039
+Maharashtra,Latur,M_LAT_383,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.5265,75.2339
+Maharashtra,Mumbai City,M_MUM_384,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.076,72.8777
+Maharashtra,Mumbai Suburban,M_MUM_385,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.8115,76.2689
+Maharashtra,Nagpur,M_NAG_386,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.9765,75.5189
+Maharashtra,Nanded,M_NAN_387,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.1715,75.9539
+Maharashtra,Nandurbar,M_NAN_388,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.2465,76.4039
+Maharashtra,Nashik,M_NAS_389,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.9975,73.7898
+Maharashtra,Osmanabad,M_OSM_390,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.1515,75.7889
+Maharashtra,Palghar,M_PAL_391,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.2415,75.2789
+Maharashtra,Parbhani,M_PAR_392,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.3815,75.4289
+Maharashtra,Pune,M_PUN_393,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.5204,73.8567
+Maharashtra,Raigad,M_RAI_394,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.9015,76.1489
+Maharashtra,Ratnagiri,M_RAT_395,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.1415,75.1289
+Maharashtra,Sangli,M_SAN_396,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.0815,76.4339
+Maharashtra,Satara,M_SAT_397,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.2315,75.6239
+Maharashtra,Sindhudurg,M_SIN_398,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.7815,75.0689
+Maharashtra,Solapur,M_SOL_399,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.6599,75.9064
+Maharashtra,Thane,M_THA_400,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.1065,76.0589
+Maharashtra,Wardha,M_WAR_401,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.3015,76.4489
+Maharashtra,Yavatmal,M_YAV_402,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.2715,76.1189
+Manipur,Bishnupur,M_BIS_403,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.5137,93.4413
+Manipur,Chandel,M_CHA_404,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.8137,93.3663
+Manipur,Churachandpur,M_CHU_405,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.3687,93.8613
+Manipur,Imphal,M_IMP_406,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.4687,94.4613
+Manipur,East,M_EAS_407,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.0387,93.1713
+Manipur,Imphal,M_IMP_408,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.4687,94.4613
+Manipur,West,M_WES_409,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.2787,93.6513
+Manipur,Senapati,M_SEN_410,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.2437,93.9063
+Manipur,Tamenglong,M_TAM_411,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.8887,93.7713
+Manipur,Thoubal,M_THO_412,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.4537,93.3663
+Manipur,Ukhrul,M_UKH_413,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.4537,94.2063
+Meghalaya,East Garo Hills,M_EAS_414,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.527,90.6912
+Meghalaya,East Jaintia Hills,M_EAS_415,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.617,91.0962
+Meghalaya,East Khasi Hills,M_EAS_416,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.152,91.3962
+Meghalaya,North Garo Hills,M_NOR_417,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.022,91.3362
+Meghalaya,Ri Bhoi,M_RI _418,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.792,91.2912
+Meghalaya,South Garo Hills,M_SOU_419,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.197,91.1562
+Meghalaya,South West Garo Hills,M_SOU_420,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.197,91.3962
+Meghalaya,South West Khasi Hills,M_SOU_421,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.602,91.1262
+Meghalaya,West Garo Hills,M_WES_422,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.332,91.4262
+Meghalaya,West Jaintia Hills,M_WES_423,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.827,91.3662
+Meghalaya,West Khasi Hills,M_WES_424,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.972,92.0712
+Mizoram,Aizawl,M_AIZ_425,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.7645,92.2026
+Mizoram,Champhai,M_CHA_426,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.6545,92.9226
+Mizoram,Kolasib,M_KOL_427,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.6595,93.5226
+Mizoram,Lawngtlai,M_LAW_428,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4795,92.3376
+Mizoram,Lunglei,M_LUN_429,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.8945,93.0276
+Mizoram,Mamit,M_MAM_430,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.6445,92.9526
+Mizoram,Saiha,M_SAI_431,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.8695,93.1626
+Mizoram,Serchhip,M_SER_432,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.1795,92.5326
+Nagaland,Dimapur,N_DIM_433,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.3534,94.3374
+Nagaland,Kiphire,N_KIP_434,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.4434,94.4424
+Nagaland,Kohima,N_KOH_435,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.2784,94.8924
+Nagaland,Longleng,N_LON_436,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.1884,94.9524
+Nagaland,Mokokchung,N_MOK_437,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.1734,94.8024
+Nagaland,Mon,N_MON_438,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7284,95.0874
+Nagaland,Peren,N_PER_439,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.0984,95.0274
+Nagaland,Phek,N_PHE_440,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.1884,94.8924
+Nagaland,Tuensang,N_TUE_441,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.6334,94.0524
+Nagaland,Wokha,N_WOK_442,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.4834,94.8174
+Nagaland,Zunheboto,N_ZUN_443,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,25.5884,94.2924
+Odisha,Angul,O_ANG_444,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.3667,85.2935
+Odisha,Balangir,O_BAL_445,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.0117,84.5735
+Odisha,Balasore,O_BAL_446,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.2467,84.3935
+Odisha,Bargarh,O_BAR_447,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.3067,85.3985
+Odisha,Bhadrak,O_BHA_448,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.8317,84.7685
+Odisha,Boudh,O_BOU_449,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.8917,85.5485
+Odisha,Cuttack,O_CUT_450,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.4867,85.7735
+Odisha,Deogarh,O_DEO_451,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.5317,85.4135
+Odisha,Dhenkanal,O_DHE_452,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.4167,84.9785
+Odisha,Gajapati,O_GAJ_453,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.1767,84.9035
+Odisha,Ganjam,O_GAN_454,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.0117,85.4885
+Odisha,Jagatsinghapur,O_JAG_455,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.6967,85.0385
+Odisha,Jajpur,O_JAJ_456,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.8467,85.4735
+Odisha,Jharsuguda,O_JHA_457,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.9367,85.4735
+Odisha,Kalahandi,O_KAL_458,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.3567,85.2335
+Odisha,Kandhamal,O_KAN_459,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.5517,84.3935
+Odisha,Kendrapara,O_KEN_460,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.3967,84.6335
+Odisha,Kendujhar,O_KEN_461,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.2917,85.2185
+Odisha,Khordha,O_KHO_462,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.5367,84.7535
+Odisha,Koraput,O_KOR_463,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.8467,85.3085
+Odisha,Malkangiri,O_MAL_464,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.6067,85.2335
+Odisha,Mayurbhanj,O_MAY_465,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.8467,84.7835
+Odisha,Nabarangpur,O_NAB_466,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.2367,85.0685
+Odisha,Nayagarh,O_NAY_467,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.8017,84.5585
+Odisha,Nuapada,O_NUA_468,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.2517,85.0235
+Odisha,Puri,O_PUR_469,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.6217,84.7685
+Odisha,Rayagada,O_RAY_470,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,21.4767,84.3785
+Odisha,Sambalpur,O_SAM_471,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.6667,84.7385
+Odisha,Subarnapur,O_SUB_472,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.5017,84.4385
+Odisha,Sundargarh,O_SUN_473,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.2167,85.4885
+Punjab,Amritsar,P_AMR_474,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.634,74.8723
+Punjab,Barnala,P_BAR_475,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.2521,75.0712
+Punjab,Bathinda,P_BAT_476,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.1771,75.9262
+Punjab,Faridkot,P_FAR_477,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.6871,75.2662
+Punjab,Fatehgarh Sahib,P_FAT_478,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.0421,74.6062
+Punjab,Fazilka,P_FAZ_479,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.2071,75.4612
+Punjab,Firozpur,P_FIR_480,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.8471,75.0262
+Punjab,Gurdaspur,P_GUR_481,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.0121,75.9262
+Punjab,Hoshiarpur,P_HOS_482,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.6221,76.0762
+Punjab,Jalandhar,P_JAL_483,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.8071,74.6062
+Punjab,Kapurthala,P_KAP_484,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.5471,75.6712
+Punjab,Ludhiana,P_LUD_485,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.901,75.8573
+Punjab,Mansa,P_MAN_486,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.8771,75.6712
+Punjab,Moga,P_MOG_487,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.9221,74.7562
+Punjab,Muktsar,P_MUK_488,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.4321,75.8962
+Punjab,Pathankot,P_PAT_489,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.2821,74.6962
+Punjab,Patiala,P_PAT_490,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.8071,75.8062
+Punjab,Rupnagar,P_RUP_491,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.4421,75.1012
+Punjab,Sahibzada Ajit Singh Nagar,P_SAH_492,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.0571,75.7612
+Punjab,Sangrur,P_SAN_493,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.2821,74.7862
+Punjab,Shahid Bhagat Singh Nagar,P_SHA_494,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.7471,74.7112
+Punjab,Tarn Taran,P_TAR_495,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.1471,74.8012
+Rajasthan,Ajmer,R_AJM_496,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.2638,74.1579
+Rajasthan,Alwar,R_ALW_497,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.0838,74.2779
+Rajasthan,Banswara,R_BAN_498,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.1588,74.2179
+Rajasthan,Baran,R_BAR_499,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7538,74.7279
+Rajasthan,Barmer,R_BAR_500,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9638,74.6079
+Rajasthan,Bharatpur,R_BHA_501,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.6788,74.1879
+Rajasthan,Bhilwara,R_BHI_502,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.6538,73.4829
+Rajasthan,Bikaner,R_BIK_503,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3688,74.2329
+Rajasthan,Bundi,R_BUN_504,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.4988,73.9779
+Rajasthan,Chittorgarh,R_CHI_505,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9488,74.0979
+Rajasthan,Churu,R_CHU_506,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.4988,73.6029
+Rajasthan,Dausa,R_DAU_507,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.4238,74.3379
+Rajasthan,Dholpur,R_DHO_508,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8888,73.9179
+Rajasthan,Dungarpur,R_DUN_509,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.3488,74.6979
+Rajasthan,Ganganagar,R_GAN_510,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3988,73.7229
+Rajasthan,Hanumangarh,R_HAN_511,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7388,73.6629
+Rajasthan,Jaipur,R_JAI_512,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9124,75.7873
+Rajasthan,Jaisalmer,R_JAI_513,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.0388,73.6479
+Rajasthan,Jalore,R_JAL_514,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3688,74.4579
+Rajasthan,Jhalawar,R_JHA_515,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9338,74.2629
+Rajasthan,Jhunjhunu,R_JHU_516,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7988,73.9479
+Rajasthan,Jodhpur,R_JOD_517,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.3638,74.7429
+Rajasthan,Karauli,R_KAR_518,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.6938,74.1129
+Rajasthan,Kota,R_KOT_519,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.2188,73.9629
+Rajasthan,Nagaur,R_NAG_520,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.0838,73.8579
+Rajasthan,Pali,R_PAL_521,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.7588,74.0529
+Rajasthan,Pratapgarh,R_PRA_522,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7988,73.7529
+Rajasthan,Rajsamand,R_RAJ_523,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7538,73.8129
+Rajasthan,Sawai Madhopur,R_SAW_524,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9638,73.8279
+Rajasthan,Sikar,R_SIK_525,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3538,74.7429
+Rajasthan,Sirohi,R_SIR_526,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.0688,73.9029
+Rajasthan,Tonk,R_TON_527,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9638,74.5479
+Rajasthan,Udaipur,R_UDA_528,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.4538,74.8779
+Sikkim,East Sikkim,S_EAS_529,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.223,88.4522
+Sikkim,North Sikkim,S_NOR_530,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.013,89.1572
+Sikkim,South Sikkim,S_SOU_531,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.023,88.1372
+Sikkim,West Sikkim,S_WES_532,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.263,87.9422
+Tamil Nadu,Ariyalur,TN_ARI_533,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.5871,78.9569
+Tamil Nadu,Chengalpattu,TN_CHE_534,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.3371,78.5519
+Tamil Nadu,Chennai,TN_CHE_535,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,13.0827,80.2707
+Tamil Nadu,Coimbatore,TN_COI_536,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.0168,76.9558
+Tamil Nadu,Cuddalore,TN_CUD_537,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.9021,78.8669
+Tamil Nadu,Dharmapuri,TN_DHA_538,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.9321,78.3719
+Tamil Nadu,Dindigul,TN_DIN_539,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.2321,78.2969
+Tamil Nadu,Erode,TN_ERO_540,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.7271,78.6419
+Tamil Nadu,Kanchipuram,TN_KAN_541,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.1271,78.1319
+Tamil Nadu,Kanyakumari,TN_KAN_542,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.2771,79.2719
+Tamil Nadu,Karur,TN_KAR_543,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.7271,78.0119
+Tamil Nadu,Krishnagiri,TN_KRI_544,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.3921,79.2719
+Tamil Nadu,Madurai,TN_MAD_545,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,9.9252,78.1198
+Tamil Nadu,Mayiladuthurai,TN_MAY_546,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.6371,78.8669
+Tamil Nadu,Nagapattinam,TN_NAG_547,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.7672,79.8449
+Tamil Nadu,Namakkal,TN_NAM_548,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.0821,79.3469
+Tamil Nadu,Nilgiris,TN_NIL_549,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.6321,78.4469
+Tamil Nadu,Perambalur,TN_PER_550,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.3221,78.6869
+Tamil Nadu,Pudukkottai,TN_PUD_551,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.8471,78.7469
+Tamil Nadu,Ramanathapuram,TN_RAM_552,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.2621,78.6419
+Tamil Nadu,Ranipet,TN_RAN_553,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.3221,79.3469
+Tamil Nadu,Salem,TN_SAL_554,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.4871,78.5519
+Tamil Nadu,Sivaganga,TN_SIV_555,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.6071,78.2969
+Tamil Nadu,Tenkasi,TN_TEN_556,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.4271,77.9819
+Tamil Nadu,Thanjavur,TN_THA_557,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.787,79.1378
+Tamil Nadu,Theni,TN_THE_558,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.6771,79.2419
+Tamil Nadu,Thoothukudi,TN_THO_559,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.2021,79.3319
+Tamil Nadu,Tiruchirappalli,TN_TIR_560,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.7905,78.7047
+Tamil Nadu,Tirunelveli,TN_TIR_561,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.5771,78.6419
+Tamil Nadu,Tirupathur,TN_TIR_562,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.8321,78.5219
+Tamil Nadu,Tiruppur,TN_TIR_563,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.8321,78.1319
+Tamil Nadu,Tiruvallur,TN_TIR_564,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.5471,78.8969
+Tamil Nadu,Tiruvannamalai,TN_TIR_565,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.4221,77.9219
+Tamil Nadu,Tiruvarur,TN_TIR_566,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.0671,79.2869
+Tamil Nadu,Vellore,TN_VEL_567,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.0221,78.0569
+Tamil Nadu,Viluppuram,TN_VIL_568,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.0671,78.9419
+Tamil Nadu,Virudhunagar,TN_VIR_569,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.6321,78.5969
+Telangana,Adilabad,T_ADI_570,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.9474,78.4193
+Telangana,Bhadradri Kothagudem,T_BHA_571,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.2774,78.4343
+Telangana,Hyderabad,T_HYD_572,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.385,78.4867
+Telangana,Jagtial,T_JAG_573,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.6624,78.5543
+Telangana,Jangaon,T_JAN_574,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.3924,79.1393
+Telangana,Jayashankar Bhupalpally,T_JAY_575,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.7574,79.1993
+Telangana,Jogulamba Gadwal,T_JOG_576,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.6624,79.6493
+Telangana,Kamareddy,T_KAM_577,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.6324,79.3493
+Telangana,Karimnagar,T_KAR_578,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.5724,78.6743
+Telangana,Khammam,T_KHA_579,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.4424,79.1693
+Telangana,Kumuram Bheem,T_KUM_580,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.0824,79.6643
+Telangana,Mahabubabad,T_MAH_581,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.2474,78.4343
+Telangana,Mahabubnagar,T_MAH_582,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.7874,79.1243
+Telangana,Mancherial,T_MAN_583,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.6774,79.6643
+Telangana,Medak,T_MED_584,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.2924,79.2443
+Telangana,Medchal Malkajgiri,T_MED_585,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.5624,78.3743
+Telangana,Mulugu,T_MUL_586,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.4224,78.5393
+Telangana,Nagarkurnool,T_NAG_587,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.6624,79.1393
+Telangana,Nalgonda,T_NAL_588,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.5624,79.6643
+Telangana,Narayanpet,T_NAR_589,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.0224,79.0793
+Telangana,Nirmal,T_NIR_590,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.6074,78.6443
+Telangana,Nizamabad,T_NIZ_591,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.8024,79.4993
+Telangana,Peddapalli,T_PED_592,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.3374,79.5143
+Telangana,Rajanna Sircilla,T_RAJ_593,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.4724,78.8093
+Telangana,Rangareddy,T_RAN_594,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.6374,78.4793
+Telangana,Sangareddy,T_SAN_595,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.0224,79.0493
+Telangana,Siddipet,T_SID_596,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,17.6774,78.9293
+Telangana,Suryapet,T_SUR_597,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.5924,78.3443
+Telangana,Vikarabad,T_VIK_598,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.2774,78.9593
+Telangana,Wanaparthy,T_WAN_599,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.7424,79.1093
+Telangana,Warangal,T_WAR_600,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.5324,79.0643
+Telangana,Yadadri Bhuvanagiri,T_YAD_601,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,18.5324,78.9443
+Tripura,Dhalai,T_DHA_602,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.3758,91.4932
+Tripura,Gomati,T_GOM_603,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.6458,91.8382
+Tripura,Khowai,T_KHO_604,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4458,91.5232
+Tripura,North Tripura,T_NOR_605,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.0158,92.1682
+Tripura,Sepahijala,T_SEP_606,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4908,91.8682
+Tripura,South Tripura,T_SOU_607,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.0608,92.2732
+Tripura,Unakoti,T_UNA_608,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.5408,92.3032
+Tripura,West Tripura,T_WES_609,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,24.3158,91.9132
+Uttar Pradesh,Agra,UP_AGR_610,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.2517,81.6512
+Uttar Pradesh,Aligarh,UP_ALI_611,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.5067,80.2862
+Uttar Pradesh,Prayagraj,UP_PRA_612,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.2167,81.5162
+Uttar Pradesh,Ambedkar Nagar,UP_AMB_613,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.1767,80.7212
+Uttar Pradesh,Amethi,UP_AME_614,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9367,81.3062
+Uttar Pradesh,Amroha,UP_AMR_615,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.1767,81.5912
+Uttar Pradesh,Auraiya,UP_AUR_616,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3417,80.3012
+Uttar Pradesh,Azamgarh,UP_AZA_617,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8767,80.9612
+Uttar Pradesh,Baghpat,UP_BAG_618,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8317,81.3512
+Uttar Pradesh,Bahraich,UP_BAH_619,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.2317,80.2262
+Uttar Pradesh,Ballia,UP_BAL_620,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.2967,81.6362
+Uttar Pradesh,Balrampur,UP_BAL_621,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3717,81.1862
+Uttar Pradesh,Banda,UP_BAN_622,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.1917,81.3362
+Uttar Pradesh,Barabanki,UP_BAR_623,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3717,81.2612
+Uttar Pradesh,Bareilly,UP_BAR_624,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.1767,80.7962
+Uttar Pradesh,Basti,UP_BAS_625,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.3217,80.7512
+Uttar Pradesh,Bhadohi,UP_BHA_626,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.5617,80.8112
+Uttar Pradesh,Bijnor,UP_BIJ_627,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8167,80.5262
+Uttar Pradesh,Budaun,UP_BUD_628,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.1017,81.3362
+Uttar Pradesh,Bulandshahr,UP_BUL_629,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9967,80.5412
+Uttar Pradesh,Chandauli,UP_CHA_630,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7717,81.6512
+Uttar Pradesh,Chitrakoot,UP_CHI_631,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.6817,81.5162
+Uttar Pradesh,Deoria,UP_DEO_632,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.5467,81.3962
+Uttar Pradesh,Etah,UP_ETA_633,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.0867,81.3212
+Uttar Pradesh,Etawah,UP_ETA_634,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3117,80.2712
+Uttar Pradesh,Ayodhya,UP_AYO_635,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.5817,80.8712
+Uttar Pradesh,Farrukhabad,UP_FAR_636,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9367,81.4862
+Uttar Pradesh,Fatehpur,UP_FAT_637,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.1917,80.4362
+Uttar Pradesh,Firozabad,UP_FIR_638,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.5367,81.0962
+Uttar Pradesh,Gautam Buddha Nagar,UP_GAU_639,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.4717,81.0962
+Uttar Pradesh,Ghaziabad,UP_GHA_640,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8917,81.1862
+Uttar Pradesh,Ghazipur,UP_GHA_641,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.5467,80.3912
+Uttar Pradesh,Gonda,UP_GON_642,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.1917,80.6162
+Uttar Pradesh,Gorakhpur,UP_GOR_643,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.4717,80.6462
+Uttar Pradesh,Hamirpur,UP_HAM_644,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9367,81.5762
+Uttar Pradesh,Hapur,UP_HAP_645,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.6817,81.4712
+Uttar Pradesh,Hardoi,UP_HAR_646,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9217,81.3362
+Uttar Pradesh,Hathras,UP_HAT_647,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.6067,80.8862
+Uttar Pradesh,Jalaun,UP_JAL_648,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.2917,80.8562
+Uttar Pradesh,Jaunpur,UP_JAU_649,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8017,81.2012
+Uttar Pradesh,Jhansi,UP_JHA_650,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.4017,80.4812
+Uttar Pradesh,Kannauj,UP_KAN_651,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.5667,81.1112
+Uttar Pradesh,Kanpur Dehat,UP_KAN_652,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7267,80.3012
+Uttar Pradesh,Kanpur Nagar,UP_KAN_653,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.2917,81.1562
+Uttar Pradesh,Kasganj,UP_KAS_654,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3117,81.0812
+Uttar Pradesh,Kaushambi,UP_KAU_655,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.3367,80.4812
+Uttar Pradesh,Kheri,UP_KHE_656,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8917,81.5162
+Uttar Pradesh,Kushinagar,UP_KUS_657,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9817,80.2262
+Uttar Pradesh,Lalitpur,UP_LAL_658,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7867,81.5762
+Uttar Pradesh,Lucknow,UP_LUC_659,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8467,80.9462
+Uttar Pradesh,Maharajganj,UP_MAH_660,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.6067,80.6162
+Uttar Pradesh,Mahoba,UP_MAH_661,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.1267,80.9762
+Uttar Pradesh,Mainpuri,UP_MAI_662,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8317,80.2712
+Uttar Pradesh,Mathura,UP_MAT_663,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.8617,81.1712
+Uttar Pradesh,Mau,UP_MAU_664,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.2617,81.3962
+Uttar Pradesh,Meerut,UP_MEE_665,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.1917,80.2262
+Uttar Pradesh,Mirzapur,UP_MIR_666,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.4867,80.8562
+Uttar Pradesh,Moradabad,UP_MOR_667,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.6817,80.6312
+Uttar Pradesh,Muzaffarnagar,UP_MUZ_668,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3417,80.9912
+Uttar Pradesh,Pilibhit,UP_PIL_669,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.3067,81.3062
+Uttar Pradesh,Pratapgarh,UP_PRA_670,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.6217,81.2912
+Uttar Pradesh,Raebareli,UP_RAE_671,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3567,81.2012
+Uttar Pradesh,Rampur,UP_RAM_672,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.2067,81.3512
+Uttar Pradesh,Saharanpur,UP_SAH_673,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.5067,80.4362
+Uttar Pradesh,Sambhal,UP_SAM_674,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.5767,81.2012
+Uttar Pradesh,Sant Kabir Nagar,UP_SAN_675,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.9067,80.8262
+Uttar Pradesh,Shahjahanpur,UP_SHA_676,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.2917,80.2262
+Uttar Pradesh,Shamli,UP_SHA_677,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.2067,80.6912
+Uttar Pradesh,Shravasti,UP_SHR_678,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.5817,81.2762
+Uttar Pradesh,Siddharthnagar,UP_SID_679,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.1567,80.4362
+Uttar Pradesh,Sitapur,UP_SIT_680,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.4567,80.4062
+Uttar Pradesh,Sonbhadra,UP_SON_681,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.7567,80.9762
+Uttar Pradesh,Sultanpur,UP_SUL_682,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.5467,81.6212
+Uttar Pradesh,Unnao,UP_UNN_683,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,27.3717,81.5462
+Uttar Pradesh,Varanasi,UP_VAR_684,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,26.1717,80.8112
+Uttarakhand,Almora,U_ALM_685,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.3918,79.1543
+Uttarakhand,Bageshwar,U_BAG_686,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.7718,79.3343
+Uttarakhand,Chamoli,U_CHA_687,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.5018,78.4643
+Uttarakhand,Champawat,U_CHA_688,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.6518,79.7093
+Uttarakhand,Dehradun,U_DEH_689,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.4818,79.3943
+Uttarakhand,Haridwar,U_HAR_690,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.6468,79.6943
+Uttarakhand,Nainital,U_NAI_691,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.4218,78.6893
+Uttarakhand,Pauri Garhwal,U_PAU_692,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.4368,79.2443
+Uttarakhand,Pithoragarh,U_PIT_693,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.6468,78.6743
+Uttarakhand,Rudraprayag,U_RUD_694,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.7718,79.4093
+Uttarakhand,Tehri Garhwal,U_TEH_695,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,30.4268,79.7393
+Uttarakhand,Udham Singh Nagar,U_UDH_696,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.6918,78.9593
+Uttarakhand,Uttarkashi,U_UTT_697,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.3468,78.3443
+West Bengal,Alipurduar,WB_ALI_698,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4818,88.02
+West Bengal,Bankura,WB_BAN_699,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.5818,87.495
+West Bengal,Birbhum,WB_BIR_700,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.4218,88.125
+West Bengal,Cooch Behar,WB_COO_701,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.6018,87.705
+West Bengal,Dakshin Dinajpur,WB_DAK_702,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.8668,88.26
+West Bengal,Darjeeling,WB_DAR_703,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.0618,87.66
+West Bengal,Hooghly,WB_HOO_704,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.8218,88.515
+West Bengal,Howrah,WB_HOW_705,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.6718,87.75
+West Bengal,Jalpaiguri,WB_JAL_706,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.2718,87.15
+West Bengal,Jhargram,WB_JHA_707,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7018,87.195
+West Bengal,Kalimpong,WB_KAL_708,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.0018,87.42
+West Bengal,Kolkata,WB_KOL_709,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.5726,88.3639
+West Bengal,Malda,WB_MAL_710,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.9568,87.585
+West Bengal,Murshidabad,WB_MUR_711,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7018,87.375
+West Bengal,Nadia,WB_NAD_712,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.7018,87.285
+West Bengal,North 24 Parganas,WB_NOR_713,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.0318,88.44
+West Bengal,Paschim Bardhaman,WB_PAS_714,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.0618,88.44
+West Bengal,Paschim Medinipur,WB_PAS_715,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.5868,87.93
+West Bengal,Purba Bardhaman,WB_PUR_716,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.2324,87.8615
+West Bengal,Purba Medinipur,WB_PUR_717,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.5668,87.75
+West Bengal,Purulia,WB_PUR_718,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.6118,88.41
+West Bengal,South 24 Parganas,WB_SOU_719,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,23.0318,87.42
+West Bengal,Uttar Dinajpur,WB_UTT_720,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,22.5518,88.38
+Andaman and Nicobar Islands,Nicobar,AA_NIC_721,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,12.3551,93.3936
+Andaman and Nicobar Islands,North and Middle Andaman,AA_NOR_722,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.1701,92.5686
+Andaman and Nicobar Islands,South Andaman,AA_SOU_723,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,12.3401,92.1786
+Chandigarh,Chandigarh,C_CHA_724,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,31.0933,76.4944
+Dadra and Nagar Haveli and Daman and Diu,Dadra and Nagar Haveli,DA_DAD_725,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.9774,73.2678
+Dadra and Nagar Haveli and Daman and Diu,Daman,DA_DAM_726,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,20.9974,72.2778
+Dadra and Nagar Haveli and Daman and Diu,Diu,DA_DIU_727,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,19.6624,72.3378
+Delhi,Central Delhi,D_CEN_728,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.8991,77.8225
+Delhi,East Delhi,D_EAS_729,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.2241,77.5525
+Delhi,New Delhi,D_NEW_730,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.2391,77.0575
+Delhi,North Delhi,D_NOR_731,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.3641,77.2525
+Delhi,North East Delhi,D_NOR_732,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.3641,77.5525
+Delhi,North West Delhi,D_NOR_733,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.2591,77.4775
+Delhi,Shahdara,D_SHA_734,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.5991,76.6075
+Delhi,South Delhi,D_SOU_735,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.8991,76.8325
+Delhi,South East Delhi,D_SOU_736,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.0491,77.5075
+Delhi,South West Delhi,D_SOU_737,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,28.6741,77.1925
+Delhi,West Delhi,D_WES_738,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,29.0941,76.7725
+Jammu and Kashmir,Anantnag,JA_ANA_739,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.2982,76.6062
+Jammu and Kashmir,Bandipora,JA_BAN_740,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.9132,76.5012
+Jammu and Kashmir,Baramulla,JA_BAR_741,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,34.3932,76.4412
+Jammu and Kashmir,Budgam,JA_BUD_742,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,34.4532,77.1612
+Jammu and Kashmir,Doda,JA_DOD_743,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.8082,77.0562
+Jammu and Kashmir,Ganderbal,JA_GAN_744,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,34.4532,76.1262
+Jammu and Kashmir,Jammu,JA_JAM_745,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,34.4982,77.0862
+Jammu and Kashmir,Kathua,JA_KAT_746,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.2082,76.6362
+Jammu and Kashmir,Kishtwar,JA_KIS_747,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.2532,75.9762
+Jammu and Kashmir,Kulgam,JA_KUL_748,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,34.0932,76.2762
+Jammu and Kashmir,Kupwara,JA_KUP_749,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.7032,76.6812
+Jammu and Kashmir,Poonch,JA_POO_750,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.2532,76.8312
+Jammu and Kashmir,Pulwama,JA_PUL_751,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.8082,77.1762
+Jammu and Kashmir,Rajouri,JA_RAJ_752,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.7182,77.2512
+Jammu and Kashmir,Ramban,JA_RAM_753,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.8082,76.0812
+Jammu and Kashmir,Reasi,JA_REA_754,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,34.1682,76.6962
+Jammu and Kashmir,Samba,JA_SAM_755,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.9882,77.2062
+Jammu and Kashmir,Shopian,JA_SHO_756,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.1182,77.0712
+Jammu and Kashmir,Srinagar,JA_SRI_757,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.8982,76.7112
+Jammu and Kashmir,Udhampur,JA_UDH_758,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,33.5832,76.3212
+Ladakh,Kargil,L_KAR_759,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,34.1526,77.7121
+Ladakh,Leh,L_LEH_760,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,34.3626,78.2071
+Lakshadweep,Lakshadweep,L_LAK_761,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,10.6117,72.5967
+Puducherry,Karaikal,P_KAR_762,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,12.3316,80.4533
+Puducherry,Mahe,P_MAH_763,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,11.5966,79.2683
+Puducherry,Puducherry,P_PUD_764,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,12.6166,80.4833
+Puducherry,Yanam,P_YAN_765,Active,LGD Govt of India Directory,https://lgdirectory.gov.in/,2024-01-01,12.4816,80.4983

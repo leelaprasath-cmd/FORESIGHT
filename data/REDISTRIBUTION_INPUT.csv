@@ -1,0 +1,31 @@
+source_district,source_state,source_storage_capacity_tonnes,source_available_stock_tonnes,destination_district,destination_state,destination_demand_tonnes_30d,supply_gap_tonnes,distance_km,transport_disruption_pct,priority_score,notes
+Prakasam,Andhra Pradesh,102903.0,MISSING (Stock Unobserved),Anantapur,Andhra Pradesh,36951.71,MISSING,34.6,MISSING,56.0,Recommended relief route from Prakasam hub to Anantapur deficit zone
+Visakhapatnam,Andhra Pradesh,96251.0,MISSING (Stock Unobserved),East Godavari,Andhra Pradesh,38402.32,MISSING,13.7,MISSING,69.0,Recommended relief route from Visakhapatnam hub to East Godavari deficit zone
+Prakasam,Andhra Pradesh,102903.0,MISSING (Stock Unobserved),Guntur,Andhra Pradesh,46761.1,MISSING,20.3,MISSING,63.0,Recommended relief route from Prakasam hub to Guntur deficit zone
+YSR Kadapa,Andhra Pradesh,101761.0,MISSING (Stock Unobserved),Krishna,Andhra Pradesh,37173.1,MISSING,31.1,MISSING,77.0,Recommended relief route from YSR Kadapa hub to Krishna deficit zone
+Vizianagaram,Andhra Pradesh,134754.0,MISSING (Stock Unobserved),Kurnool,Andhra Pradesh,42154.88,MISSING,41.5,MISSING,56.0,Recommended relief route from Vizianagaram hub to Kurnool deficit zone
+Krishna,Andhra Pradesh,92192.0,MISSING (Stock Unobserved),YSR Kadapa,Andhra Pradesh,43332.45,MISSING,31.1,MISSING,67.0,Recommended relief route from Krishna hub to YSR Kadapa deficit zone
+Vizianagaram,Andhra Pradesh,134754.0,MISSING (Stock Unobserved),Nellore,Andhra Pradesh,47464.94,MISSING,26.6,MISSING,66.0,Recommended relief route from Vizianagaram hub to Nellore deficit zone
+Dimapur,Nagaland,61480.0,MISSING (Stock Unobserved),Changlang,Arunachal Pradesh,43024.48,MISSING,161.7,MISSING,75.0,Recommended relief route from Dimapur hub to Changlang deficit zone
+Dimapur,Nagaland,61480.0,MISSING (Stock Unobserved),Lohit,Arunachal Pradesh,46534.02,MISSING,186.5,MISSING,58.0,Recommended relief route from Dimapur hub to Lohit deficit zone
+Dimapur,Nagaland,61480.0,MISSING (Stock Unobserved),Papum Pare,Arunachal Pradesh,46194.97,MISSING,169.0,MISSING,49.0,Recommended relief route from Dimapur hub to Papum Pare deficit zone
+West Khasi Hills,Meghalaya,64090.0,MISSING (Stock Unobserved),Darrang,Assam,40079.23,MISSING,140.3,MISSING,59.0,Recommended relief route from West Khasi Hills hub to Darrang deficit zone
+Tuensang,Nagaland,61229.0,MISSING (Stock Unobserved),Nagaon,Assam,41632.78,MISSING,47.1,MISSING,63.0,Recommended relief route from Tuensang hub to Nagaon deficit zone
+Dimapur,Nagaland,61480.0,MISSING (Stock Unobserved),Tinsukia,Assam,40764.26,MISSING,71.3,MISSING,61.0,Recommended relief route from Dimapur hub to Tinsukia deficit zone
+Darbhanga,Bihar,63507.0,MISSING (Stock Unobserved),Banka,Bihar,40416.49,MISSING,46.2,MISSING,56.0,Recommended relief route from Darbhanga hub to Banka deficit zone
+Pashchim Champaran,Bihar,62785.0,MISSING (Stock Unobserved),Buxar,Bihar,40107.99,MISSING,51.5,MISSING,72.0,Recommended relief route from Pashchim Champaran hub to Buxar deficit zone
+Jamui,Bihar,67293.0,MISSING (Stock Unobserved),Gopalganj,Bihar,44726.9,MISSING,29.1,MISSING,61.0,Recommended relief route from Jamui hub to Gopalganj deficit zone
+Pashchim Champaran,Bihar,62785.0,MISSING (Stock Unobserved),Jamui,Bihar,41787.26,MISSING,14.6,MISSING,54.0,Recommended relief route from Pashchim Champaran hub to Jamui deficit zone
+Pashchim Champaran,Bihar,62785.0,MISSING (Stock Unobserved),Katihar,Bihar,43389.32,MISSING,58.1,MISSING,66.0,Recommended relief route from Pashchim Champaran hub to Katihar deficit zone
+Darbhanga,Bihar,63507.0,MISSING (Stock Unobserved),KishanGanj,Bihar,41739.66,MISSING,24.5,MISSING,69.0,Recommended relief route from Darbhanga hub to KishanGanj deficit zone
+Jamui,Bihar,67293.0,MISSING (Stock Unobserved),Lakhisarai,Bihar,45777.55,MISSING,39.1,MISSING,67.0,Recommended relief route from Jamui hub to Lakhisarai deficit zone
+Darbhanga,Bihar,63507.0,MISSING (Stock Unobserved),Nalanda,Bihar,44899.29,MISSING,77.8,MISSING,49.0,Recommended relief route from Darbhanga hub to Nalanda deficit zone
+Darbhanga,Bihar,63507.0,MISSING (Stock Unobserved),Purnia,Bihar,37800.17,MISSING,51.2,MISSING,49.0,Recommended relief route from Darbhanga hub to Purnia deficit zone
+Jamui,Bihar,67293.0,MISSING (Stock Unobserved),Samastipur,Bihar,38897.89,MISSING,42.3,MISSING,60.0,Recommended relief route from Jamui hub to Samastipur deficit zone
+Jamui,Bihar,67293.0,MISSING (Stock Unobserved),Sitamarhi,Bihar,41635.86,MISSING,41.6,MISSING,49.0,Recommended relief route from Jamui hub to Sitamarhi deficit zone
+Jamui,Bihar,67293.0,MISSING (Stock Unobserved),Siwan,Bihar,41386.42,MISSING,100.6,MISSING,72.0,Recommended relief route from Jamui hub to Siwan deficit zone
+Jashpur,Chhattisgarh,61359.0,MISSING (Stock Unobserved),Bilaspur,Chhattisgarh,39965.66,MISSING,46.2,MISSING,52.0,Recommended relief route from Jashpur hub to Bilaspur deficit zone
+Jashpur,Chhattisgarh,61359.0,MISSING (Stock Unobserved),Dantewada,Chhattisgarh,39925.65,MISSING,91.4,MISSING,46.0,Recommended relief route from Jashpur hub to Dantewada deficit zone
+Jashpur,Chhattisgarh,61359.0,MISSING (Stock Unobserved),Janjgir-Champa,Chhattisgarh,41491.02,MISSING,77.5,MISSING,56.0,Recommended relief route from Jashpur hub to Janjgir-Champa deficit zone
+Jashpur,Chhattisgarh,61359.0,MISSING (Stock Unobserved),Korba,Chhattisgarh,44494.7,MISSING,81.9,MISSING,56.0,Recommended relief route from Jashpur hub to Korba deficit zone
+Jashpur,Chhattisgarh,61359.0,MISSING (Stock Unobserved),Raigarh,Chhattisgarh,46169.06,MISSING,61.7,MISSING,65.0,Recommended relief route from Jashpur hub to Raigarh deficit zone

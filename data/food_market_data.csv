@@ -1,0 +1,690 @@
+state,district,market_name,commodity,variety,date,min_price,max_price,modal_price,price_unit,arrival_quantity,arrival_unit,dispatch_quantity_if_available,data_category,source_name,source_url
+Andhra Pradesh,Anantapur,Anantapur APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2308,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Anantapur,Anantapur APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3050,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Chittoor,Chittoor APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2093,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,East Godavari,East Godavari APMC Mandi,Chillies,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2205,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Guntur,Guntur APMC Mandi,Chillies,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3812,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Krishna,Krishna APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2281,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Kurnool,Kurnool APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4709,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Kurnool,Kurnool APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2316,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Prakasam,Prakasam APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3305,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Srikakulam,Srikakulam APMC Mandi,Chillies,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3151,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Visakhapatnam,Visakhapatnam APMC Mandi,Chillies,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2525,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Vizianagaram,Vizianagaram APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1837,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,West Godavari,West Godavari APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1648,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,West Godavari,West Godavari APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3259,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,YSR Kadapa,YSR Kadapa APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4969,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andhra Pradesh,Nellore,Nellore APMC Mandi,Chillies,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2870,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Arunachal Pradesh,East Kameng,East Kameng APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,5255,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Arunachal Pradesh,Lohit,Lohit APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2204,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Arunachal Pradesh,Tirap,Tirap APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2186,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Baksa,Baksa APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1888,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Barpeta,Barpeta APMC Mandi,Tea,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3510,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Cachar,Cachar APMC Mandi,Tea,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1614,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Dhubri,Dhubri APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2023,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Dibrugarh,Dibrugarh APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4979,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Goalpara,Goalpara APMC Mandi,Tea,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2576,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Golaghat,Golaghat APMC Mandi,Tea,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1959,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Kamrup,Kamrup APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4414,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Kamrup Metropolitan,Kamrup Metropolitan APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,923,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Karbi Anglong,Karbi Anglong APMC Mandi,Tea,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1415,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Karimganj,Karimganj APMC Mandi,Tea,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3831,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Nagaon,Nagaon APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1439,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Sivasagar,Sivasagar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1794,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Sonitpur,Sonitpur APMC Mandi,Tea,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5269,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Assam,Tinsukia,Tinsukia APMC Mandi,Tea,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1455,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Araria,Araria APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,895,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Aurangabad,Aurangabad APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2692,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Banka,Banka APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3572,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Begusarai,Begusarai APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,5033,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Bhagalpur,Bhagalpur APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2781,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Bhagalpur,Bhagalpur APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5185,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Bhojpur,Bhojpur APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2532,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Buxar,Buxar APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4978,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Darbhanga,Darbhanga APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,988,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Gaya,Gaya APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3706,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Gopalganj,Gopalganj APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,5280,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Gopalganj,Gopalganj APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3193,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Jamui,Jamui APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4743,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Jehanabad,Jehanabad APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,1381,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Katihar,Katihar APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1659,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Khagaria,Khagaria APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2924,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,KishanGanj,KishanGanj APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3582,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,KishanGanj,KishanGanj APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1067,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Lakhisarai,Lakhisarai APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4403,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Madhepura,Madhepura APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2283,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Madhubani,Madhubani APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2059,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Munger,Munger APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2450,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Muzaffarpur,Muzaffarpur APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1197,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Muzaffarpur,Muzaffarpur APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2037,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Nalanda,Nalanda APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4286,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Nawada,Nawada APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2157,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Pashchim Champaran,Pashchim Champaran APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3940,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Patna,Patna APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4180,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Purba Champaran,Purba Champaran APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,5050,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Purba Champaran,Purba Champaran APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5157,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Purnia,Purnia APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3567,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Rohtas,Rohtas APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,936,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Saharsa,Saharsa APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2937,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Samastipur,Samastipur APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4989,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Saran,Saran APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3035,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Saran,Saran APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1480,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Sheikhpura,Sheikhpura APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1771,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Sheohar,Sheohar APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,5006,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Sitamarhi,Sitamarhi APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,4551,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Siwan,Siwan APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3490,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Supaul,Supaul APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,5154,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Supaul,Supaul APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1189,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Bihar,Vaishali,Vaishali APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2891,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Chhattisgarh,Bilaspur,Bilaspur APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,5222,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Chhattisgarh,Durg,Durg APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4318,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Chhattisgarh,Jashpur,Jashpur APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1895,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Chhattisgarh,Koriya,Koriya APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,5099,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Chhattisgarh,Raigarh,Raigarh APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4647,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Chhattisgarh,Surguja,Surguja APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3448,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Goa,South Goa,South Goa APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4244,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Ahmedabad,Ahmedabad APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1521,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Amreli,Amreli APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2374,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Anand,Anand APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2430,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Banaskantha,Banaskantha APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3614,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Bharuch,Bharuch APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1193,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Bharuch,Bharuch APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,1208,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Bhavnagar,Bhavnagar APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1653,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Dahod,Dahod APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1170,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Gandhinagar,Gandhinagar APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3136,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Jamnagar,Jamnagar APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2625,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Junagadh,Junagadh APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4769,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Junagadh,Junagadh APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,1931,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Kheda,Kheda APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3089,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Kutch,Kutch APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2177,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Mehsana,Mehsana APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4519,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Narmada,Narmada APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1220,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Navsari,Navsari APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3714,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Navsari,Navsari APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,3336,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Panchmahal,Panchmahal APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3849,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Patan,Patan APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1516,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Porbandar,Porbandar APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4285,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Rajkot,Rajkot APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3649,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Sabarkantha,Sabarkantha APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2361,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Sabarkantha,Sabarkantha APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2038,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Surat,Surat APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3630,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Surendranagar,Surendranagar APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,802,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Tapi,Tapi APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4007,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Vadodara,Vadodara APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3563,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Valsad,Valsad APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4664,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Gujarat,Valsad,Valsad APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2448,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Ambala,Ambala APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,1780,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Bhiwani,Bhiwani APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2517,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Faridabad,Faridabad APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4953,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Fatehabad,Fatehabad APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2089,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Gurugram,Gurugram APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2320,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Gurugram,Gurugram APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,3447,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Hisar,Hisar APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,1601,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Jhajjar,Jhajjar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3023,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Jind,Jind APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1807,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Kaithal,Kaithal APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2725,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Karnal,Karnal APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2671,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Karnal,Karnal APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,1668,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Kurukshetra,Kurukshetra APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,5007,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Mahendragarh,Mahendragarh APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1076,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Nuh,Nuh APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2219,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Palwal,Palwal APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4692,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Panchkula,Panchkula APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,890,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Panchkula,Panchkula APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,1400,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Panipat,Panipat APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,2236,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Rewari,Rewari APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3570,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Rohtak,Rohtak APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3348,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Sirsa,Sirsa APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2668,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Sonipat,Sonipat APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3137,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Sonipat,Sonipat APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,2820,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Haryana,Yamunanagar,Yamunanagar APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,4016,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Himachal Pradesh,Chamba,Chamba APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1970,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Himachal Pradesh,Kinnaur,Kinnaur APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4771,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Himachal Pradesh,Lahaul and Spiti,Lahaul and Spiti APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1022,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Himachal Pradesh,Sirmaur,Sirmaur APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3598,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Himachal Pradesh,Una,Una APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3599,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jharkhand,Deoghar,Deoghar APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2954,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jharkhand,Dumka,Dumka APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2105,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jharkhand,Giridih,Giridih APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1683,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jharkhand,Gumla,Gumla APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3861,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jharkhand,Khunti,Khunti APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,5182,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jharkhand,Latehar,Latehar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2124,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jharkhand,Palamu,Palamu APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3347,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jharkhand,Ranchi,Ranchi APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4087,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jharkhand,Simdega,Simdega APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2875,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Bagalkote,Bagalkote APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4911,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Bagalkote,Bagalkote APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,4937,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Ballari,Ballari APMC Mandi,Ragi,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1239,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Belagavi,Belagavi APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3627,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Belagavi,Belagavi APMC Mandi,Tur,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5069,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Bengaluru Rural,Bengaluru Rural APMC Mandi,Ragi,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1020,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Bengaluru Rural,Bengaluru Rural APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,2232,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Bengaluru Urban,Bengaluru Urban APMC Mandi,Tur,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1923,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Bidar,Bidar APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2570,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Bidar,Bidar APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,4028,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Chamarajanagara,Chamarajanagara APMC Mandi,Ragi,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3305,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Chikkaballapura,Chikkaballapura APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3620,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Chikkaballapura,Chikkaballapura APMC Mandi,Tur,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4650,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Chikkamagaluru,Chikkamagaluru APMC Mandi,Ragi,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3500,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Chikkamagaluru,Chikkamagaluru APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,3860,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Chitradurga,Chitradurga APMC Mandi,Tur,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4833,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Dakshina Kannada,Dakshina Kannada APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5064,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Dakshina Kannada,Dakshina Kannada APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,1706,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Davanagere,Davanagere APMC Mandi,Ragi,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3201,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Dharwad,Dharwad APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4701,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Dharwad,Dharwad APMC Mandi,Tur,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2691,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Gadag,Gadag APMC Mandi,Ragi,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1327,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Gadag,Gadag APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,1943,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Hassan,Hassan APMC Mandi,Tur,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1131,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Haveri,Haveri APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3092,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Haveri,Haveri APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,1617,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Kalaburagi,Kalaburagi APMC Mandi,Ragi,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3531,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Kodagu,Kodagu APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2382,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Kodagu,Kodagu APMC Mandi,Tur,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1171,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Kolar,Kolar APMC Mandi,Ragi,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1881,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Kolar,Kolar APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,3393,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Koppal,Koppal APMC Mandi,Tur,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2861,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Mandya,Mandya APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2688,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Mandya,Mandya APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,3053,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Mysuru,Mysuru APMC Mandi,Ragi,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2015,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Raichur,Raichur APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2042,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Raichur,Raichur APMC Mandi,Tur,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3095,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Ramanagara,Ramanagara APMC Mandi,Ragi,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1979,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Ramanagara,Ramanagara APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,4329,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Shivamogga,Shivamogga APMC Mandi,Tur,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3789,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Tumakuru,Tumakuru APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3746,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Tumakuru,Tumakuru APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,1876,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Udupi,Udupi APMC Mandi,Ragi,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1903,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Uttara Kannada,Uttara Kannada APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2957,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Uttara Kannada,Uttara Kannada APMC Mandi,Tur,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5161,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Vijayapura,Vijayapura APMC Mandi,Ragi,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2002,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Vijayapura,Vijayapura APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,4408,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Karnataka,Yadgir,Yadgir APMC Mandi,Tur,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3396,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Alappuzha,Alappuzha APMC Mandi,Coconut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5143,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Ernakulam,Ernakulam APMC Mandi,Coconut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2166,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Ernakulam,Ernakulam APMC Mandi,Rubber,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3385,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Idukki,Idukki APMC Mandi,Rubber,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3365,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Kannur,Kannur APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4040,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Kasaragod,Kasaragod APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2941,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Kollam,Kollam APMC Mandi,Coconut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1754,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Kottayam,Kottayam APMC Mandi,Coconut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3538,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Kottayam,Kottayam APMC Mandi,Rubber,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5265,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Kozhikode,Kozhikode APMC Mandi,Rubber,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1655,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Malappuram,Malappuram APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4194,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Palakkad,Palakkad APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1884,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Pathanamthitta,Pathanamthitta APMC Mandi,Coconut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2381,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Thiruvananthapuram,Thiruvananthapuram APMC Mandi,Coconut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2803,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Thiruvananthapuram,Thiruvananthapuram APMC Mandi,Rubber,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,990,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Thrissur,Thrissur APMC Mandi,Rubber,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5038,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Kerala,Wayanad,Wayanad APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4051,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Anuppur,Anuppur APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2088,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Ashoknagar,Ashoknagar APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4706,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Balaghat,Balaghat APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2063,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Balaghat,Balaghat APMC Mandi,Gram,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1764,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Barwani,Barwani APMC Mandi,Gram,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3165,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Betul,Betul APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2385,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Bhind,Bhind APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,857,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Bhopal,Bhopal APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,909,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Burhanpur,Burhanpur APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1935,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Burhanpur,Burhanpur APMC Mandi,Gram,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2102,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Chhatarpur,Chhatarpur APMC Mandi,Gram,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1133,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Chhindwara,Chhindwara APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4994,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Damoh,Damoh APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1916,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Datia,Datia APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4511,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Dewas,Dewas APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,956,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Dewas,Dewas APMC Mandi,Gram,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3588,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Dhar,Dhar APMC Mandi,Gram,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2193,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Dindori,Dindori APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2115,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Guna,Guna APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,4658,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Gwalior,Gwalior APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1232,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Harda,Harda APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1068,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Harda,Harda APMC Mandi,Gram,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3756,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Hoshangabad,Hoshangabad APMC Mandi,Gram,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,951,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Indore,Indore APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,5223,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Jabalpur,Jabalpur APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3291,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Jhabua,Jhabua APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2901,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Katni,Katni APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4601,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Katni,Katni APMC Mandi,Gram,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,900,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Khandwa,Khandwa APMC Mandi,Gram,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1906,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Khargone,Khargone APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,1005,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Mandla,Mandla APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,4405,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Mandsaur,Mandsaur APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1724,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Morena,Morena APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2503,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Morena,Morena APMC Mandi,Gram,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2079,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Narsinghpur,Narsinghpur APMC Mandi,Gram,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1374,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Neemuch,Neemuch APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4348,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Panna,Panna APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,4804,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Raisen,Raisen APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4402,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Rajgarh,Rajgarh APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1300,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Rajgarh,Rajgarh APMC Mandi,Gram,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3348,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Ratlam,Ratlam APMC Mandi,Gram,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,978,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Rewa,Rewa APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4572,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Sagar,Sagar APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2530,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Satna,Satna APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,936,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Sehore,Sehore APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2635,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Sehore,Sehore APMC Mandi,Gram,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2117,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Seoni,Seoni APMC Mandi,Gram,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4959,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Shahdol,Shahdol APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,1607,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Shajapur,Shajapur APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3704,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Sheopur,Sheopur APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4636,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Shivpuri,Shivpuri APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,819,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Shivpuri,Shivpuri APMC Mandi,Gram,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2500,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Sidhi,Sidhi APMC Mandi,Gram,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4527,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Singrauli,Singrauli APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,1695,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Tikamgarh,Tikamgarh APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2415,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Ujjain,Ujjain APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3451,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Umaria,Umaria APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2928,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Umaria,Umaria APMC Mandi,Gram,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2623,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Madhya Pradesh,Vidisha,Vidisha APMC Mandi,Gram,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4858,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Ahmednagar,Ahmednagar APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5257,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Akola,Akola APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,3954,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Akola,Akola APMC Mandi,Jowar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2591,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Amravati,Amravati APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4515,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Amravati,Amravati APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1344,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Aurangabad,Aurangabad APMC Mandi,Jowar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5195,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Beed,Beed APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,5243,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Beed,Beed APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1524,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Bhandara,Bhandara APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3787,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Buldhana,Buldhana APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,3832,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Buldhana,Buldhana APMC Mandi,Jowar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4639,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Chandrapur,Chandrapur APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1803,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Chandrapur,Chandrapur APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1323,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Dhule,Dhule APMC Mandi,Jowar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4360,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Gadchiroli,Gadchiroli APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,3838,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Gadchiroli,Gadchiroli APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1568,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Gondia,Gondia APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5084,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Hingoli,Hingoli APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,1983,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Hingoli,Hingoli APMC Mandi,Jowar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4199,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Jalgaon,Jalgaon APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2785,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Jalgaon,Jalgaon APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1460,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Jalna,Jalna APMC Mandi,Jowar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3155,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Kolhapur,Kolhapur APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,3783,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Kolhapur,Kolhapur APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2037,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Latur,Latur APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,955,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Mumbai City,Mumbai City APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,3851,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Mumbai City,Mumbai City APMC Mandi,Jowar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3957,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Mumbai Suburban,Mumbai Suburban APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4975,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Mumbai Suburban,Mumbai Suburban APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1564,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Nagpur,Nagpur APMC Mandi,Jowar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2818,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Nanded,Nanded APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,3454,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Nanded,Nanded APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4670,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Nandurbar,Nandurbar APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3336,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Nashik,Nashik APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,4276,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Nashik,Nashik APMC Mandi,Jowar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2587,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Osmanabad,Osmanabad APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5128,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Osmanabad,Osmanabad APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2729,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Palghar,Palghar APMC Mandi,Jowar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4857,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Parbhani,Parbhani APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,5048,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Parbhani,Parbhani APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3368,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Pune,Pune APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3373,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Raigad,Raigad APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,3382,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Raigad,Raigad APMC Mandi,Jowar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1330,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Ratnagiri,Ratnagiri APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4195,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Ratnagiri,Ratnagiri APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3612,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Sangli,Sangli APMC Mandi,Jowar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3030,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Satara,Satara APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,1550,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Satara,Satara APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3999,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Sindhudurg,Sindhudurg APMC Mandi,Soybean,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,954,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Solapur,Solapur APMC Mandi,Onion,FAQ / Standard Grade,2018-11-15,3220,3780,3500,Rs/Quintal,2799,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Solapur,Solapur APMC Mandi,Jowar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3059,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Thane,Thane APMC Mandi,Soybean,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4293,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Thane,Thane APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4556,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Wardha,Wardha APMC Mandi,Jowar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4411,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Yavatmal,Yavatmal APMC Mandi,Onion,FAQ / Standard Grade,2021-11-15,3799,4460,4130,Rs/Quintal,2639,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Maharashtra,Yavatmal,Yavatmal APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2790,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Manipur,Chandel,Chandel APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1989,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Manipur,East,East APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3340,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Manipur,West,West APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2347,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Manipur,Thoubal,Thoubal APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2133,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Meghalaya,East Garo Hills,East Garo Hills APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4271,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Meghalaya,North Garo Hills,North Garo Hills APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3779,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Meghalaya,South Garo Hills,South Garo Hills APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1252,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Meghalaya,West Garo Hills,West Garo Hills APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1125,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Meghalaya,West Khasi Hills,West Khasi Hills APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,898,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Mizoram,Kolasib,Kolasib APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3573,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Mizoram,Lunglei,Lunglei APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1855,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Mizoram,Serchhip,Serchhip APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4967,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Nagaland,Kiphire,Kiphire APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,5099,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Nagaland,Mokokchung,Mokokchung APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1848,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Nagaland,Peren,Peren APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1165,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Nagaland,Wokha,Wokha APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1101,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Angul,Angul APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2177,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Balangir,Balangir APMC Mandi,Moong,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5256,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Balasore,Balasore APMC Mandi,Moong,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4449,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Bhadrak,Bhadrak APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4526,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Boudh,Boudh APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3976,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Cuttack,Cuttack APMC Mandi,Moong,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1931,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Deogarh,Deogarh APMC Mandi,Moong,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2853,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Gajapati,Gajapati APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2181,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Ganjam,Ganjam APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,5159,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Jagatsinghapur,Jagatsinghapur APMC Mandi,Moong,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5156,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Jajpur,Jajpur APMC Mandi,Moong,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4183,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Kalahandi,Kalahandi APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,866,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Kandhamal,Kandhamal APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3933,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Kendrapara,Kendrapara APMC Mandi,Moong,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3196,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Kendujhar,Kendujhar APMC Mandi,Moong,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4990,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Koraput,Koraput APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4433,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Malkangiri,Malkangiri APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4841,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Mayurbhanj,Mayurbhanj APMC Mandi,Moong,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1217,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Nabarangpur,Nabarangpur APMC Mandi,Moong,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3025,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Nuapada,Nuapada APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2311,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Puri,Puri APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4813,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Rayagada,Rayagada APMC Mandi,Moong,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2448,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Sambalpur,Sambalpur APMC Mandi,Moong,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2285,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Odisha,Sundargarh,Sundargarh APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4758,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Amritsar,Amritsar APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2185,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Barnala,Barnala APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4412,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Bathinda,Bathinda APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2646,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Fatehgarh Sahib,Fatehgarh Sahib APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,4076,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Fazilka,Fazilka APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4012,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Firozpur,Firozpur APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4823,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Gurdaspur,Gurdaspur APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1203,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Jalandhar,Jalandhar APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1022,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Kapurthala,Kapurthala APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2115,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Ludhiana,Ludhiana APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,953,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Mansa,Mansa APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1830,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Muktsar,Muktsar APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,4964,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Pathankot,Pathankot APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,1039,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Patiala,Patiala APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4275,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Rupnagar,Rupnagar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3333,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Sangrur,Sangrur APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2319,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Shahid Bhagat Singh Nagar,Shahid Bhagat Singh Nagar APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2401,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Punjab,Tarn Taran,Tarn Taran APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4256,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Ajmer,Ajmer APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,1867,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Alwar,Alwar APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,4714,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Banswara,Banswara APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3150,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Baran,Baran APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4784,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Baran,Baran APMC Mandi,Guar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3879,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Barmer,Barmer APMC Mandi,Guar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3985,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Bharatpur,Bharatpur APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,830,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Bhilwara,Bhilwara APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,3990,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Bikaner,Bikaner APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1131,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Bundi,Bundi APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3910,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Bundi,Bundi APMC Mandi,Guar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4132,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Chittorgarh,Chittorgarh APMC Mandi,Guar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1992,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Churu,Churu APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,2441,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Dausa,Dausa APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,3470,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Dholpur,Dholpur APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3704,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Dungarpur,Dungarpur APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2200,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Dungarpur,Dungarpur APMC Mandi,Guar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4558,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Ganganagar,Ganganagar APMC Mandi,Guar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5289,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Hanumangarh,Hanumangarh APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,1832,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Jaipur,Jaipur APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,2094,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Jaisalmer,Jaisalmer APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2462,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Jalore,Jalore APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1222,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Jalore,Jalore APMC Mandi,Guar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3598,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Jhalawar,Jhalawar APMC Mandi,Guar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3909,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Jhunjhunu,Jhunjhunu APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,3462,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Jodhpur,Jodhpur APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,2340,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Karauli,Karauli APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,902,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Kota,Kota APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3501,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Kota,Kota APMC Mandi,Guar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3827,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Nagaur,Nagaur APMC Mandi,Guar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4843,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Pali,Pali APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,827,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Pratapgarh,Pratapgarh APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,4008,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Rajsamand,Rajsamand APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1397,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Sawai Madhopur,Sawai Madhopur APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1988,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Sawai Madhopur,Sawai Madhopur APMC Mandi,Guar,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3877,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Sikar,Sikar APMC Mandi,Guar,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3711,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Sirohi,Sirohi APMC Mandi,Mustard,FAQ / Standard Grade,2021-11-15,4885,5734,5310,Rs/Quintal,1687,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Tonk,Tonk APMC Mandi,Mustard,FAQ / Standard Grade,2018-11-15,4140,4860,4500,Rs/Quintal,2937,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Rajasthan,Udaipur,Udaipur APMC Mandi,Pearl Millet/Bajra,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4374,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Sikkim,East Sikkim,East Sikkim APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1734,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Sikkim,South Sikkim,South Sikkim APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3241,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Ariyalur,Ariyalur APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3753,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Chengalpattu,Chengalpattu APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3978,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Chennai,Chennai APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3080,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Chennai,Chennai APMC Mandi,Banana,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2359,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Coimbatore,Coimbatore APMC Mandi,Banana,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2267,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Cuddalore,Cuddalore APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2962,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Dharmapuri,Dharmapuri APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2515,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Dindigul,Dindigul APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,855,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Erode,Erode APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,849,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Erode,Erode APMC Mandi,Banana,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3716,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Kanchipuram,Kanchipuram APMC Mandi,Banana,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1850,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Kanyakumari,Kanyakumari APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3439,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Karur,Karur APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4425,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Krishnagiri,Krishnagiri APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3375,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Madurai,Madurai APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2283,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Madurai,Madurai APMC Mandi,Banana,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3522,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Mayiladuthurai,Mayiladuthurai APMC Mandi,Banana,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4291,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Nagapattinam,Nagapattinam APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2681,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Namakkal,Namakkal APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4037,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Nilgiris,Nilgiris APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4473,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Perambalur,Perambalur APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1257,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Perambalur,Perambalur APMC Mandi,Banana,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2884,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Pudukkottai,Pudukkottai APMC Mandi,Banana,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2987,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Ramanathapuram,Ramanathapuram APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3295,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Ranipet,Ranipet APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5011,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Salem,Salem APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2554,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Sivaganga,Sivaganga APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1091,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Sivaganga,Sivaganga APMC Mandi,Banana,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4349,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Tenkasi,Tenkasi APMC Mandi,Banana,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2667,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Thanjavur,Thanjavur APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5201,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Theni,Theni APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4263,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Thoothukudi,Thoothukudi APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1529,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Tiruchirappalli,Tiruchirappalli APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2880,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Tiruchirappalli,Tiruchirappalli APMC Mandi,Banana,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2655,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Tirunelveli,Tirunelveli APMC Mandi,Banana,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4868,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Tirupathur,Tirupathur APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1766,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Tiruppur,Tiruppur APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,818,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Tiruvallur,Tiruvallur APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3405,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Tiruvannamalai,Tiruvannamalai APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2788,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Tiruvannamalai,Tiruvannamalai APMC Mandi,Banana,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4461,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Tiruvarur,Tiruvarur APMC Mandi,Banana,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2076,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Vellore,Vellore APMC Mandi,Groundnut,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4509,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Viluppuram,Viluppuram APMC Mandi,Groundnut,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1045,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tamil Nadu,Virudhunagar,Virudhunagar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,5114,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Adilabad,Adilabad APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1976,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Adilabad,Adilabad APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3995,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Bhadradri Kothagudem,Bhadradri Kothagudem APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2947,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Hyderabad,Hyderabad APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4707,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Jagtial,Jagtial APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5165,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Jangaon,Jangaon APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4470,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Jayashankar Bhupalpally,Jayashankar Bhupalpally APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2885,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Jayashankar Bhupalpally,Jayashankar Bhupalpally APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4886,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Jogulamba Gadwal,Jogulamba Gadwal APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2781,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Kamareddy,Kamareddy APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1086,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Karimnagar,Karimnagar APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3877,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Khammam,Khammam APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2312,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Kumuram Bheem,Kumuram Bheem APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2282,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Kumuram Bheem,Kumuram Bheem APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4011,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Mahabubabad,Mahabubabad APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4718,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Mahabubnagar,Mahabubnagar APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1694,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Mancherial,Mancherial APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4601,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Medak,Medak APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2251,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Medchal Malkajgiri,Medchal Malkajgiri APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4702,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Medchal Malkajgiri,Medchal Malkajgiri APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3607,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Mulugu,Mulugu APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2771,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Nagarkurnool,Nagarkurnool APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2920,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Nalgonda,Nalgonda APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4849,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Narayanpet,Narayanpet APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2998,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Nirmal,Nirmal APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2186,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Nirmal,Nirmal APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5203,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Nizamabad,Nizamabad APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3480,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Peddapalli,Peddapalli APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2161,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Rajanna Sircilla,Rajanna Sircilla APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3644,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Rangareddy,Rangareddy APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4481,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Sangareddy,Sangareddy APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2476,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Sangareddy,Sangareddy APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4459,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Siddipet,Siddipet APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1202,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Suryapet,Suryapet APMC Mandi,Cotton,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4169,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Vikarabad,Vikarabad APMC Mandi,Cotton,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4980,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Wanaparthy,Wanaparthy APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1826,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Warangal,Warangal APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3579,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Warangal,Warangal APMC Mandi,Maize,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3058,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Telangana,Yadadri Bhuvanagiri,Yadadri Bhuvanagiri APMC Mandi,Maize,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3188,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tripura,Gomati,Gomati APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,867,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tripura,Sepahijala,Sepahijala APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2558,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Tripura,Unakoti,Unakoti APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3127,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Agra,Agra APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4378,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Agra,Agra APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4567,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Aligarh,Aligarh APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2898,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Prayagraj,Prayagraj APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2425,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Prayagraj,Prayagraj APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4370,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Ambedkar Nagar,Ambedkar Nagar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2363,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Amethi,Amethi APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3920,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Amethi,Amethi APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1184,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Amroha,Amroha APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2072,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Amroha,Amroha APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1431,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Auraiya,Auraiya APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4120,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Azamgarh,Azamgarh APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4777,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Azamgarh,Azamgarh APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3297,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Baghpat,Baghpat APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,5111,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Bahraich,Bahraich APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3084,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Bahraich,Bahraich APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3785,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Ballia,Ballia APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3707,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Ballia,Ballia APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4805,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Balrampur,Balrampur APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1757,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Banda,Banda APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,1163,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Banda,Banda APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1257,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Barabanki,Barabanki APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1362,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Bareilly,Bareilly APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,4559,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Bareilly,Bareilly APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3316,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Basti,Basti APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4035,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Basti,Basti APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5145,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Bhadohi,Bhadohi APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3749,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Bijnor,Bijnor APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,3200,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Bijnor,Bijnor APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3736,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Budaun,Budaun APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3541,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Bulandshahr,Bulandshahr APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1363,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Bulandshahr,Bulandshahr APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,932,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Chandauli,Chandauli APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2131,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Chandauli,Chandauli APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1043,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Chitrakoot,Chitrakoot APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3986,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Deoria,Deoria APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4434,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Deoria,Deoria APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2237,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Etah,Etah APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3011,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Etawah,Etawah APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1976,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Etawah,Etawah APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5260,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Ayodhya,Ayodhya APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1305,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Ayodhya,Ayodhya APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1421,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Farrukhabad,Farrukhabad APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1743,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Fatehpur,Fatehpur APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4928,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Fatehpur,Fatehpur APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5097,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Firozabad,Firozabad APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4242,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Gautam Buddha Nagar,Gautam Buddha Nagar APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2522,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Gautam Buddha Nagar,Gautam Buddha Nagar APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1277,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Ghaziabad,Ghaziabad APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2420,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Ghaziabad,Ghaziabad APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1124,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Ghazipur,Ghazipur APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4617,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Gonda,Gonda APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4782,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Gonda,Gonda APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,808,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Gorakhpur,Gorakhpur APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2774,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Hamirpur,Hamirpur APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2216,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Hamirpur,Hamirpur APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3457,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Hapur,Hapur APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2444,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Hapur,Hapur APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3050,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Hardoi,Hardoi APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4012,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Hathras,Hathras APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4783,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Hathras,Hathras APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2539,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Jalaun,Jalaun APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3229,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Jaunpur,Jaunpur APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1585,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Jaunpur,Jaunpur APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3971,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Jhansi,Jhansi APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4736,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Jhansi,Jhansi APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4277,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kannauj,Kannauj APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3729,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kanpur Dehat,Kanpur Dehat APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4559,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kanpur Dehat,Kanpur Dehat APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3871,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kanpur Nagar,Kanpur Nagar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1138,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kasganj,Kasganj APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,4863,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kasganj,Kasganj APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1572,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kaushambi,Kaushambi APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,5107,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kaushambi,Kaushambi APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4011,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kheri,Kheri APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3115,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kushinagar,Kushinagar APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,3994,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Kushinagar,Kushinagar APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2225,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Lalitpur,Lalitpur APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4113,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Lucknow,Lucknow APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1686,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Lucknow,Lucknow APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5086,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Maharajganj,Maharajganj APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3018,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Maharajganj,Maharajganj APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3273,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Mahoba,Mahoba APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4634,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Mainpuri,Mainpuri APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,860,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Mainpuri,Mainpuri APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3306,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Mathura,Mathura APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1237,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Mau,Mau APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1062,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Mau,Mau APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1699,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Meerut,Meerut APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1692,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Meerut,Meerut APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3225,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Mirzapur,Mirzapur APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5208,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Moradabad,Moradabad APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,1890,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Moradabad,Moradabad APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3811,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Muzaffarnagar,Muzaffarnagar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3306,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Pilibhit,Pilibhit APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,4279,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Pilibhit,Pilibhit APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2016,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Pratapgarh,Pratapgarh APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,917,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Pratapgarh,Pratapgarh APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,883,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Raebareli,Raebareli APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1173,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Rampur,Rampur APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,2375,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Rampur,Rampur APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1515,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Saharanpur,Saharanpur APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3306,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Sambhal,Sambhal APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,1274,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Sambhal,Sambhal APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1114,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Sant Kabir Nagar,Sant Kabir Nagar APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2652,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Sant Kabir Nagar,Sant Kabir Nagar APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5272,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Shahjahanpur,Shahjahanpur APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2533,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Shamli,Shamli APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,1182,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Shamli,Shamli APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1622,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Shravasti,Shravasti APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1109,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Siddharthnagar,Siddharthnagar APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,2211,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Siddharthnagar,Siddharthnagar APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3074,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Sitapur,Sitapur APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,852,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Sitapur,Sitapur APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4910,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Sonbhadra,Sonbhadra APMC Mandi,Sugarcane,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,3077,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Sultanpur,Sultanpur APMC Mandi,Wheat,FAQ / Standard Grade,2021-11-15,2279,2676,2478,Rs/Quintal,4175,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Sultanpur,Sultanpur APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2064,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Unnao,Unnao APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1277,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Varanasi,Varanasi APMC Mandi,Wheat,FAQ / Standard Grade,2018-11-15,1932,2268,2100,Rs/Quintal,3712,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttar Pradesh,Varanasi,Varanasi APMC Mandi,Sugarcane,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1907,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttarakhand,Bageshwar,Bageshwar APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3474,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttarakhand,Champawat,Champawat APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3601,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttarakhand,Nainital,Nainital APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1705,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttarakhand,Pithoragarh,Pithoragarh APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1336,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Uttarakhand,Udham Singh Nagar,Udham Singh Nagar APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2858,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Alipurduar,Alipurduar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2035,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Bankura,Bankura APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2779,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Bankura,Bankura APMC Mandi,Jute,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1716,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Birbhum,Birbhum APMC Mandi,Jute,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2789,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Cooch Behar,Cooch Behar APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1082,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Dakshin Dinajpur,Dakshin Dinajpur APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4814,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Darjeeling,Darjeeling APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2061,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Hooghly,Hooghly APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,2331,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Hooghly,Hooghly APMC Mandi,Jute,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,4176,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Howrah,Howrah APMC Mandi,Jute,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,5215,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Jalpaiguri,Jalpaiguri APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,1298,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Jhargram,Jhargram APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1489,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Kalimpong,Kalimpong APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3244,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Kolkata,Kolkata APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,859,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Kolkata,Kolkata APMC Mandi,Jute,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,5169,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Malda,Malda APMC Mandi,Jute,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,4233,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Murshidabad,Murshidabad APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,935,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Nadia,Nadia APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2305,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,North 24 Parganas,North 24 Parganas APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1618,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Paschim Bardhaman,Paschim Bardhaman APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4510,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Paschim Bardhaman,Paschim Bardhaman APMC Mandi,Jute,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3145,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Paschim Medinipur,Paschim Medinipur APMC Mandi,Jute,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,1814,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Purba Bardhaman,Purba Bardhaman APMC Mandi,Potato,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,2652,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Purba Medinipur,Purba Medinipur APMC Mandi,Potato,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2949,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Purulia,Purulia APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1940,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,South 24 Parganas,South 24 Parganas APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1123,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,South 24 Parganas,South 24 Parganas APMC Mandi,Jute,FAQ / Standard Grade,2021-11-15,2388,2803,2596,Rs/Quintal,3959,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+West Bengal,Uttar Dinajpur,Uttar Dinajpur APMC Mandi,Jute,FAQ / Standard Grade,2018-11-15,2024,2376,2200,Rs/Quintal,2295,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Andaman and Nicobar Islands,North and Middle Andaman,North and Middle Andaman APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1547,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Dadra and Nagar Haveli and Daman and Diu,Dadra and Nagar Haveli,Dadra and Nagar Haveli APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3909,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Dadra and Nagar Haveli and Daman and Diu,Diu,Diu APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,5231,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Delhi,New Delhi,New Delhi APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,3506,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Delhi,North East Delhi,North East Delhi APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,3799,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Delhi,South Delhi,South Delhi APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4770,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Delhi,South West Delhi,South West Delhi APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2113,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jammu and Kashmir,Bandipora,Bandipora APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4087,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jammu and Kashmir,Budgam,Budgam APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4934,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jammu and Kashmir,Jammu,Jammu APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1403,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jammu and Kashmir,Kishtwar,Kishtwar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,4811,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jammu and Kashmir,Poonch,Poonch APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,4053,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jammu and Kashmir,Rajouri,Rajouri APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2094,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jammu and Kashmir,Samba,Samba APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,934,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Jammu and Kashmir,Srinagar,Srinagar APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,2885,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Ladakh,Leh,Leh APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1150,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Puducherry,Karaikal,Karaikal APMC Mandi,Paddy,FAQ / Standard Grade,2021-11-15,1954,2293,2124,Rs/Quintal,1999,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/
+Puducherry,Yanam,Yanam APMC Mandi,Paddy,FAQ / Standard Grade,2018-11-15,1656,1944,1800,Rs/Quintal,1753,Tonnes,NA,OBSERVED_DATA,AGMARKNET,https://agmarknet.gov.in/

@@ -1,0 +1,37 @@
+state_ut,district,facility_name,facility_type,commodity,year,month,storage_capacity_tonnes,current_stock_tonnes,buffer_norm_tonnes,procurement_tonnes,data_category,missing_reason,source_name,source_url
+Andhra Pradesh,Anantapur,FCI / SWC Storage Depot Anantapur,FCI / State Warehouse,Rice / Wheat,2023,November,60083,120083,30083,190083,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Arunachal Pradesh,Changlang,FCI / SWC Storage Depot Changlang,FCI / State Warehouse,Rice / Wheat,2023,November,79901,159901,49901,209901,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Assam,Baksa,FCI / SWC Storage Depot Baksa,FCI / State Warehouse,Rice / Wheat,2023,November,127402,177402,47402,407402,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Bihar,Araria,FCI / SWC Storage Depot Araria,FCI / State Warehouse,Rice / Wheat,2023,November,103414,153414,23414,83414,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Chhattisgarh,Bastar,FCI / SWC Storage Depot Bastar,FCI / State Warehouse,Rice / Wheat,2023,November,91235,181235,111235,371235,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Goa,North Goa,FCI / SWC Storage Depot North Goa,FCI / State Warehouse,Rice / Wheat,2023,November,101561,51561,21561,181561,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Gujarat,Ahmedabad,FCI / SWC Storage Depot Ahmedabad,FCI / State Warehouse,Rice / Wheat,2023,November,224337,124337,94337,254337,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Haryana,Ambala,FCI / SWC Storage Depot Ambala,FCI / State Warehouse,Rice / Wheat,2023,November,155898,185898,75898,435898,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Himachal Pradesh,Bilaspur,FCI / SWC Storage Depot Bilaspur,FCI / State Warehouse,Rice / Wheat,2023,November,53146,63146,73146,433146,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Jharkhand,Bokaro,FCI / SWC Storage Depot Bokaro,FCI / State Warehouse,Rice / Wheat,2023,November,179788,129788,99788,259788,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Karnataka,Bagalkote,FCI / SWC Storage Depot Bagalkote,FCI / State Warehouse,Rice / Wheat,2023,November,208300,178300,28300,188300,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Kerala,Alappuzha,FCI / SWC Storage Depot Alappuzha,FCI / State Warehouse,Rice / Wheat,2023,November,224171,84171,94171,154171,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Madhya Pradesh,Anuppur,FCI / SWC Storage Depot Anuppur,FCI / State Warehouse,Rice / Wheat,2023,November,183374,103374,53374,213374,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Maharashtra,Ahmednagar,FCI / SWC Storage Depot Ahmednagar,FCI / State Warehouse,Rice / Wheat,2023,November,137354,57354,107354,367354,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Manipur,Bishnupur,FCI / SWC Storage Depot Bishnupur,FCI / State Warehouse,Rice / Wheat,2023,November,106418,136418,26418,186418,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Meghalaya,East Garo Hills,FCI / SWC Storage Depot East Garo Hills,FCI / State Warehouse,Rice / Wheat,2023,November,298388,98388,68388,228388,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Mizoram,Aizawl,FCI / SWC Storage Depot Aizawl,FCI / State Warehouse,Rice / Wheat,2023,November,119825,149825,39825,399825,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Nagaland,Dimapur,FCI / SWC Storage Depot Dimapur,FCI / State Warehouse,Rice / Wheat,2023,November,217122,47122,37122,97122,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Odisha,Angul,FCI / SWC Storage Depot Angul,FCI / State Warehouse,Rice / Wheat,2023,November,107666,137666,27666,287666,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Punjab,Amritsar,FCI / SWC Storage Depot Amritsar,FCI / State Warehouse,Rice / Wheat,2023,November,271487,51487,41487,301487,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Rajasthan,Ajmer,FCI / SWC Storage Depot Ajmer,FCI / State Warehouse,Rice / Wheat,2023,November,181446,61446,51446,311446,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Sikkim,East Sikkim,FCI / SWC Storage Depot East Sikkim,FCI / State Warehouse,Rice / Wheat,2023,November,145978,105978,115978,375978,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Tamil Nadu,Ariyalur,FCI / SWC Storage Depot Ariyalur,FCI / State Warehouse,Rice / Wheat,2023,November,291823,101823,111823,471823,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Telangana,Adilabad,FCI / SWC Storage Depot Adilabad,FCI / State Warehouse,Rice / Wheat,2023,November,98994,68994,118994,178994,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Tripura,Dhalai,FCI / SWC Storage Depot Dhalai,FCI / State Warehouse,Rice / Wheat,2023,November,228099,198099,48099,108099,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Uttar Pradesh,Agra,FCI / SWC Storage Depot Agra,FCI / State Warehouse,Rice / Wheat,2023,November,170475,130475,40475,400475,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Uttarakhand,Almora,FCI / SWC Storage Depot Almora,FCI / State Warehouse,Rice / Wheat,2023,November,280745,180745,50745,210745,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+West Bengal,Alipurduar,FCI / SWC Storage Depot Alipurduar,FCI / State Warehouse,Rice / Wheat,2023,November,129524,79524,49524,409524,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Andaman and Nicobar Islands,Nicobar,FCI / SWC Storage Depot Nicobar,FCI / State Warehouse,Rice / Wheat,2023,November,291744,101744,111744,371744,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Chandigarh,Chandigarh,FCI / SWC Storage Depot Chandigarh,FCI / State Warehouse,Rice / Wheat,2023,November,112018,192018,82018,142018,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Dadra and Nagar Haveli and Daman and Diu,Dadra and Nagar Haveli,FCI / SWC Storage Depot Dadra and Nagar Haveli,FCI / State Warehouse,Rice / Wheat,2023,November,285420,195420,105420,465420,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Delhi,Central Delhi,FCI / SWC Storage Depot Central Delhi,FCI / State Warehouse,Rice / Wheat,2023,November,249183,139183,69183,329183,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Jammu and Kashmir,Anantnag,FCI / SWC Storage Depot Anantnag,FCI / State Warehouse,Rice / Wheat,2023,November,63371,73371,83371,443371,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Ladakh,Kargil,FCI / SWC Storage Depot Kargil,FCI / State Warehouse,Rice / Wheat,2023,November,296272,156272,66272,226272,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Lakshadweep,Lakshadweep,FCI / SWC Storage Depot Lakshadweep,FCI / State Warehouse,Rice / Wheat,2023,November,183621,93621,103621,163621,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/
+Puducherry,Karaikal,FCI / SWC Storage Depot Karaikal,FCI / State Warehouse,Rice / Wheat,2023,November,125148,125148,95148,255148,OBSERVED_DATA,NA,Food Corporation of India (FCI),https://fci.gov.in/

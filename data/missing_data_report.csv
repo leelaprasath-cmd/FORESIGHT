@@ -1,0 +1,5 @@
+table_name,column_name,total_records,missing_count,missing_percentage,missing_reason
+india_food_production.csv,irrigation_area_or_percentage,40,0,0.0%,Complete in pilot records
+food_market_data.csv,dispatch_quantity_if_available,11,4,36.4%,No reliable district-level source found for state regulated markets
+food_availability_data.csv,current_stock_tonnes,5,1,20.0%,No reliable district-level source found for rainfed Solapur storage
+supply_chain_data.csv,destination_market,5,0,0.0%,Complete in pilot records

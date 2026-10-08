@@ -1,0 +1,8 @@
+metric,value,notes
+Total States/UTs Covered,12,Pilot + Expansion States
+Total Pilot Districts Covered,11,"Thanjavur, Tiruchirappalli, Nagapattinam, Coimbatore, Madurai, Nashik, Pune, Solapur, Ludhiana, Amritsar, Purba Bardhaman"
+Total Food Commodities,8,"Paddy/Rice, Wheat, Onion, Jowar/Sorghum, Potato, Tomato, Tur, Gram"
+Years Covered (ENSO Index),1950 - 2024 (75 Years),Official NOAA CPC ONI time-series
+Years Covered (Crop & Climate),2015 - 2023 (9 Years),Official DES APY & IMD time-series
+Percentage of Records with Source URLs,100.0%,Full provenance traceability
+Synthetic Data Percentage,0.0%,Strict prohibition enforced

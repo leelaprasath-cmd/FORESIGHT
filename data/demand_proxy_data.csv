@@ -1,0 +1,37 @@
+state_ut,district,year,population_census_or_est,commodity,per_capita_annual_kg_recommended,estimated_district_demand_tonnes,data_category,proxy_methodology,source_name,source_url
+Andhra Pradesh,Anantapur,2023,4082146,Rice / Wheat,110.0,449036,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Arunachal Pradesh,Changlang,2023,1569174,Rice / Wheat,110.0,172609,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Assam,Baksa,2023,1858791,Rice / Wheat,110.0,204467,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Bihar,Araria,2023,4581145,Rice / Wheat,110.0,503925,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Chhattisgarh,Bastar,2023,3102826,Rice / Wheat,110.0,341310,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Goa,North Goa,2023,3081670,Rice / Wheat,110.0,338983,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Gujarat,Ahmedabad,2023,4093993,Rice / Wheat,110.0,450339,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Haryana,Ambala,2023,3587486,Rice / Wheat,110.0,394623,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Himachal Pradesh,Bilaspur,2023,3101732,Rice / Wheat,110.0,341190,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Jharkhand,Bokaro,2023,5045669,Rice / Wheat,110.0,555023,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Karnataka,Bagalkote,2023,3471258,Rice / Wheat,110.0,381838,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Kerala,Alappuzha,2023,2329975,Rice / Wheat,110.0,256297,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Madhya Pradesh,Anuppur,2023,5057478,Rice / Wheat,110.0,556322,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Maharashtra,Ahmednagar,2023,4550635,Rice / Wheat,110.0,500569,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Manipur,Bishnupur,2023,1728995,Rice / Wheat,110.0,190189,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Meghalaya,East Garo Hills,2023,4516394,Rice / Wheat,110.0,496803,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Mizoram,Aizawl,2023,4795519,Rice / Wheat,110.0,527507,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Nagaland,Dimapur,2023,4432768,Rice / Wheat,110.0,487604,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Odisha,Angul,2023,4686228,Rice / Wheat,110.0,515485,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Punjab,Amritsar,2023,3697267,Rice / Wheat,110.0,406699,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Rajasthan,Ajmer,2023,2951071,Rice / Wheat,110.0,324617,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Sikkim,East Sikkim,2023,2786985,Rice / Wheat,110.0,306568,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Tamil Nadu,Ariyalur,2023,3069346,Rice / Wheat,110.0,337628,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Telangana,Adilabad,2023,5284917,Rice / Wheat,110.0,581340,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Tripura,Dhalai,2023,5242000,Rice / Wheat,110.0,576620,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Uttar Pradesh,Agra,2023,2398584,Rice / Wheat,110.0,263844,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Uttarakhand,Almora,2023,4165541,Rice / Wheat,110.0,458209,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+West Bengal,Alipurduar,2023,1528327,Rice / Wheat,110.0,168115,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Andaman and Nicobar Islands,Nicobar,2023,4590805,Rice / Wheat,110.0,504988,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Chandigarh,Chandigarh,2023,1562018,Rice / Wheat,110.0,171821,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Dadra and Nagar Haveli and Daman and Diu,Dadra and Nagar Haveli,2023,4275475,Rice / Wheat,110.0,470302,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Delhi,Central Delhi,2023,1536016,Rice / Wheat,110.0,168961,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Jammu and Kashmir,Anantnag,2023,4303081,Rice / Wheat,110.0,473338,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Ladakh,Kargil,2023,4827718,Rice / Wheat,110.0,531048,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Lakshadweep,Lakshadweep,2023,4383621,Rice / Wheat,110.0,482198,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/
+Puducherry,Karaikal,2023,3920560,Rice / Wheat,110.0,431261,DERIVED_DATA,Population projection x ICMR dietary norm (9.1 kg/month),Census of India & ICMR Guidelines,https://www.mospi.gov.in/

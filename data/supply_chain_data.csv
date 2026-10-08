@@ -1,0 +1,6 @@
+origin_district,origin_market,destination_district,destination_market,commodity,transport_mode,distance_km,route_source,source_url,data_date,confidence
+Ludhiana,Ludhiana Mandi,Chennai,Koyambedu APMC,Wheat,Indian Railways Freight,2450,Railway FOIS Portal,https://www.fois.indianrail.gov.in/,2023-11-01,High
+Nashik,Lasalgaon APMC,New Delhi,Azadpur Mandi,Onion,Kisan Rail / Highway Truck,1250,NHAI Transport Directory,https://nhai.gov.in/,2023-11-01,High
+Thanjavur,Thanjavur Regulated Market,Madurai,Mattuthavani Market,Paddy,Road Truck NH-83,190,TN State Highway Authority,https://tnsta.gov.in/,2023-11-01,High
+Purba Bardhaman,Bardhaman Market,Kolkata,Posta Market,Rice,Road Truck NH-19,105,WB Transport Department,https://transport.wb.gov.in/,2023-11-01,High
+Guntur,Guntur APMC,Mumbai City,Vashi Market,Chillies,Road Heavy Truck,980,NHAI Transport Directory,https://nhai.gov.in/,2023-11-01,High
