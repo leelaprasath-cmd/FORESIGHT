@@ -70,29 +70,47 @@ function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, l
 export default function Home() {
   const [selectedDistrict, setSelectedDistrict] = useState<string | null>(null);
   const [clickCoords, setClickCoords] = useState<{lat: number, lng: number} | null>(null);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
   const handleDistrictClick = (districtName: string, lat: number, lng: number) => {
     setSelectedDistrict(districtName);
     setClickCoords({ lat, lng });
+    setIsSidebarOpen(true); // Automatically open sidebar when district clicked
   };
 
   return (
-    <div className="flex h-screen w-full bg-slate-50 text-slate-900 font-sans overflow-hidden">
+    <div className="relative flex h-screen w-full bg-slate-50 text-slate-900 font-sans overflow-hidden">
       
       {/* Floating Logo over the map */}
       <div className="absolute top-2 left-2 z-20 pointer-events-none drop-shadow-lg">
         <Image src="/logo.png" alt="FORESIGHT Logo" width={140} height={50} className="object-contain" />
       </div>
 
-      {/* Main Map Area (Now on the left) */}
-      <div className="flex-1 relative z-0">
+      {/* Main Map Area */}
+      <div className="absolute inset-0 z-0">
         <APIProvider apiKey={API_KEY}>
           <MapHandler onDistrictClick={handleDistrictClick} />
         </APIProvider>
       </div>
 
-      {/* Sidebar for Data (Now on the right) */}
-      <div className="w-96 bg-white p-6 shadow-2xl flex flex-col z-10 border-l border-slate-200">
+      {/* Sidebar for Data (Sliding from right) */}
+      <div 
+        className={`absolute right-0 top-0 h-full w-96 bg-white p-6 shadow-2xl flex flex-col z-10 border-l border-slate-200 transition-transform duration-500 ease-in-out ${
+          isSidebarOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
+        {/* Toggle Button */}
+        <button 
+          onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+          className="absolute top-1/2 -left-10 transform -translate-y-1/2 w-10 h-16 bg-white flex items-center justify-center rounded-l-lg shadow-[-4px_0_10px_rgba(0,0,0,0.1)] border-y border-l border-slate-200 text-slate-500 hover:text-blue-600 focus:outline-none transition-colors cursor-pointer"
+        >
+          {isSidebarOpen ? (
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
+          ) : (
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" /></svg>
+          )}
+        </button>
+
         <h2 className="text-xl font-black mb-1 tracking-tight text-slate-800">COMMAND CENTER</h2>
         <p className="text-slate-500 mb-8 text-sm font-medium tracking-wide">El Niño Food System Resilience Platform</p>
         
