@@ -71,12 +71,29 @@ export default function Home() {
   const [clickCoords, setClickCoords] = useState<{lat: number, lng: number} | null>(null);
   const [clickPincode, setClickPincode] = useState<string | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [weather, setWeather] = useState<{temp: number, desc: string, humidity: number} | null>(null);
 
-  const handleDistrictClick = (districtName: string, lat: number, lng: number, pincode?: string) => {
+  const handleDistrictClick = async (districtName: string, lat: number, lng: number, pincode?: string) => {
     setSelectedDistrict(districtName);
     setClickCoords({ lat, lng });
     if (pincode !== undefined) setClickPincode(pincode);
     setIsSidebarOpen(true); // Automatically open sidebar when district clicked
+    setWeather(null); // Reset weather while loading
+
+    // Fetch Weather Data from OpenWeatherMap
+    try {
+      const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=8c85517b8391d50ff56ff492a726e1e9&units=metric`);
+      const data = await res.json();
+      if (data && data.main) {
+        setWeather({
+          temp: Math.round(data.main.temp),
+          humidity: data.main.humidity,
+          desc: data.weather?.[0]?.description || "Clear"
+        });
+      }
+    } catch (err) {
+      console.error("Failed to fetch weather:", err);
+    }
   };
 
   return (
@@ -134,9 +151,25 @@ export default function Home() {
               </div>
               
               <div className="pt-4 border-t border-slate-200">
-                <p className="text-sm text-slate-500 italic">
-                  Climate and agricultural data for this district will be populated here...
-                </p>
+                <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-2">Live Climate Data</p>
+                {weather ? (
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="bg-white p-3 rounded border border-slate-100 shadow-sm">
+                      <p className="text-xs text-slate-400 mb-1 font-medium">Temperature</p>
+                      <p className="text-xl font-bold text-slate-700">{weather.temp}°C</p>
+                    </div>
+                    <div className="bg-white p-3 rounded border border-slate-100 shadow-sm">
+                      <p className="text-xs text-slate-400 mb-1 font-medium">Humidity</p>
+                      <p className="text-xl font-bold text-slate-700">{weather.humidity}%</p>
+                    </div>
+                    <div className="bg-white p-3 rounded border border-slate-100 shadow-sm col-span-2">
+                      <p className="text-xs text-slate-400 mb-1 font-medium">Conditions</p>
+                      <p className="text-sm font-bold text-slate-700 capitalize">{weather.desc}</p>
+                    </div>
+                  </div>
+                ) : (
+                  <p className="text-sm text-slate-500 italic">Fetching real-time weather...</p>
+                )}
               </div>
             </div>
           </div>
