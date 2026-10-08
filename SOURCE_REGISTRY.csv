@@ -1,5 +1,0 @@
-dataset,field,source_name,source_url,organization,data_period,access_date,data_type,notes
-crop_production_clean.csv,"area_sown_hectares, production_tonnes, yield",Directorate of Economics & Statistics (DES),https://desagri.gov.in/,"Ministry of Agriculture & Farmers Welfare, Govt of India",2015-2023,2026-10-08,REAL,Official Census APY Data
-storage_infrastructure.csv,"swc_capacity, fci_capacity, cold_storage",Food Corporation of India & CWC,https://fci.gov.in/,"Dept of Food & Public Distribution, Govt of India",2023,2026-10-08,REAL,Licensed Storage Capacity
-DISTRICT_WEATHER_DATA.csv,"rainfall_mm, normal_rainfall, temp",India Meteorological Department (IMD),https://mausam.imd.gov.in/,"Ministry of Earth Sciences, Govt of India",1901-2024,2026-10-08,REAL,District Rainfall & Climate Statistics
-india_district_master.csv,"district_code, latitude, longitude",Local Government Directory (LGD),https://lgdirectory.gov.in/,"Ministry of Panchayati Raj, Govt of India",2024,2026-10-08,REAL,Official Administrative Boundaries
