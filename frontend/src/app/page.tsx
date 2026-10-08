@@ -78,9 +78,9 @@ export default function Home() {
   return (
     <div className="flex h-screen w-full bg-slate-900 text-white font-sans">
       {/* Sidebar for Data */}
-      <div className="w-96 bg-slate-800 p-6 shadow-2xl flex flex-col z-10">
-        <h1 className="text-2xl font-bold mb-2">FOODGUARD AI</h1>
-        <p className="text-slate-400 mb-8 text-sm">El Niño Food System Resilience Platform</p>
+      <div className="w-96 bg-slate-800 p-6 shadow-2xl flex flex-col z-10 border-r border-slate-700">
+        <h1 className="text-4xl font-black mb-2 tracking-tighter bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">FORESIGHT</h1>
+        <p className="text-slate-400 mb-8 text-sm font-medium tracking-wide">El Niño Food System Resilience Platform</p>
         
         {selectedDistrict ? (
           <div className="bg-slate-700 rounded-lg p-5 border border-slate-600 shadow-inner">
