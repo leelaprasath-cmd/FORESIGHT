@@ -103,29 +103,27 @@ export default function Home() {
       console.error("Failed to fetch weather:", err);
     }
 
-    // Fetch AI Summary from Groq
+    // Fetch AI Summary from secure Next.js Backend Route
     try {
-      const prompt = `Act as an expert AI named FORESIGHT. The user clicked on ${districtName} (Pincode: ${pincode || 'Unknown'}) in India. The current live weather is ${temp}°C, humidity ${humidity}%, conditions: ${desc}. Give a 2-3 sentence insightful summary of the current weather conditions. Make it sound professional, intelligent, and highly contextual to the region. Do not use robotic greetings, just dive straight into the analysis. Generate a unique and creative angle each time.`;
-
-      const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      const groqRes = await fetch('/api/groq', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_GROQ_API_KEY}`
         },
         body: JSON.stringify({
-          model: 'llama-3.1-8b-instant',
-          messages: [{ role: 'user', content: prompt }],
-          temperature: 0.8,
-          max_tokens: 150
+          districtName,
+          pincode,
+          temp,
+          humidity,
+          desc
         })
       });
       
       const groqData = await groqRes.json();
-      if (groqData.choices && groqData.choices.length > 0) {
-        setAiSummary(groqData.choices[0].message.content.trim());
+      if (groqRes.ok && groqData.summary) {
+        setAiSummary(groqData.summary);
       } else {
-        setAiSummary("AI analysis unavailable at this moment.");
+        setAiSummary(groqData.error || "AI analysis unavailable at this moment.");
       }
     } catch (err) {
       console.error("Failed to fetch AI:", err);
