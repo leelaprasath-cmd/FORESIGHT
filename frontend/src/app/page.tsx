@@ -80,8 +80,8 @@ export default function Home() {
     <div className="flex h-screen w-full bg-slate-50 text-slate-900 font-sans overflow-hidden">
       
       {/* Floating Logo over the map */}
-      <div className="absolute top-6 left-6 z-20 pointer-events-none drop-shadow-lg">
-        <Image src="/logo.png" alt="FORESIGHT Logo" width={220} height={80} className="object-contain" />
+      <div className="absolute top-3 left-4 z-20 pointer-events-none drop-shadow-lg">
+        <Image src="/logo.png" alt="FORESIGHT Logo" width={140} height={50} className="object-contain" />
       </div>
 
       {/* Main Map Area (Now on the left) */}
