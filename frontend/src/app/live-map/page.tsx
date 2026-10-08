@@ -417,43 +417,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* AI Decision & SHAP Root Cause */}
-            <div className="bg-blue-50 rounded-xl p-3.5 border border-blue-200 shadow-inner">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-blue-700 mb-2 flex items-center">
-                🤖 Live AI Model Connection (Colab)
-              </h4>
-              
-              <div className="flex flex-col gap-2 mb-3">
-                <input 
-                  type="text" 
-                  value={apiUrl}
-                  onChange={(e) => setApiUrl(e.target.value)}
-                  className="bg-white text-xs px-2 py-1.5 rounded border border-blue-200 text-slate-800 w-full focus:outline-none focus:ring-1 focus:ring-blue-500 shadow-sm"
-                  placeholder="Paste localtunnel URL here"
-                />
-                <button 
-                  onClick={runAiPrediction}
-                  disabled={isPredicting}
-                  className="bg-blue-600 hover:bg-blue-500 disabled:bg-slate-400 text-white text-xs font-bold py-1.5 px-3 rounded transition-colors shadow-sm cursor-pointer"
-                >
-                  {isPredicting ? "Running Live Prediction..." : "Run Real-Time AI Prediction"}
-                </button>
-              </div>
 
-              {aiPrediction && (
-                 <div className="bg-emerald-50 p-2.5 rounded border border-emerald-200 text-[11px] text-emerald-800 mb-3 shadow-sm">
-                   <strong className="text-emerald-700 text-xs">Live Model Output:</strong> <br/>
-                   Predicted Risk Score: <span className="font-mono font-bold text-emerald-900">{aiPrediction.predicted_risk.toFixed(2)}</span> / 100
-                 </div>
-              )}
-
-              <p className="text-[11px] text-slate-700 mb-2 border-t border-blue-200 pt-3">
-                <strong className="text-amber-600">Baseline Primary Stress Driver:</strong> {selectedDistrict.primary_driver}
-              </p>
-              <div className="bg-white p-2.5 rounded border border-blue-200 text-[11px] text-blue-800 shadow-sm">
-                💡 <strong>Baseline Recommended Action:</strong> {selectedDistrict.recommended_action}
-              </div>
-            </div>
           </div>
         ) : (
           <div className="bg-slate-50 rounded-xl p-6 border-2 border-slate-200 border-dashed flex flex-col items-center justify-center flex-1 text-center">
