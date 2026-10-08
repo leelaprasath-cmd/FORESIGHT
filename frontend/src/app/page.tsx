@@ -1,143 +1,54 @@
-"use client";
-
-import { useState, useCallback } from "react";
 import Image from "next/image";
-import { APIProvider, Map, useMap, useMapsLibrary, MapMouseEvent } from "@vis.gl/react-google-maps";
+import Link from "next/link";
 
-// Make sure to securely load this in production (e.g., process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY)
-const API_KEY = "AIzaSyD_MtRcsdyXcAni4Uh1dC4jAIreNmx3e_U";
-
-// Center of India
-const defaultCenter = { lat: 20.5937, lng: 78.9629 };
-const defaultZoom = 5;
-
-function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, lat: number, lng: number) => void }) {
-  const map = useMap();
-  const geocodingLib = useMapsLibrary("geocoding");
-
-  // Handle map clicks
-  const handleClick = useCallback(
-    (e: MapMouseEvent) => {
-      if (!geocodingLib || !map || !e.detail.latLng) return;
-      
-      const lat = e.detail.latLng.lat;
-      const lng = e.detail.latLng.lng;
-      
-      // Immediately give UI feedback
-      onDistrictClick("Loading district data...", lat, lng);
-      
-      const geocoder = new geocodingLib.Geocoder();
-      geocoder.geocode({ location: { lat, lng } }, (results, status) => {
-        if (status === "OK" && results && results.length > 0) {
-          // Find the district (administrative_area_level_2 or level_3)
-          let district = "Unknown District";
-          let state = "Unknown State";
-          
-          for (const result of results) {
-            for (const component of result.address_components) {
-              if (component.types.includes("administrative_area_level_2") || component.types.includes("administrative_area_level_3")) {
-                district = component.long_name;
-              }
-              if (component.types.includes("administrative_area_level_1")) {
-                state = component.long_name;
-              }
-            }
-          }
-          
-          onDistrictClick(`${district}, ${state}`, lat, lng);
-        } else {
-          // If Geocoding API is not enabled on this API key, it will hit this
-          console.error("Geocoding failed:", status);
-          onDistrictClick(`Error: Geocoding API (${status})`, lat, lng);
-        }
-      });
-    },
-    [geocodingLib, map, onDistrictClick]
-  );
-
+export default function LandingPage() {
   return (
-    <Map
-      defaultZoom={defaultZoom}
-      defaultCenter={defaultCenter}
-      gestureHandling={"greedy"}
-      disableDefaultUI={true}
-      onClick={handleClick}
-      mapId="DEMO_MAP_ID" // Required for modern map features
-    />
-  );
-}
-
-export default function Home() {
-  const [selectedDistrict, setSelectedDistrict] = useState<string | null>(null);
-  const [clickCoords, setClickCoords] = useState<{lat: number, lng: number} | null>(null);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-
-  const handleDistrictClick = (districtName: string, lat: number, lng: number) => {
-    setSelectedDistrict(districtName);
-    setClickCoords({ lat, lng });
-    setIsSidebarOpen(true); // Automatically open sidebar when district clicked
-  };
-
-  return (
-    <div className="relative flex h-screen w-full bg-slate-50 text-slate-900 font-sans overflow-hidden">
-      
-      {/* Floating Logo over the map */}
-      <div className="absolute top-2 left-2 z-20 pointer-events-none drop-shadow-lg">
-        <Image src="/logo.png" alt="FORESIGHT Logo" width={140} height={50} className="object-contain" />
-      </div>
-
-      {/* Main Map Area */}
-      <div className="absolute inset-0 z-0">
-        <APIProvider apiKey={API_KEY}>
-          <MapHandler onDistrictClick={handleDistrictClick} />
-        </APIProvider>
-      </div>
-
-      {/* Sidebar for Data (Sliding from right) */}
-      <div 
-        className={`absolute right-0 top-0 h-full w-96 bg-white p-6 shadow-2xl flex flex-col z-10 border-l border-slate-200 transition-transform duration-500 ease-in-out ${
-          isSidebarOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
+    <div className="relative min-h-screen bg-white flex flex-col font-sans overflow-hidden">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-15 z-0 pointer-events-none mix-blend-multiply"
       >
-        {/* Toggle Button */}
-        <button 
-          onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-          className="absolute top-1/2 -left-10 transform -translate-y-1/2 w-10 h-16 bg-white flex items-center justify-center rounded-l-lg shadow-[-4px_0_10px_rgba(0,0,0,0.1)] border-y border-l border-slate-200 text-slate-500 hover:text-blue-600 focus:outline-none transition-colors cursor-pointer"
-        >
-          {isSidebarOpen ? (
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
-          ) : (
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" /></svg>
-          )}
-        </button>
+        <source src="/vid/hero-bg.mp4" type="video/mp4" />
+      </video>
 
-        <h2 className="text-xl font-black mb-1 tracking-tight text-slate-800">COMMAND CENTER</h2>
-        <p className="text-slate-500 mb-8 text-sm font-medium tracking-wide">El Niño Food System Resilience Platform</p>
+      {/* Navigation Bar */}
+      <nav className="relative z-10 w-full flex items-center justify-between px-8 py-5 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div className="flex items-center">
+          <Image src="/logo.png" alt="FORESIGHT Logo" width={180} height={60} className="object-contain" />
+        </div>
+        <div className="flex items-center">
+          <Link href="/live-map" className="px-6 py-2.5 bg-blue-700 hover:bg-blue-800 text-white text-sm font-bold uppercase tracking-wider rounded-md shadow transition-colors">
+            Live Map
+          </Link>
+        </div>
+      </nav>
+
+      {/* Hero Content */}
+      <main className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 text-center max-w-5xl mx-auto">
+        <h1 className="text-5xl md:text-7xl font-black text-slate-900 tracking-tighter mb-6 leading-tight">
+          Global Food Security. <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-600">Powered by Intelligence.</span>
+        </h1>
         
-        {selectedDistrict ? (
-          <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 shadow-sm transition-all duration-300">
-            <h2 className="text-xl font-bold mb-4 text-blue-800">{selectedDistrict}</h2>
-            
-            <div className="space-y-4">
-              <div>
-                <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-1">Coordinates</p>
-                <p className="font-mono text-sm text-slate-700 bg-white p-2 rounded border border-slate-100">{clickCoords?.lat.toFixed(4)}, {clickCoords?.lng.toFixed(4)}</p>
-              </div>
-              
-              <div className="pt-4 border-t border-slate-200">
-                <p className="text-sm text-slate-500 italic">
-                  Climate and agricultural data for this district will be populated here...
-                </p>
-              </div>
-            </div>
-          </div>
-        ) : (
-          <div className="bg-slate-50/80 rounded-xl p-5 border-2 border-slate-200 border-dashed flex flex-col items-center justify-center h-48 text-center transition-all duration-300">
-            <svg className="w-10 h-10 text-blue-300 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
-            <p className="text-slate-500 text-sm font-medium">Click any district on the map to view analytics</p>
-          </div>
-        )}
-      </div>
+        <p className="text-lg md:text-xl text-slate-600 max-w-3xl font-medium mb-12 leading-relaxed">
+          FORESIGHT is an enterprise-grade operating system designed to build structural resilience against El Niño disruptions through predictive AI and autonomous supply chain routing.
+        </p>
+        
+        <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
+          <Link href="/live-map" className="px-8 py-4 bg-blue-700 hover:bg-blue-800 text-white font-bold rounded-md shadow-lg transition-transform hover:-translate-y-1 text-lg">
+            Access Command Center
+          </Link>
+        </div>
+      </main>
+      
+      {/* Footer */}
+      <footer className="relative z-10 py-6 border-t border-slate-200 bg-white/80 backdrop-blur-md text-center">
+        <p className="text-sm text-slate-500 font-semibold tracking-wide">&copy; {new Date().getFullYear()} FORESIGHT. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
