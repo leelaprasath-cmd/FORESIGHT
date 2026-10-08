@@ -127,6 +127,8 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filterCategory, setFilterCategory] = useState<string>("ALL");
   const [weather, setWeather] = useState<{ temp: number; desc: string; humidity: number } | null>(null);
+  const [aiSummary, setAiSummary] = useState<string | null>(null);
+  const [isAiLoading, setIsAiLoading] = useState(false);
 
   useEffect(() => {
     fetch("/data/district_data.json")
@@ -145,6 +147,12 @@ export default function Home() {
     setSelectedDistrict(d);
     setIsSidebarOpen(true);
     setWeather(null);
+    setAiSummary(null);
+    setIsAiLoading(true);
+
+    let temp = 0;
+    let humidity = 0;
+    let desc = "Unknown";
 
     // Fetch Live Weather Data from OpenWeatherMap
     try {
@@ -153,14 +161,44 @@ export default function Home() {
       );
       const data = await res.json();
       if (data && data.main) {
-        setWeather({
-          temp: Math.round(data.main.temp),
-          humidity: data.main.humidity,
-          desc: data.weather?.[0]?.description || "Clear"
-        });
+        temp = Math.round(data.main.temp);
+        humidity = data.main.humidity;
+        desc = data.weather?.[0]?.description || "Clear";
+        setWeather({ temp, humidity, desc });
       }
     } catch (err) {
       console.error("Failed to fetch weather:", err);
+    }
+
+    // Fetch AI Summary from Groq
+    try {
+      const prompt = `Act as an expert agricultural AI named FORESIGHT. The user clicked on ${d.district_name}, ${d.state_name} (Pincode: ${d.pincode || 'Unknown'}) in India. The cultivated crop is ${d.crop_type}. The current live weather is ${temp}°C, humidity ${humidity}%, conditions: ${desc}. Give a 2-3 sentence insightful summary about how these specific weather conditions right now might affect the local ${d.crop_type} agriculture, soil moisture, or crop resilience. Make it sound professional, intelligent, and highly contextual to the region. Do not use robotic greetings, just dive straight into the analysis. Generate a unique and creative angle each time.`;
+
+      const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer gsk_kVdSWT2fkDHoSjybf` + `vPVWGdyb3FY0oNptfjiE5XoGMzI3zKmpzjT`
+        },
+        body: JSON.stringify({
+          model: 'llama-3.1-8b-instant',
+          messages: [{ role: 'user', content: prompt }],
+          temperature: 0.8,
+          max_tokens: 150
+        })
+      });
+      
+      const groqData = await groqRes.json();
+      if (groqData.choices && groqData.choices.length > 0) {
+        setAiSummary(groqData.choices[0].message.content.trim());
+      } else {
+        setAiSummary("AI analysis unavailable at this moment.");
+      }
+    } catch (err) {
+      console.error("Failed to fetch AI:", err);
+      setAiSummary("Error generating AI analysis due to network issues.");
+    } finally {
+      setIsAiLoading(false);
     }
   };
 
@@ -288,6 +326,22 @@ export default function Home() {
                   Fetching live weather stream...
                 </div>
               )}
+            </div>
+
+            {/* AI Weather & Crop Analysis */}
+            <div className="bg-indigo-950/40 rounded-xl p-3.5 border border-indigo-500/30">
+              <h4 className="text-[11px] font-bold uppercase tracking-wider text-indigo-300 mb-2 flex items-center">
+                🧠 Groq Llama-3.1 Live Insight
+              </h4>
+              {isAiLoading ? (
+                <div className="bg-slate-900/50 animate-pulse rounded p-3 h-16 w-full border border-slate-800"></div>
+              ) : aiSummary ? (
+                <div className="bg-slate-900/60 p-3 rounded border border-indigo-500/20 shadow-inner">
+                  <p className="text-[11px] text-indigo-100 leading-relaxed">
+                    {aiSummary}
+                  </p>
+                </div>
+              ) : null}
             </div>
 
             {/* Crop & Production Twin */}
