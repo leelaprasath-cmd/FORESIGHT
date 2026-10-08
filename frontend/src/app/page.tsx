@@ -47,7 +47,7 @@ export default function LandingPage() {
       
       {/* Footer */}
       <footer className="relative z-10 py-6 border-t border-slate-200 bg-white/80 backdrop-blur-md text-center">
-        <p className="text-sm text-slate-500 font-semibold tracking-wide">&copy; {new Date().getFullYear()} FORESIGHT. All rights reserved.</p>
+        <p className="text-sm text-slate-500 font-semibold tracking-wide">&copy; 2026 FORESIGHT. All rights reserved.</p>
       </footer>
     </div>
   );
