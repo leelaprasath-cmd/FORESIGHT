@@ -111,7 +111,7 @@ export default function Home() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer gsk_kVdSWT2fkDHoSjybf` + `vPVWGdyb3FY0oNptfjiE5XoGMzI3zKmpzjT`
+          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_GROQ_API_KEY}`
         },
         body: JSON.stringify({
           model: 'llama-3.1-8b-instant',
