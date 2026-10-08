@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { APIProvider, Map, useMap, useMapsLibrary } from "@vis.gl/react-google-maps";
+import { APIProvider, Map, useMap, useMapsLibrary, MapMouseEvent } from "@vis.gl/react-google-maps";
 
 // Make sure to securely load this in production (e.g., process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY)
 const API_KEY = "AIzaSyB0bvqkB-Q46jHPxMs7YyJ-SM94MfYJ4tY";
@@ -16,7 +16,7 @@ function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, l
 
   // Handle map clicks
   const handleClick = useCallback(
-    (e: { detail: { latLng: { lat: number; lng: number } } }) => {
+    (e: MapMouseEvent) => {
       if (!geocodingLib || !map || !e.detail.latLng) return;
       
       const lat = e.detail.latLng.lat;
