@@ -172,7 +172,7 @@ export default function Home() {
 
     // Fetch AI Summary from Groq
     try {
-      const prompt = `Act as an expert agricultural AI named FORESIGHT. The user clicked on ${d.district_name}, ${d.state_name} (Pincode: ${d.pincode || 'Unknown'}) in India. The cultivated crop is ${d.crop_type}. The current live weather is ${temp}°C, humidity ${humidity}%, conditions: ${desc}. Give a 2-3 sentence insightful summary about how these specific weather conditions right now might affect the local ${d.crop_type} agriculture, soil moisture, or crop resilience. Make it sound professional, intelligent, and highly contextual to the region. Do not use robotic greetings, just dive straight into the analysis. Generate a unique and creative angle each time.`;
+      const prompt = `Act as an expert AI named FORESIGHT. The user clicked on ${d.district_name}, ${d.state_name} (Pincode: ${d.pincode || 'Unknown'}) in India. The current live weather is ${temp}°C, humidity ${humidity}%, conditions: ${desc}. Give a 2-3 sentence insightful summary of the current weather conditions. Make it sound professional, intelligent, and highly contextual to the region. Do not use robotic greetings, just dive straight into the analysis. Generate a unique and creative angle each time.`;
 
       const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'POST',
@@ -344,103 +344,6 @@ export default function Home() {
               ) : null}
             </div>
 
-            {/* Crop & Production Twin */}
-            <div className="bg-slate-800/60 rounded-xl p-3.5 border border-slate-700/60">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-blue-400 mb-2 flex items-center">
-                🌾 Crop & Agricultural Production
-              </h4>
-              <div className="grid grid-cols-2 gap-2 text-slate-300">
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Cultivated Crop</p>
-                  <p className="font-bold text-slate-100">{selectedDistrict.crop_type}</p>
-                </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Area Sown</p>
-                  <p className="font-bold text-slate-100">{selectedDistrict.area_sown_ha.toLocaleString()} ha</p>
-                </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Historical Yield</p>
-                  <p className="font-bold text-slate-100">{selectedDistrict.yield_t_ha} tonnes / ha</p>
-                </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Total Production</p>
-                  <p className="font-bold text-slate-100">{selectedDistrict.production_tonnes.toLocaleString()} tonnes</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Climate & El Niño Indicators */}
-            <div className="bg-slate-800/60 rounded-xl p-3.5 border border-slate-700/60">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-amber-400 mb-2 flex items-center">
-                🌦️ Historical Climate & Reservoir Level
-              </h4>
-              <div className="grid grid-cols-3 gap-2 text-slate-300 text-center">
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Rain Deficit</p>
-                  <p className="font-bold text-amber-300">-{selectedDistrict.rainfall_deficit_pct}%</p>
-                </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Temp Anomaly</p>
-                  <p className="font-bold text-red-400">+{selectedDistrict.temp_anomaly_c}°C</p>
-                </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Reservoir</p>
-                  <p className="font-bold text-blue-300">{selectedDistrict.reservoir_level_pct}%</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Storage Infrastructure */}
-            <div className="bg-slate-800/60 rounded-xl p-3.5 border border-slate-700/60">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-emerald-400 mb-2">
-                📦 Storage Infrastructure (Capacity vs Stock)
-              </h4>
-              <div className="space-y-1.5 text-slate-300">
-                <div className="flex justify-between bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <span className="text-slate-400">Total Storage Capacity:</span>
-                  <span className="font-bold text-emerald-300">{selectedDistrict.total_storage_capacity_tonnes.toLocaleString()} tonnes</span>
-                </div>
-                <div className="grid grid-cols-3 gap-1 text-[10px] text-slate-400 text-center">
-                  <div className="bg-slate-900/40 p-1.5 rounded">SWC: <span className="text-slate-200 font-semibold">{selectedDistrict.swc_capacity_tonnes.toLocaleString()} t</span></div>
-                  <div className="bg-slate-900/40 p-1.5 rounded">FCI: <span className="text-slate-200 font-semibold">{selectedDistrict.fci_capacity_tonnes.toLocaleString()} t</span></div>
-                  <div className="bg-slate-900/40 p-1.5 rounded">Cold: <span className="text-slate-200 font-semibold">{selectedDistrict.cold_storage_capacity_tonnes.toLocaleString()} t</span></div>
-                </div>
-                <div className="flex justify-between bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <span className="text-slate-400">Physical Stock Level:</span>
-                  <span className="font-bold text-amber-400">{selectedDistrict.current_stock}</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Demand & Vulnerable Population */}
-            <div className="bg-slate-800/60 rounded-xl p-3.5 border border-slate-700/60">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-purple-400 mb-2">
-                💰 Demand & Population Vulnerability
-              </h4>
-              <div className="grid grid-cols-2 gap-2 text-slate-300">
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">30-Day Food Demand</p>
-                  <p className="font-bold text-purple-300">{selectedDistrict.demand_30d_tonnes.toLocaleString()} tonnes</p>
-                </div>
-                <div className="bg-slate-900/50 p-2 rounded border border-slate-800">
-                  <p className="text-slate-400 text-[10px]">Vulnerable People</p>
-                  <p className="font-bold text-purple-300">{selectedDistrict.vulnerable_population.toLocaleString()}</p>
-                </div>
-              </div>
-            </div>
-
-            {/* AI Decision & SHAP Root Cause */}
-            <div className="bg-blue-950/70 rounded-xl p-3.5 border border-blue-800/80 shadow-inner">
-              <h4 className="text-[11px] font-bold uppercase tracking-wider text-blue-300 mb-1 flex items-center">
-                🤖 AI Root-Cause & Action Recommendation
-              </h4>
-              <p className="text-[11px] text-slate-300 mb-2">
-                <strong className="text-amber-300">Primary Stress Driver:</strong> {selectedDistrict.primary_driver}
-              </p>
-              <div className="bg-slate-900/80 p-2.5 rounded border border-blue-700/50 text-[11px] text-blue-200">
-                💡 <strong>Recommended Action:</strong> {selectedDistrict.recommended_action}
-              </div>
-            </div>
           </div>
         ) : (
           <div className="bg-slate-800/40 rounded-xl p-6 border-2 border-slate-700 border-dashed flex flex-col items-center justify-center flex-1 text-center">
