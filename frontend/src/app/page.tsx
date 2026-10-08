@@ -76,33 +76,33 @@ export default function Home() {
   };
 
   return (
-    <div className="flex h-screen w-full bg-slate-900 text-white font-sans">
+    <div className="flex h-screen w-full bg-slate-50 text-slate-900 font-sans">
       {/* Sidebar for Data */}
-      <div className="w-96 bg-slate-800 p-6 shadow-2xl flex flex-col z-10 border-r border-slate-700">
-        <h1 className="text-4xl font-black mb-2 tracking-tighter bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">FORESIGHT</h1>
-        <p className="text-slate-400 mb-8 text-sm font-medium tracking-wide">El Niño Food System Resilience Platform</p>
+      <div className="w-96 bg-white p-6 shadow-2xl flex flex-col z-10 border-r border-slate-200">
+        <h1 className="text-4xl font-black mb-2 tracking-tighter bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text text-transparent">FORESIGHT</h1>
+        <p className="text-slate-500 mb-8 text-sm font-medium tracking-wide">El Niño Food System Resilience Platform</p>
         
         {selectedDistrict ? (
-          <div className="bg-slate-700 rounded-lg p-5 border border-slate-600 shadow-inner">
-            <h2 className="text-xl font-semibold mb-4 text-emerald-400">{selectedDistrict}</h2>
+          <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 shadow-sm">
+            <h2 className="text-xl font-bold mb-4 text-blue-800">{selectedDistrict}</h2>
             
             <div className="space-y-4">
               <div>
-                <p className="text-xs text-slate-400 uppercase tracking-wider">Coordinates</p>
-                <p className="font-mono text-sm">{clickCoords?.lat.toFixed(4)}, {clickCoords?.lng.toFixed(4)}</p>
+                <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-1">Coordinates</p>
+                <p className="font-mono text-sm text-slate-700 bg-white p-2 rounded border border-slate-100">{clickCoords?.lat.toFixed(4)}, {clickCoords?.lng.toFixed(4)}</p>
               </div>
               
-              <div className="pt-4 border-t border-slate-600">
-                <p className="text-sm text-slate-300 italic">
+              <div className="pt-4 border-t border-slate-200">
+                <p className="text-sm text-slate-500 italic">
                   Climate and agricultural data for this district will be populated here...
                 </p>
               </div>
             </div>
           </div>
         ) : (
-          <div className="bg-slate-700/50 rounded-lg p-5 border border-slate-600 border-dashed flex flex-col items-center justify-center h-48 text-center">
-            <svg className="w-8 h-8 text-slate-500 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
-            <p className="text-slate-400 text-sm">Click any district on the map to view data</p>
+          <div className="bg-slate-50/80 rounded-xl p-5 border-2 border-slate-200 border-dashed flex flex-col items-center justify-center h-48 text-center">
+            <svg className="w-10 h-10 text-blue-300 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
+            <p className="text-slate-500 text-sm font-medium">Click any district on the map to view analytics</p>
           </div>
         )}
       </div>
