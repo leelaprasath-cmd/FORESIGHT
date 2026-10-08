@@ -53,3 +53,6 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# API Keys
+weather_api_key.txt
