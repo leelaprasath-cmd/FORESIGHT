@@ -1,0 +1,250 @@
+import json
+
+notebook = {
+    "cells": [
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "# 🌾 FOODGUARD AI: Closed-Loop Food Resilience Operating System\n",
+                "### El Niño Scenario: Tamil Nadu -> Rice -> Next 30 Days\n",
+                "\n",
+                "This Colab notebook contains the core Machine Learning engine for **FORESIGHT**. It follows the **Detect → Predict → Explain → Decide → Act → Verify → Learn** loop.\n",
+                "\n",
+                "**Instructions for Teammates:**\n",
+                "1. Upload your real-world CSV data in the `DATA LOADING` section.\n",
+                "2. The model uses XGBoost to predict *Shortage Probability* and *Price Increase*.\n",
+                "3. It uses SHAP to provide *Root-Cause Explainability* (why the crisis is happening).\n",
+                "4. It includes an *Intervention Simulator* to show the impact of our recommended actions."
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": None,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "# 📦 STEP 0: INSTALL DEPENDENCIES\n",
+                "!pip install xgboost shap pandas numpy scikit-learn matplotlib seaborn"
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": None,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "import pandas as pd\n",
+                "import numpy as np\n",
+                "import xgboost as xgb\n",
+                "import shap\n",
+                "import matplotlib.pyplot as plt\n",
+                "import seaborn as sns\n",
+                "from sklearn.model_selection import train_test_split\n",
+                "from sklearn.metrics import mean_squared_error, accuracy_score\n",
+                "\n",
+                "shap.initjs()\n",
+                "plt.style.use('dark_background')"
+            ]
+        },
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "## 🔍 1. DETECT & LOAD REAL-WORLD DATA\n",
+                "> *Teammate: Replace the mock generation below with your real dataset using `pd.read_csv('your_real_data.csv')`*"
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": None,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "# ---------------------------------------------------------\n",
+                "# TODO FOR TEAMMATE: LOAD YOUR REAL DATA HERE\n",
+                "# df = pd.read_csv('tamil_nadu_rice_data.csv')\n",
+                "# ---------------------------------------------------------\n",
+                "\n",
+                "# For the hackathon demo, if the real data is still being cleaned, \n",
+                "# here is a realistic synthetic data generator based on the El Niño Tamil Nadu scenario.\n",
+                "np.random.seed(42)\n",
+                "n_samples = 1000\n",
+                "\n",
+                "df = pd.DataFrame({\n",
+                "    'rainfall_deficit_pct': np.random.uniform(0, 40, n_samples),      # 0 to 40% deficit\n",
+                "    'temp_anomaly_c': np.random.uniform(0, 3.5, n_samples),           # 0 to 3.5 C increase\n",
+                "    'reservoir_level_pct': np.random.uniform(20, 90, n_samples),      # 20% to 90% full\n",
+                "    'transport_disruption_pct': np.random.uniform(0, 30, n_samples),  # Logistics delays\n",
+                "    'current_stock_tonnes': np.random.uniform(10000, 50000, n_samples), \n",
+                "    'projected_demand_tonnes': np.random.uniform(20000, 60000, n_samples)\n",
+                "})\n",
+                "\n",
+                "# Create the Target Variables (What we want to predict)\n",
+                "# 1. Production Drop (Impacted by weather & water)\n",
+                "df['production_drop_pct'] = (df['rainfall_deficit_pct'] * 0.4) + (df['temp_anomaly_c'] * 2.5) - (df['reservoir_level_pct'] * 0.1)\n",
+                "df['production_drop_pct'] = np.clip(df['production_drop_pct'], 0, 100)\n",
+                "\n",
+                "# 2. Shortage Probability (0 to 1) -> Impacted by drop, stock, and transport\n",
+                "shortage_risk = (df['projected_demand_tonnes'] - (df['current_stock_tonnes'] * (1 - df['production_drop_pct']/100))) / df['projected_demand_tonnes']\n",
+                "shortage_risk = shortage_risk + (df['transport_disruption_pct'] / 100)\n",
+                "df['shortage_probability'] = np.clip(shortage_risk, 0, 1)\n",
+                "\n",
+                "# 3. Price Increase (Impacted by shortage probability)\n",
+                "df['price_increase_pct'] = df['shortage_probability'] * 45.0 + np.random.normal(0, 2, n_samples) # Up to 45% price spike\n",
+                "\n",
+                "df.head()"
+            ]
+        },
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "## 🔮 2. PREDICT: XGBoost Risk Engine\n",
+                "Train the model to predict `Shortage Probability` and `Price Increase`."
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": None,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "features = ['rainfall_deficit_pct', 'temp_anomaly_c', 'reservoir_level_pct', \n",
+                "            'transport_disruption_pct', 'current_stock_tonnes', 'projected_demand_tonnes']\n",
+                "\n",
+                "X = df[features]\n",
+                "y_shortage = df['shortage_probability']\n",
+                "y_price = df['price_increase_pct']\n",
+                "\n",
+                "X_train, X_test, ys_train, ys_test, yp_train, yp_test = train_test_split(X, y_shortage, y_price, test_size=0.2, random_state=42)\n",
+                "\n",
+                "# Train Shortage Model\n",
+                "model_shortage = xgb.XGBRegressor(objective='reg:squarederror', n_estimators=100, max_depth=4, learning_rate=0.1)\n",
+                "model_shortage.fit(X_train, ys_train)\n",
+                "\n",
+                "# Train Price Model\n",
+                "model_price = xgb.XGBRegressor(objective='reg:squarederror', n_estimators=100, max_depth=4, learning_rate=0.1)\n",
+                "model_price.fit(X_train, yp_train)\n",
+                "\n",
+                "print(f\"Shortage Model RMSE: {mean_squared_error(ys_test, model_shortage.predict(X_test), squared=False):.4f}\")\n",
+                "print(f\"Price Model RMSE: {mean_squared_error(yp_test, model_price.predict(X_test), squared=False):.4f}\")"
+            ]
+        },
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "## 🧠 3. EXPLAIN: Root-Cause Intelligence (SHAP)\n",
+                "Why is a specific district at risk? Judges love this. It makes the AI a glass box, not a black box."
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": None,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "# Pick a specific \"At Risk\" district scenario (e.g., Chengalpattu under El Nino)\n",
+                "sample_district = X_test.iloc[[5]] # Select one district from test set\n",
+                "\n",
+                "explainer = shap.TreeExplainer(model_shortage)\n",
+                "shap_values = explainer.shap_values(sample_district)\n",
+                "\n",
+                "print(\"========== ROOT CAUSE ANALYSIS FOR TARGET DISTRICT ==========\")\n",
+                "print(f\"Predicted Shortage Probability: {model_shortage.predict(sample_district)[0]*100:.1f}%\")\n",
+                "print(\"\\nDRIVERS OF CRISIS:\")\n",
+                "shap.force_plot(explainer.expected_value, shap_values[0], sample_district.iloc[0], matplotlib=True)"
+            ]
+        },
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "## ⚖️ 4. DECIDE & ACT: Optimization Engine\n",
+                "Don't just predict the crisis. Reduce it. This runs the `Buffer Optimizer` & `Transport Rerouting`."
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": None,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "def ai_intervention_engine(district_data):\n",
+                "    \"\"\"Simulates the AI deciding how to intervene.\"\"\"\n",
+                "    data = district_data.copy()\n",
+                "    original_risk = model_shortage.predict(data)[0]\n",
+                "    original_price = model_price.predict(data)[0]\n",
+                "    \n",
+                "    interventions_taken = []\n",
+                "    \n",
+                "    # Tactic 1: Smart Inventory / Buffer Injection\n",
+                "    if original_risk > 0.30:\n",
+                "        injected_tonnes = data['projected_demand_tonnes'].values[0] * 0.15 # Inject 15% of demand\n",
+                "        data['current_stock_tonnes'] += injected_tonnes\n",
+                "        interventions_taken.append(f\"Moved {int(injected_tonnes)} tonnes from surplus buffer.\")\n",
+                "        \n",
+                "    # Tactic 2: Transport Rerouting (Bypass bottlenecks)\n",
+                "    if data['transport_disruption_pct'].values[0] > 10:\n",
+                "        data['transport_disruption_pct'] = max(0, data['transport_disruption_pct'].values[0] - 15) # Reroute reduces delay\n",
+                "        interventions_taken.append(\"Rerouted logistics via Option A (Avoids NH-XXX bottleneck).\")\n",
+                "        \n",
+                "    new_risk = model_shortage.predict(data)[0]\n",
+                "    new_price = model_price.predict(data)[0]\n",
+                "    \n",
+                "    return original_risk, new_risk, original_price, new_price, interventions_taken\n",
+                "\n",
+                "orig_risk, new_risk, orig_price, new_price, actions = ai_intervention_engine(sample_district)"
+            ]
+        },
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "## 🎯 5. VERIFY: Impact Monitor Dashboard\n",
+                "This is the **WOW Moment**. Show the judges the *Before vs. After*."
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": None,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "print(\"┌─────────────────────────────────────┐\")\n",
+                "print(\"│        INTERVENTION RESULT          │\")\n",
+                "print(\"├─────────────────────────────────────┤\")\n",
+                "for action in actions:\n",
+                "    print(f\"│ Action: {action[:26]}...\")\n",
+                "print(\"├─────────────────────────────────────┤\")\n",
+                "print(f\"│ Shortage risk       {orig_risk*100:.1f}% → {new_risk*100:.1f}%      │\")\n",
+                "print(f\"│ Price pressure      +{orig_price:.1f}% → +{new_price:.1f}%     │\")\n",
+                "people_protected = int((orig_risk - new_risk) * 2100000) # Assuming 2.1M baseline\n",
+                "print(f\"│ People protected    {people_protected:,}           │\")\n",
+                "print(\"└─────────────────────────────────────┘\")"
+            ]
+        }
+    ],
+    "metadata": {
+        "kernelspec": {
+            "display_name": "Python 3",
+            "language": "python",
+            "name": "python3"
+        },
+        "language_info": {
+            "codemirror_mode": {"name": "ipython", "version": 3},
+            "file_extension": ".py",
+            "mimetype": "text/x-python",
+            "name": "python",
+            "nbconvert_exporter": "python",
+            "pygments_lexer": "ipython3",
+            "version": "3.10.12"
+        }
+    },
+    "nbformat": 4,
+    "nbformat_minor": 4
+}
+
+with open("FoodGuard_Risk_Engine.ipynb", "w", encoding="utf-8") as f:
+    json.dump(notebook, f, indent=4)
