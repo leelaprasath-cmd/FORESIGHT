@@ -12,7 +12,7 @@ const GEOCODING_API_KEY = "AIzaSyDDwl-RtO39lHejjpUh3G1SlmCLa1u2LKI";
 const defaultCenter = { lat: 20.5937, lng: 78.9629 };
 const defaultZoom = 5;
 
-function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, lat: number, lng: number) => void }) {
+function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, lat: number, lng: number, pincode?: string) => void }) {
   const map = useMap();
 
   // Handle map clicks
@@ -38,8 +38,9 @@ function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, l
             // Nominatim returns district usually as state_district or county
             const district = data.address.state_district || data.address.county || data.address.city || data.address.region || "Unknown District";
             const state = data.address.state || "Unknown State";
+            const pincode = data.address.postcode || "Unknown";
             
-            onDistrictClick(`${district}, ${state}`, lat, lng);
+            onDistrictClick(`${district}, ${state}`, lat, lng, pincode);
           } else {
             console.error("Geocoding failed:", data);
             onDistrictClick(`Error: Location not found`, lat, lng);
@@ -68,11 +69,13 @@ function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, l
 export default function Home() {
   const [selectedDistrict, setSelectedDistrict] = useState<string | null>(null);
   const [clickCoords, setClickCoords] = useState<{lat: number, lng: number} | null>(null);
+  const [clickPincode, setClickPincode] = useState<string | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
-  const handleDistrictClick = (districtName: string, lat: number, lng: number) => {
+  const handleDistrictClick = (districtName: string, lat: number, lng: number, pincode?: string) => {
     setSelectedDistrict(districtName);
     setClickCoords({ lat, lng });
+    if (pincode !== undefined) setClickPincode(pincode);
     setIsSidebarOpen(true); // Automatically open sidebar when district clicked
   };
 
@@ -117,9 +120,17 @@ export default function Home() {
             <h2 className="text-xl font-bold mb-4 text-blue-800">{selectedDistrict}</h2>
             
             <div className="space-y-4">
-              <div>
-                <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-1">Coordinates</p>
-                <p className="font-mono text-sm text-slate-700 bg-white p-2 rounded border border-slate-100">{clickCoords?.lat.toFixed(4)}, {clickCoords?.lng.toFixed(4)}</p>
+              <div className="flex space-x-4">
+                <div className="flex-1">
+                  <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-1">Coordinates</p>
+                  <p className="font-mono text-sm text-slate-700 bg-white p-2 rounded border border-slate-100">{clickCoords?.lat.toFixed(4)}, {clickCoords?.lng.toFixed(4)}</p>
+                </div>
+                {clickPincode && clickPincode !== "Unknown" && (
+                  <div>
+                    <p className="text-xs text-slate-500 font-bold uppercase tracking-wider mb-1">Pincode</p>
+                    <p className="font-mono text-sm text-slate-700 bg-white p-2 rounded border border-slate-100">{clickPincode}</p>
+                  </div>
+                )}
               </div>
               
               <div className="pt-4 border-t border-slate-200">
