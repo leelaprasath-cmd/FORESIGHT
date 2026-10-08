@@ -15,15 +15,17 @@ export default function LandingPage() {
         <source src="/vid/hero-bg.mp4" type="video/mp4" />
       </video>
 
-      {/* Floating Header */}
-      <header className="absolute top-0 left-0 w-full p-6 flex justify-between items-start z-20 pointer-events-auto">
-        <div className="w-48 relative">
-          <Image src="/logo.png" alt="FORESIGHT Logo" width={180} height={60} className="object-contain" />
-        </div>
-        <Link href="/live-map" className="px-6 py-2.5 bg-blue-700 hover:bg-blue-800 text-white text-sm font-bold uppercase tracking-wider rounded-md shadow-lg transition-colors">
+      {/* Floating Logo */}
+      <div className="absolute top-2 left-2 z-20 pointer-events-auto">
+        <Image src="/logo.png" alt="FORESIGHT Logo" width={140} height={50} className="object-contain" />
+      </div>
+
+      {/* Floating Navigation */}
+      <div className="absolute top-4 right-4 z-20 pointer-events-auto">
+        <Link href="/live-map" className="px-6 py-2 bg-blue-700 hover:bg-blue-800 text-white text-sm font-bold uppercase tracking-wider rounded-md shadow-lg transition-colors">
           Live Map
         </Link>
-      </header>
+      </div>
 
       {/* Hero Content */}
       <main className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 text-center max-w-5xl mx-auto mt-10">
