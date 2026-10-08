@@ -16,8 +16,8 @@ function MapHandler({ onDistrictClick }: { onDistrictClick: (district: string, l
 
   // Handle map clicks
   const handleClick = useCallback(
-    (e: any) => {
-      if (!geocodingLib || !map) return;
+    (e: { detail: { latLng: { lat: number; lng: number } } }) => {
+      if (!geocodingLib || !map || !e.detail.latLng) return;
       
       const lat = e.detail.latLng.lat;
       const lng = e.detail.latLng.lng;
