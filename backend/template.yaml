@@ -1,0 +1,59 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  FORESIGHT AWS Backend Architecture
+  SAM Template for deploying the serverless backend (API Gateway + Lambda + S3) within Free Tier limits.
+
+Globals:
+  Function:
+    Timeout: 10
+    MemorySize: 128
+    Runtime: python3.9
+    Architectures:
+      - x86_64
+
+Resources:
+  # 1. S3 Bucket for Data Storage
+  ForesightDataBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "foresight-data-bucket-${AWS::AccountId}-${AWS::Region}"
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+  # 2. Serverless Lambda Function
+  ForesightApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./
+      Handler: app.lambda_handler
+      Environment:
+        Variables:
+          S3_BUCKET_NAME: !Ref ForesightDataBucket
+      Policies:
+        # Give Lambda permission to read from the S3 bucket
+        - S3ReadPolicy:
+            BucketName: !Ref ForesightDataBucket
+      Events:
+        # 3. API Gateway Routes
+        GetDistricts:
+          Type: Api
+          Properties:
+            Path: /api/districts
+            Method: get
+        PostPredict:
+          Type: Api
+          Properties:
+            Path: /api/predict
+            Method: post
+
+Outputs:
+  ForesightApiEndpoint:
+    Description: "API Gateway endpoint URL for Prod environment"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/api/"
+  DataBucketName:
+    Description: "S3 Bucket Name for uploading dataset JSONs"
+    Value: !Ref ForesightDataBucket
