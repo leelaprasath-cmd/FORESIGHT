@@ -5,7 +5,7 @@ import Image from "next/image";
 import { APIProvider, Map, useMap, AdvancedMarker, Pin, MapMouseEvent } from "@vis.gl/react-google-maps";
 import { predictRisk } from "../../utils/foodguardModel";
 
-const MAP_API_KEY = "AIzaSyB0bvqkB-Q46jHPxMs7YyJ-SM94MfYJ4tY";
+const MAP_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "";
 
 const defaultCenter = { lat: 20.5937, lng: 78.9629 };
 const defaultZoom = 5;
@@ -165,8 +165,9 @@ export default function Home() {
 
     // Fetch Live Weather Data from OpenWeatherMap
     try {
+      const weatherApiKey = process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY || "";
       const res = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?lat=${d.latitude}&lon=${d.longitude}&appid=8c85517b8391d50ff56ff492a726e1e9&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?lat=${d.latitude}&lon=${d.longitude}&appid=${weatherApiKey}&units=metric`
       );
       const data = await res.json();
       if (data && data.main) {
